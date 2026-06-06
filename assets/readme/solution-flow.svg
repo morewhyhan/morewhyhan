@@ -1,0 +1,106 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+     @import url("https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css");
+.card {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 1.2;
+    }
+    .title {
+      fill: #f1f5f9;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 28px;
+      font-weight: 720;
+      letter-spacing: 0;
+    }
+    .desc {
+      fill: #8b949e;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+    .node {
+      fill: #111827;
+      stroke: #30363d;
+      stroke-width: 1;
+    }
+    .node-title {
+      fill: #e5e7eb;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 20px;
+      font-weight: 680;
+    }
+    .node-text {
+      fill: #94a3b8;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .index {
+      fill: #38bdf8;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .line {
+      stroke: #38bdf8;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      opacity: 0.75;
+    }
+    .dot {
+      fill: #22c55e;
+    }
+    .soft {
+      stroke: #334155;
+      stroke-width: 1;
+      opacity: 0.45;
+    }
+  </style>
+
+  <rect class="card" x="1" y="1" width="1198" height="418" rx="10"/>
+  <text class="title" x="64" y="70">Solution thinking</text>
+  <text class="desc" x="64" y="104">从真实需求到可验证结果，不只看实现，也看价值路径。</text>
+  <line class="soft" x1="64" y1="132" x2="1136" y2="132"/>
+
+  <g transform="translate(72,178)">
+    <rect class="node" width="234" height="144" rx="10"/>
+    <text class="index" x="24" y="34">01</text>
+    <circle class="dot" cx="196" cy="30" r="6"/>
+    <text class="node-title" x="24" y="70">真实需求</text>
+    <text class="node-text" x="24" y="102">场景 / 用户 / 约束</text>
+    <text class="node-text" x="24" y="126">先判断是不是问题</text>
+  </g>
+
+  <g transform="translate(344,178)">
+    <rect class="node" width="234" height="144" rx="10"/>
+    <text class="index" x="24" y="34">02</text>
+    <circle class="dot" cx="196" cy="30" r="6"/>
+    <text class="node-title" x="24" y="70">产品结构</text>
+    <text class="node-text" x="24" y="102">流程 / 页面 / 优先级</text>
+    <text class="node-text" x="24" y="126">把想法变成结构</text>
+  </g>
+
+  <g transform="translate(616,178)">
+    <rect class="node" width="234" height="144" rx="10"/>
+    <text class="index" x="24" y="34">03</text>
+    <circle class="dot" cx="196" cy="30" r="6"/>
+    <text class="node-title" x="24" y="70">技术方案</text>
+    <text class="node-text" x="24" y="102">Demo / API / Data</text>
+    <text class="node-text" x="24" y="126">讲清可行性和取舍</text>
+  </g>
+
+  <g transform="translate(888,178)">
+    <rect class="node" width="234" height="144" rx="10"/>
+    <text class="index" x="24" y="34">04</text>
+    <circle class="dot" cx="196" cy="30" r="6"/>
+    <text class="node-title" x="24" y="70">验证结果</text>
+    <text class="node-text" x="24" y="102">反馈 / 成本 / 效率</text>
+    <text class="node-text" x="24" y="126">看是否产生价值</text>
+  </g>
+
+  <line class="line" x1="306" y1="250" x2="344" y2="250"/>
+  <line class="line" x1="578" y1="250" x2="616" y2="250"/>
+  <line class="line" x1="850" y1="250" x2="888" y2="250"/>
+</svg>

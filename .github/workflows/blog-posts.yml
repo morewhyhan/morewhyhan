@@ -1,0 +1,79 @@
+name: Update latest blog posts
+
+on:
+  schedule:
+    - cron: "40 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull latest posts from GitHub Pages
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const site = "https://morewhyhan.github.io";
+            const response = await fetch(site);
+            if (!response.ok) {
+              throw new Error(`Failed to fetch blog homepage: ${response.status}`);
+            }
+
+            const html = await response.text();
+            const posts = [];
+            const articlePattern = /<a class="article-title" href="([^"]+)" title="([^"]+)">[\s\S]*?<time datetime="[^"]+" title="[^"]*?(\d{4}-\d{2}-\d{2})/g;
+
+            for (const match of html.matchAll(articlePattern)) {
+              const [, href, rawTitle, date] = match;
+              const title = rawTitle
+                .replace(/&quot;/g, '"')
+                .replace(/&#39;/g, "'")
+                .replace(/&amp;/g, "&")
+                .replace(/&lt;/g, "<")
+                .replace(/&gt;/g, ">");
+              const url = href.startsWith("http") ? href : `${site}${href}`;
+
+              if (!posts.some(post => post.url === url)) {
+                posts.push({ title, url, date });
+              }
+              if (posts.length >= 5) break;
+            }
+
+            if (posts.length === 0) {
+              throw new Error("No blog posts found on homepage.");
+            }
+
+            const list = posts
+              .map(post => `- [${post.title}](${post.url}) - ${post.date}`)
+              .join("\n");
+
+            const readmePath = "README.md";
+            const readme = fs.readFileSync(readmePath, "utf8");
+            const start = "<!-- BLOG-POST-LIST:START -->";
+            const end = "<!-- BLOG-POST-LIST:END -->";
+            const nextReadme = readme.replace(
+              new RegExp(`${start}[\\s\\S]*?${end}`),
+              `${start}\n${list}\n${end}`
+            );
+
+            if (nextReadme === readme) {
+              core.info("README blog section is already up to date.");
+            } else {
+              fs.writeFileSync(readmePath, nextReadme);
+              core.info(`Updated README with ${posts.length} blog posts.`);
+            }
+
+      - name: Commit README update
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          if git commit -m "chore: update latest blog posts"; then
+            git push
+          fi

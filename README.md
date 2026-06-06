@@ -2,45 +2,38 @@
 
 <img src="./assets/readme/name-header.svg" alt="morewhyhan" width="100%" />
 
-<p>
-  <img src="./assets/readme/profile-views.svg" alt="Profile views" />
-  <img src="./assets/readme/followers.svg" alt="GitHub followers" />
-  <img src="./assets/readme/stars.svg" alt="GitHub stars" />
-</p>
+<br />
+<br />
+
+<img src="./assets/readme/signal-strip.svg" alt="Profile signals" width="100%" />
 
 </div>
 
----
+<br />
 
-<h2 align="center">GitHub Dashboard</h2>
+---
 
 <div align="center">
 
-<img src="./assets/readme/summary-details.svg" alt="Profile details" width="100%" />
-
-<br />
-<br />
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <img src="./assets/readme/summary-stats.svg" alt="GitHub stats" width="100%" />
-    </td>
-    <td width="50%" align="center">
-      <img src="./assets/readme/summary-productive-time.svg" alt="Productive time" width="100%" />
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<img src="./assets/readme/streak.svg" alt="GitHub streak stats" width="56%" />
+<img src="./assets/readme/section-github-dashboard.svg" alt="GitHub Dashboard" width="100%" />
 
 </div>
 
+<div align="center">
+
+<img src="./assets/readme/github-dashboard-card.svg" alt="GitHub Dashboard" width="100%" />
+
+</div>
+
+<br />
+
 ---
 
-<h2 align="center">Contribution Activity</h2>
+<div align="center">
+
+<img src="./assets/readme/section-contribution-activity.svg" alt="Contribution Activity" width="100%" />
+
+</div>
 
 <div align="center">
 
@@ -53,35 +46,63 @@
 
 </div>
 
----
-
-<h2 align="center">关于我</h2>
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-
-我不只把自己定义为技术人员。  
-我更关心真实需求、产品结构、方案表达和落地结果。
-
-我的方向是 <strong>Product-minded Solution Engineer</strong>：用技术做基础，用产品思维看问题，用清楚的表达推动方案往前走。
-
-  </td>
-  <td width="50%" valign="top">
-
-<pre><code class="language-ts">const morewhyhan = {
-  focus: ["软件产品", "解决方案", "技术表达", "AI 工具"],
-  mindset: ["求真", "看本质", "讲证据", "重结果"],
-  workStyle: ["理解需求", "拆解问题", "做 Demo", "根据反馈调整"]
-};</code></pre>
-
-  </td>
-  </tr>
-</table>
+<br />
 
 ---
 
-<h2 align="center">Technical Stack</h2>
+<div align="center">
+
+<img src="./assets/readme/section-about.svg" alt="关于我" width="100%" />
+
+</div>
+
+<div align="center">
+
+<img src="./assets/readme/about-card.svg" alt="About morewhyhan" width="100%" />
+
+</div>
+
+<br />
+
+---
+
+<div align="center">
+
+<img src="./assets/readme/section-solution.svg" alt="产品与方案" width="100%" />
+
+</div>
+
+<div align="center">
+
+<img src="./assets/readme/solution-flow.svg" alt="Solution thinking" width="100%" />
+
+</div>
+
+<br />
+
+---
+
+<div align="center">
+
+<img src="./assets/readme/section-mindset.svg" alt="思维方式" width="100%" />
+
+</div>
+
+<div align="center">
+
+<img src="./assets/readme/mindset-map.svg" alt="Mindset map" width="100%" />
+
+</div>
+
+<br />
+
+---
+
+<div align="center">
+
+<img src="./assets/readme/section-tech-stack.svg" alt="Technical Stack" width="100%" />
+
+</div>
 
 <div align="center">
 
@@ -102,9 +123,15 @@
 
 </div>
 
+<br />
+
 ---
 
-<h2 align="center">写作与思考</h2>
+<div align="center">
+
+<img src="./assets/readme/section-writing.svg" alt="写作与思考" width="100%" />
+
+</div>
 
 <table align="center" width="100%">
   <tr>
@@ -131,7 +158,11 @@
 
 ---
 
-<h2 align="center">作品</h2>
+<div align="center">
+
+<img src="./assets/readme/section-projects.svg" alt="作品" width="100%" />
+
+</div>
 
 <div align="center">
 

@@ -1,0 +1,44 @@
+<svg width="1200" height="96" viewBox="0 0 1200 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+     @import url("https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css");
+.card { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+    .label {
+      fill: #cbd5e1;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .hint {
+      fill: #64748b;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .dot { fill: #38bdf8; }
+    .line { stroke: #30363d; stroke-width: 1; }
+  </style>
+  <rect class="card" x="1" y="1" width="1198" height="94" rx="10"/>
+  <g transform="translate(72,29)">
+    <circle class="dot" cx="0" cy="17" r="5"/>
+    <text class="label" x="18" y="14">需求理解</text>
+    <text class="hint" x="18" y="36">real needs</text>
+  </g>
+  <line class="line" x1="320" y1="24" x2="320" y2="72"/>
+  <g transform="translate(386,29)">
+    <circle class="dot" cx="0" cy="17" r="5"/>
+    <text class="label" x="18" y="14">方案设计</text>
+    <text class="hint" x="18" y="36">solution design</text>
+  </g>
+  <line class="line" x1="620" y1="24" x2="620" y2="72"/>
+  <g transform="translate(686,29)">
+    <circle class="dot" cx="0" cy="17" r="5"/>
+    <text class="label" x="18" y="14">技术表达</text>
+    <text class="hint" x="18" y="36">technical clarity</text>
+  </g>
+  <line class="line" x1="920" y1="24" x2="920" y2="72"/>
+  <g transform="translate(986,29)">
+    <circle class="dot" cx="0" cy="17" r="5"/>
+    <text class="label" x="18" y="14">结果验证</text>
+    <text class="hint" x="18" y="36">measurable result</text>
+  </g>
+</svg>

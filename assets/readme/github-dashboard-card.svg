@@ -1,0 +1,89 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+     @import url("https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css");
+.card { fill: #0d1117; stroke: #30363d; stroke-width: 1.2; }
+    .title {
+      fill: #f1f5f9;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 28px;
+      font-weight: 720;
+    }
+    .desc {
+      fill: #8b949e;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .metric {
+      fill: #e5e7eb;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 31px;
+      font-weight: 720;
+    }
+    .label {
+      fill: #94a3b8;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .small {
+      fill: #64748b;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .panel { fill: #111827; stroke: #30363d; stroke-width: 1; }
+    .line { stroke: #30363d; stroke-width: 1; }
+    .grid { stroke: #263241; stroke-width: 1; opacity: 0.9; }
+    .accent { fill: #38bdf8; }
+    .green { fill: #22c55e; }
+    .area { fill: #22c55e; opacity: 0.32; }
+    .curve { stroke: #22c55e; stroke-width: 3; fill: none; stroke-linecap: round; }
+  </style>
+
+  <rect class="card" x="1" y="1" width="1198" height="428" rx="10"/>
+  <text class="title" x="64" y="70">GitHub Dashboard</text>
+  <text class="desc" x="64" y="104">本地化展示 GitHub 活动信号，避免依赖远程图片服务。</text>
+  <line class="line" x1="64" y1="132" x2="1136" y2="132"/>
+
+  <g transform="translate(64,168)">
+    <rect class="panel" width="230" height="116" rx="10"/>
+    <circle class="accent" cx="28" cy="34" r="6"/>
+    <text class="metric" x="28" y="76">45</text>
+    <text class="label" x="86" y="74">Contributions</text>
+    <text class="small" x="28" y="98">2026</text>
+  </g>
+
+  <g transform="translate(320,168)">
+    <rect class="panel" width="230" height="116" rx="10"/>
+    <circle class="accent" cx="28" cy="34" r="6"/>
+    <text class="metric" x="28" y="76">11</text>
+    <text class="label" x="80" y="74">Public Repos</text>
+    <text class="small" x="28" y="98">profile repository included</text>
+  </g>
+
+  <g transform="translate(64,306)">
+    <rect class="panel" width="230" height="72" rx="10"/>
+    <text class="label" x="28" y="31">Joined GitHub</text>
+    <text class="metric" x="28" y="60" style="font-size:24px;">7 months ago</text>
+  </g>
+
+  <g transform="translate(320,306)">
+    <rect class="panel" width="230" height="72" rx="10"/>
+    <text class="label" x="28" y="31">Current focus</text>
+    <text class="metric" x="28" y="60" style="font-size:24px;">README / Profile</text>
+  </g>
+
+  <g transform="translate(640,160)">
+    <rect class="panel" width="472" height="220" rx="10"/>
+    <text class="label" x="28" y="38">Contributions in the last year</text>
+    <line class="grid" x1="28" y1="170" x2="444" y2="170"/>
+    <line class="grid" x1="28" y1="128" x2="444" y2="128"/>
+    <line class="grid" x1="28" y1="86" x2="444" y2="86"/>
+    <path class="area" d="M28 170 C90 170, 130 170, 170 168 C200 164, 218 72, 238 74 C258 76, 270 152, 292 160 C324 172, 368 170, 392 148 C414 128, 426 90, 444 104 L444 170 L28 170 Z"/>
+    <path class="curve" d="M28 170 C90 170, 130 170, 170 168 C200 164, 218 72, 238 74 C258 76, 270 152, 292 160 C324 172, 368 170, 392 148 C414 128, 426 90, 444 104"/>
+    <text class="small" x="28" y="202">25/06</text>
+    <text class="small" x="206" y="202">25/12</text>
+    <text class="small" x="404" y="202">26/06</text>
+  </g>
+</svg>

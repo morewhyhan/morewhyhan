@@ -1,35 +1,51 @@
-<svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
+     @import url("https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css");
+.kicker {
+      fill: #38bdf8;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 15px;
+      font-weight: 650;
+      letter-spacing: 1.8px;
+    }
     .name {
       fill: #f8fafc;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      font-size: 62px;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 72px;
       font-weight: 780;
       letter-spacing: 0;
     }
     .subtitle {
       fill: #94a3b8;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      font-size: 22px;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 23px;
       font-weight: 500;
       letter-spacing: 0;
     }
-    .meta {
-      fill: #38bdf8;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      font-size: 16px;
-      font-weight: 600;
+    .quiet {
+      fill: #64748b;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 15px;
+      font-weight: 500;
       letter-spacing: 0;
     }
     .line {
       stroke: #334155;
       stroke-width: 1;
-      opacity: 0.55;
+      opacity: 0.42;
+    }
+    .mark {
+      fill: none;
+      stroke: #38bdf8;
+      stroke-width: 1.2;
+      opacity: 0.62;
     }
   </style>
-  <line class="line" x1="80" y1="34" x2="1120" y2="34"/>
-  <line class="line" x1="160" y1="148" x2="1040" y2="148"/>
-  <text class="meta" x="600" y="66" text-anchor="middle">PRODUCT · SOLUTION · ENGINEERING</text>
-  <text class="name" x="600" y="112" text-anchor="middle">morewhyhan</text>
-  <text class="subtitle" x="600" y="140" text-anchor="middle">Product-minded Solution Engineer · 软件产品 · 解决方案 · 技术表达</text>
+  <line class="line" x1="94" y1="54" x2="1106" y2="54"/>
+  <line class="line" x1="178" y1="218" x2="1022" y2="218"/>
+  <circle class="mark" cx="600" cy="138" r="112"/>
+  <text class="kicker" x="600" y="94" text-anchor="middle">PRODUCT · SOLUTION · ENGINEERING</text>
+  <text class="name" x="600" y="155" text-anchor="middle">morewhyhan</text>
+  <text class="subtitle" x="600" y="193" text-anchor="middle">Product-minded Solution Engineer · 软件产品 · 解决方案 · 技术表达</text>
+  <text class="quiet" x="600" y="236" text-anchor="middle">需求理解 / 方案设计 / 技术表达 / 结果验证</text>
 </svg>

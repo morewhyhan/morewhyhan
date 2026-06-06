@@ -1,0 +1,59 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+     @import url("https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css");
+.card { fill: #0d1117; stroke: #30363d; stroke-width: 1.2; }
+    .panel { fill: #111827; stroke: #30363d; stroke-width: 1; }
+    .title {
+      fill: #f1f5f9;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .body {
+      fill: #cbd5e1;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .muted {
+      fill: #8b949e;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .code {
+      fill: #cbd5e1;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .blue { fill: #38bdf8; }
+    .green { fill: #22c55e; }
+    .line { stroke: #30363d; stroke-width: 1; }
+  </style>
+
+  <rect class="card" x="1" y="1" width="1198" height="358" rx="10"/>
+  <text class="title" x="64" y="66">About</text>
+  <text class="muted" x="64" y="98">不只把自己定义为技术人员，更关心需求、产品、方案和结果。</text>
+  <line class="line" x1="64" y1="126" x2="1136" y2="126"/>
+
+  <g transform="translate(64,166)">
+    <circle class="blue" cx="0" cy="6" r="5"/>
+    <text class="body" x="22" y="12">我关注真实需求从哪里来，产品结构如何成立，方案如何被讲清楚。</text>
+    <circle class="blue" cx="0" cy="56" r="5"/>
+    <text class="body" x="22" y="62">技术是基础，但不是终点。技术要进入真实场景，解决具体问题。</text>
+    <circle class="blue" cx="0" cy="106" r="5"/>
+    <text class="body" x="22" y="112">我的方向是 Product-minded Solution Engineer。</text>
+  </g>
+
+  <rect class="panel" x="704" y="156" width="372" height="154" rx="10"/>
+  <text class="code" x="730" y="194">focus: [</text>
+  <text class="code blue" x="800" y="194">"软件产品"</text>
+  <text class="code" x="892" y="194">,</text>
+  <text class="code blue" x="730" y="224">"解决方案"</text>
+  <text class="code" x="822" y="224">,</text>
+  <text class="code blue" x="730" y="254">"技术表达"</text>
+  <text class="code" x="822" y="254">,</text>
+  <text class="code green" x="730" y="284">"结果验证"</text>
+  <text class="code" x="824" y="284">]</text>
+</svg>

@@ -10,17 +10,18 @@
             width="100%" fill="#0D1117" stroke-opacity="1" style="stroke:#0000; stroke-width:1;"/>
 
             <style>
-                body {
-                    font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+                 @import url("https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css");
+body {
+                    font: 600 18px 'LXGW WenKai Screen', serif;
                 }
                 .header {
-                    font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif;
+                    font: 600 20px 'LXGW WenKai Screen', serif;
                     text-align: center;
                     color: #CBD5E1;
                     margin-top: 20px;
                 }
                 svg {
-                    font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+                    font: 600 18px 'LXGW WenKai Screen', serif;
                     user-select: none;
                 }
                 

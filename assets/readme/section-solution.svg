@@ -1,0 +1,24 @@
+<svg width="1200" height="92" viewBox="0 0 1200 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url("https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css");
+    .title {
+      fill: #e2e8f0;
+      font-family: 'LXGW WenKai Screen', serif;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+    .line {
+      stroke: #334155;
+      stroke-width: 1;
+      opacity: 0.46;
+    }
+    .accent {
+      fill: #38bdf8;
+    }
+  </style>
+  <line class="line" x1="120" y1="48" x2="510" y2="48"/>
+  <line class="line" x1="690" y1="48" x2="1080" y2="48"/>
+  <circle class="accent" cx="600" cy="48" r="3"/>
+  <text class="title" x="600" y="59" text-anchor="middle">产品与方案</text>
+</svg>
