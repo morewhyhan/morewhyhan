@@ -1,0 +1,35 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .name {
+      fill: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 62px;
+      font-weight: 780;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      fill: #94a3b8;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+    .meta {
+      fill: #38bdf8;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0;
+    }
+    .line {
+      stroke: #334155;
+      stroke-width: 1;
+      opacity: 0.55;
+    }
+  </style>
+  <line class="line" x1="80" y1="34" x2="1120" y2="34"/>
+  <line class="line" x1="160" y1="148" x2="1040" y2="148"/>
+  <text class="meta" x="600" y="66" text-anchor="middle">PRODUCT · SOLUTION · ENGINEERING</text>
+  <text class="name" x="600" y="112" text-anchor="middle">morewhyhan</text>
+  <text class="subtitle" x="600" y="140" text-anchor="middle">Product-minded Solution Engineer · 软件产品 · 解决方案 · 技术表达</text>
+</svg>
