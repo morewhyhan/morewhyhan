@@ -145,11 +145,11 @@
     <td width="60%" valign="top">
 
 <!-- BLOG-POST-LIST:START -->
+- [姜学勤心理史学](https://morewhyhan.github.io/book/psychohistory/) - 2026-08-29
 - [决策算法100讲](https://morewhyhan.github.io/book/decision-algorithm/) - 2026-08-28
 - [奥德赛意识流](https://morewhyhan.github.io/2026/08/23/life-notes-odyssey/) - 2026-08-23
 - [再挤挤](https://morewhyhan.github.io/2026/08/10/life-notes-make-room/) - 2026-08-10
 - [武藏之死在天下无双](https://morewhyhan.github.io/2026/08/10/life-notes-musashi/) - 2026-08-10
-- [给春稗以秋实](https://morewhyhan.github.io/2026/08/09/life-notes-autumn-fruit/) - 2026-08-09
 <!-- BLOG-POST-LIST:END -->
 
   </td>
