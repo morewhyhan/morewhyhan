@@ -1,5 +1,5 @@
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-17%20hrs%2023%20mins-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -11,6 +11,34 @@
  > 
 > 📜 16 Public Repositories 
  > 
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Shanghai
+
+💬 Programming Languages: 
+Python                   5 hrs 12 mins       ██████████░░░░░░░░░░░░░░░   39.10 % 
+Markdown                 4 hrs 41 mins       █████████░░░░░░░░░░░░░░░░   35.33 % 
+Other                    58 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.29 % 
+JavaScript               54 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.85 % 
+JSON                     48 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.08 % 
+
+🔥 Editors: 
+Codex Vscode             12 hrs 15 mins      ███████████████████████░░   92.21 % 
+Codex CLI                1 hrs 1 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.76 % 
+Cursor                   13 secs             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
+
+🐱‍💻 Projects: 
+ft_userdata              6 hrs 35 mins       ████████████░░░░░░░░░░░░░   49.56 % 
+期权量化                     2 hrs 59 mins       ██████░░░░░░░░░░░░░░░░░░░   22.46 % 
+德州扑克GTO简化                2 hrs 27 mins       █████░░░░░░░░░░░░░░░░░░░░   18.43 % 
+日记模板                     1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.14 % 
+taskbot                  1 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 % 
+
+💻 Operating System: 
+Windows                  13 hrs 17 mins      █████████████████████████   100.00 % 
+```
 
 **I Mostly Code in TypeScript** 
 
@@ -24,7 +52,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 01:03:59 UTC
+ Last Updated on 28/10/2026 01:38:31 UTC
 <!--END_SECTION:waka-->
 
 <picture>

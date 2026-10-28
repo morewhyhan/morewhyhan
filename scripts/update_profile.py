@@ -15,7 +15,7 @@ import os
 import re
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 LOGIN = os.environ.get("GH_LOGIN", "morewhyhan")
 REPO = os.environ.get("GITHUB_REPOSITORY", LOGIN + "/" + LOGIN)
@@ -31,7 +31,7 @@ FENCE = "```"
 STAGE = "init"
 
 
-def http_text(url, headers=None, timeout=25):
+def http_text(url, headers=None, timeout=30):
     req = urllib.request.Request(
         url,
         headers={
@@ -44,7 +44,7 @@ def http_text(url, headers=None, timeout=25):
         return resp.read().decode("utf-8", "replace")
 
 
-def http_json(url, headers=None, timeout=25):
+def http_json(url, headers=None, timeout=30):
     return json.loads(http_text(url, headers, timeout) or "{}")
 
 
@@ -68,6 +68,17 @@ def human_size(kb):
             return "%.1f %s" % (size, unit)
         size /= 1024
     return "%.1f TB" % size
+
+
+def human_time(seconds):
+    seconds = int(float(seconds or 0))
+    if seconds < 60:
+        return "%d secs" % seconds
+    hours, rem = divmod(seconds, 3600)
+    minutes = rem // 60
+    if hours:
+        return "%d hrs %d mins" % (hours, minutes)
+    return "%d mins" % minutes
 
 
 def badge(label, value):
@@ -166,33 +177,49 @@ def collect_wakatime():
     if not WAKA_KEY:
         return {"enabled": False}
 
-    STAGE = "wakatime:all_time"
-    all_time = waka("users/current/stats/all_time")
-    STAGE = "wakatime:last_7_days"
-    latest = waka("users/current/stats/last_7_days")
-    return {"enabled": True, "all_time": all_time, "latest": latest}
+    now = datetime.now(timezone.utc)
+    end = now.strftime("%Y-%m-%d")
+
+    STAGE = "wakatime:week"
+    week_start = (now - timedelta(days=6)).strftime("%Y-%m-%d")
+    week = waka("users/current/summaries?start=%s&end=%s" % (week_start, end))
+
+    STAGE = "wakatime:year"
+    year_start = (now - timedelta(days=365)).strftime("%Y-%m-%d")
+    year = waka("users/current/summaries?start=%s&end=%s" % (year_start, end))
+
+    STAGE = "wakatime:stats"
+    stats = {}
+    try:
+        stats = waka("users/current/stats/last_7_days").get("data") or {}
+    except Exception:
+        stats = {}
+
+    return {"enabled": True, "week": week, "year": year, "stats": stats}
 
 
 # --------------------------------------------------------------------------- #
 # renderers
 # --------------------------------------------------------------------------- #
 
-def week_seconds(data):
-    total = data.get("total_seconds")
-    if total:
-        return float(total)
-    return sum(float(i.get("total_seconds") or 0) for i in (data.get("languages") or []))
+def aggregate(days, key, limit=5):
+    totals = {}
+    for day in days:
+        for item in day.get(key) or []:
+            name = str(item.get("name") or "Other")
+            totals[name] = totals.get(name, 0.0) + float(item.get("total_seconds") or 0)
+    ranked = sorted(totals.items(), key=lambda kv: -kv[1])[:limit]
+    return ranked
 
 
-def render_badges(waka_data):
-    all_time = (waka_data.get("all_time") or {}).get("data") or {}
+def render_badges(gh, waka_data):
     badges = []
-    total = all_time.get("human_readable_total")
-    if total and float(all_time.get("total_seconds") or 0) > 0:
-        badges.append(badge("Code Time", total))
-    ai = find_category(all_time.get("categories"), "AI Coding")
-    if ai and ai.get("text"):
-        badges.append(badge("AI Code Time", ai["text"]))
+    if waka_data.get("enabled"):
+        total = (waka_data["year"].get("cumulative_total") or {}).get("text") or ""
+        if total and total != "0 secs":
+            badges.append(badge("Code Time", total))
+    if gh.get("views") is not None:
+        badges.append(badge("Profile Views", gh["views"]))
     return badges
 
 
@@ -231,12 +258,18 @@ def render_github(gh, views):
 
 
 def render_time(waka_data):
-    data = (waka_data.get("latest") or {}).get("data") or {}
+    week = waka_data["week"]
+    days = week.get("data") or []
+    cumulative = week.get("cumulative_total") or {}
+    total_seconds = float(cumulative.get("seconds") or cumulative.get("total_seconds") or 0)
+    if total_seconds <= 0:
+        return ""
+
+    tz = (waka_data.get("stats") or {}).get("timezone") or "UTC"
+
     out = ["\U0001F4CA **This Week I Spent My Time On** ", "", FENCE + "text"]
-    tz = data.get("timezone")
-    if tz:
-        out.append("\U0001F551\ufe0e Time Zone: " + str(tz))
-        out.append("")
+    out.append("\U0001F551\ufe0e Time Zone: " + str(tz))
+    out.append("")
 
     sections = [
         ("\U0001F4AC", "Programming Languages", "languages"),
@@ -245,33 +278,24 @@ def render_time(waka_data):
         ("\U0001F4BB", "Operating System", "operating_systems"),
     ]
     for icon, title, key in sections:
-        items = [i for i in (data.get(key) or []) if float(i.get("percent") or 0) > 0][:5]
+        ranked = aggregate(days, key)
         out.append("%s %s: " % (icon, title))
-        if not items:
+        if not ranked:
             out.append("No Activity Tracked This Week")
         else:
-            for item in items:
-                out.append(
-                    row(
-                        str(item.get("name", "?")),
-                        str(item.get("text", "")),
-                        float(item.get("percent") or 0),
-                    )
-                )
+            for name, seconds in ranked:
+                out.append(row(name, human_time(seconds), seconds / total_seconds * 100))
         out.append("")
     out[-1] = FENCE
     return "\n".join(out)
 
 
 def render_ai(waka_data):
-    data = (waka_data.get("latest") or {}).get("data") or {}
+    data = waka_data.get("stats") or {}
     category = find_category(data.get("categories"), "AI Coding")
     sessions = int(data.get("ai_sessions") or 0)
-
-    out = ["\U0001F916 **AI Coding This Week** ", "", FENCE + "text"]
-    if not category or not sessions:
-        out += ["No AI Coding Activity Tracked This Week", "", FENCE]
-        return "\n".join(out)
+    if not category and not sessions:
+        return ""
 
     ai_add = int(data.get("ai_additions") or 0)
     ai_del = int(data.get("ai_deletions") or 0)
@@ -282,7 +306,11 @@ def render_ai(waka_data):
     total_changed = ai_add + ai_del + human_add + human_del
     manual = ((human_add + human_del) / total_changed * 100) if total_changed else 0.0
 
-    out.append("\u23f1 AI Coding Time: %s (%s%%)" % (category.get("text"), category.get("percent")))
+    out = ["\U0001F916 **AI Coding This Week** ", "", FENCE + "text"]
+    out.append(
+        "\u23f1 AI Coding Time: %s (%s%%)"
+        % (category.get("text") if category else "0 secs", category.get("percent") if category else 0)
+    )
     out.append("")
     out.append(
         "\u270d\ufe0f %s lines written by AI, %s lines written by hand (%.2f%% AI-written)"
@@ -307,9 +335,7 @@ def render_ai(waka_data):
         total_lines = sum(int(m.get("lines") or 0) for m in models) or 1
         for model in models:
             lines = int(model.get("lines") or 0)
-            out.append(
-                row(str(model.get("name", "?")), format(lines, ",") + " lines", lines / total_lines * 100)
-            )
+            out.append(row(str(model.get("name", "?")), format(lines, ",") + " lines", lines / total_lines * 100))
         out.append("")
 
     prompt_len = float(data.get("ai_prompt_length_avg") or 0)
@@ -328,7 +354,6 @@ def render_ai(waka_data):
     out.append("%s \u2014 average %s characters per prompt" % (verbosity, format(round(prompt_len), ",")))
     out.append("%s \u2014 average %.0f prompts per session" % (rhythm, per_session))
     out.append("%s \u2014 %.2f%% of changed lines were hand-edited" % (review, manual))
-    out[-1] = out[-1]
     out.append("")
     out[-1] = FENCE
     return "\n".join(out)
@@ -354,20 +379,22 @@ def render_languages(gh):
 
 def build_block(gh, waka_data):
     sections = []
-    latest = (waka_data.get("latest") or {}).get("data") or {}
-    active = bool(waka_data.get("enabled")) and week_seconds(latest) > 0
 
     if waka_data.get("enabled"):
-        badges = render_badges(waka_data)
-        if gh.get("views") is not None:
-            badges.append(badge("Profile Views", gh["views"]))
-        if badges:
-            sections.append("\n\n".join(badges))
+        time_block = render_time(waka_data)
+        ai_block = render_ai(waka_data)
+    else:
+        time_block = ai_block = ""
+
+    badges = render_badges(gh, waka_data)
+    if badges:
+        sections.append("\n\n".join(badges))
 
     sections.append(render_github(gh, None if waka_data.get("enabled") else gh.get("views")))
-    if active:
-        sections.append(render_time(waka_data))
-        sections.append(render_ai(waka_data))
+    if time_block:
+        sections.append(time_block)
+    if ai_block:
+        sections.append(ai_block)
     sections.append(render_languages(gh))
 
     now = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M:%S")
