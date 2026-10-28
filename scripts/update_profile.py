@@ -177,11 +177,18 @@ def collect_wakatime():
 # renderers
 # --------------------------------------------------------------------------- #
 
+def week_seconds(data):
+    total = data.get("total_seconds")
+    if total:
+        return float(total)
+    return sum(float(i.get("total_seconds") or 0) for i in (data.get("languages") or []))
+
+
 def render_badges(waka_data):
     all_time = (waka_data.get("all_time") or {}).get("data") or {}
     badges = []
     total = all_time.get("human_readable_total")
-    if total:
+    if total and float(all_time.get("total_seconds") or 0) > 0:
         badges.append(badge("Code Time", total))
     ai = find_category(all_time.get("categories"), "AI Coding")
     if ai and ai.get("text"):
@@ -347,15 +354,18 @@ def render_languages(gh):
 
 def build_block(gh, waka_data):
     sections = []
+    latest = (waka_data.get("latest") or {}).get("data") or {}
+    active = bool(waka_data.get("enabled")) and week_seconds(latest) > 0
+
     if waka_data.get("enabled"):
         badges = render_badges(waka_data)
-        if gh.get("views"):
+        if gh.get("views") is not None:
             badges.append(badge("Profile Views", gh["views"]))
         if badges:
             sections.append("\n\n".join(badges))
 
     sections.append(render_github(gh, None if waka_data.get("enabled") else gh.get("views")))
-    if waka_data.get("enabled"):
+    if active:
         sections.append(render_time(waka_data))
         sections.append(render_ai(waka_data))
     sections.append(render_languages(gh))
