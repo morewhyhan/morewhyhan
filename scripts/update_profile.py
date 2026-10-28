@@ -283,12 +283,18 @@ def aggregate(days, key, limit=5):
 def render_badges(gh, waka_data):
     badges = []
     if waka_data.get("enabled"):
-        total = (waka_data["year"].get("cumulative_total") or {}).get("text") or ""
-        if total and total != "0 secs":
-            badges.append(badge("Code Time", total))
-        year_ai = float((waka_data.get("ai") or {}).get("year_seconds") or 0)
-        if year_ai > 0:
-            badges.append(badge("AI Code Time", human_time(year_ai)))
+        codex = load_codex_usage()
+        active = int((codex.get("all") or {}).get("active_seconds") or 0)
+        if active > 0:
+            badges.append(badge("Code Time", human_time(active)))
+            badges.append(badge("AI Code Time", human_time(active)))
+        else:
+            total = (waka_data["year"].get("cumulative_total") or {}).get("text") or ""
+            if total and total != "0 secs":
+                badges.append(badge("Code Time", total))
+            year_ai = float((waka_data.get("ai") or {}).get("year_seconds") or 0)
+            if year_ai > 0:
+                badges.append(badge("AI Code Time", human_time(year_ai)))
     if gh.get("views") is not None:
         badges.append(badge("Profile Views", gh["views"]))
     return badges
@@ -580,8 +586,9 @@ def render_ai_total(waka_data):
     else:
         cost_text = "$%.2f" % cost
 
+    active = int(usage.get("active_seconds") or 0)
     out = ["\U0001F3C6 **AI Coding All Time** ", "", FENCE + "text"]
-    out.append("\u23f1 %s" % human_time(ai.get("year_seconds") or 0))
+    out.append("\u23f1 %s" % human_time(active or ai.get("year_seconds") or 0))
     out.append("")
     if ai_lines > 0:
         out.append(

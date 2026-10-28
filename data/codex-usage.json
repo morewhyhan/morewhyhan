@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-28T07:53:10.044Z",
+  "generated_at": "2026-10-28T08:04:43.480Z",
   "source": "codex-sessions",
   "week": {
     "sessions": 29,
-    "prompts": 377,
-    "avg_prompt_chars": 2966,
-    "added": 86266,
+    "prompts": 378,
+    "avg_prompt_chars": 2961,
+    "added": 86250,
     "removed": 7172,
     "models": [
       {
         "name": "gpt-5.6-luna",
-        "lines": 55070
+        "lines": 55072
       },
       {
         "name": "gpt-6.1-sol",
-        "lines": 30610
+        "lines": 30592
       },
       {
         "name": "gpt-6-astra",
@@ -30,20 +30,21 @@
       }
     ],
     "tokens": {
-      "in": 2144368369,
-      "out": 7679892
-    }
+      "in": 2156874766,
+      "out": 7689394
+    },
+    "active_seconds": 367335
   },
   "all": {
     "sessions": 29,
-    "prompts": 504,
-    "avg_prompt_chars": 2244,
-    "added": 111284,
-    "removed": 7709,
+    "prompts": 505,
+    "avg_prompt_chars": 2241,
+    "added": 111286,
+    "removed": 7711,
     "models": [
       {
         "name": "gpt-5.6-luna",
-        "lines": 57192
+        "lines": 57194
       },
       {
         "name": "gpt-6.1-sol",
@@ -63,8 +64,9 @@
       }
     ],
     "tokens": {
-      "in": 2556643868,
-      "out": 9709758
-    }
+      "in": 2570246093,
+      "out": 9722013
+    },
+    "active_seconds": 555678
   }
 }

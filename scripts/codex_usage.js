@@ -37,7 +37,17 @@ async function parseFile(file, acc) {
   let inWeek = false;
   let inAll = false;
   let lastUsage = null;
+  const stamps = [];
   for await (const line of rl) {
+    const pos = line.indexOf('"timestamp":"');
+    if (pos !== -1) {
+      const start = pos + 13;
+      const end = line.indexOf('"', start);
+      if (end > start) {
+        const t = Date.parse(line.slice(start, end));
+        if (Number.isFinite(t)) stamps.push(t);
+      }
+    }
     if (!line.includes('"FileChange"') && !line.includes('"thread_settings_applied"') && !line.includes('"UserMessage"') && !line.includes('"token_count"')) continue;
     let obj;
     try { obj = JSON.parse(line); } catch { continue; }
@@ -79,9 +89,25 @@ async function parseFile(file, acc) {
   }
   if (inAll) acc.all.sessions += 1;
   if (inWeek) acc.week.sessions += 1;
+
+  if (stamps.length > 1) {
+    stamps.sort((a, b) => a - b);
+    let allSeconds = 0;
+    let weekSeconds = 0;
+    for (let i = 1; i < stamps.length; i += 1) {
+      const gap = stamps[i] - stamps[i - 1];
+      if (gap > 0) {
+        const capped = Math.min(gap, 900000) / 1000;
+        allSeconds += capped;
+        if (stamps[i] >= now - WEEK_MS) weekSeconds += capped;
+      }
+    }
+    acc.all.active_seconds = (acc.all.active_seconds || 0) + allSeconds;
+    acc.week.active_seconds = (acc.week.active_seconds || 0) + weekSeconds;
+  }
 }
 
-const empty = () => ({ sessions: 0, prompts: 0, promptChars: 0, added: 0, removed: 0, models: {}, tokens: { in: 0, out: 0 } });
+const empty = () => ({ sessions: 0, prompts: 0, promptChars: 0, added: 0, removed: 0, models: {}, tokens: { in: 0, out: 0 }, active_seconds: 0 });
 
 function add(acc, ts, model, a, d, promptLen) {
   if (ts >= now - ALL_MS) bump(acc.all, model, a, d, promptLen);
@@ -109,6 +135,7 @@ function finalize(b) {
     removed: b.removed,
     models,
     tokens: b.tokens,
+    active_seconds: Math.round(b.active_seconds || 0),
   };
 }
 
