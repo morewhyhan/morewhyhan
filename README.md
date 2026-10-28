@@ -9,7 +9,7 @@
 
 > 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 755 Contributions in the Year 2026
+> 🏆 762 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -22,28 +22,28 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Markdown                 6 hrs 6 mins        ██████████░░░░░░░░░░░░░░░   38.49 % 
-Python                   5 hrs 22 mins       ████████░░░░░░░░░░░░░░░░░   33.90 % 
-JSON                     1 hrs 30 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.53 % 
-JavaScript               1 hrs 18 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.28 % 
-Other                    36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.83 % 
+Markdown                 6 hrs 10 mins       ██████████░░░░░░░░░░░░░░░   38.80 % 
+Python                   5 hrs 22 mins       ████████░░░░░░░░░░░░░░░░░   33.80 % 
+JSON                     1 hrs 30 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.50 % 
+JavaScript               1 hrs 18 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.25 % 
+HTML                     36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.80 % 
 
 🔥 Editors: 
-Codex Vscode             14 hrs 43 mins      ███████████████████████░░   92.74 % 
-Codex CLI                1 hrs 3 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-PyCharm                  5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 % 
+Codex Vscode             14 hrs 46 mins      ███████████████████████░░   92.76 % 
+Codex CLI                1 hrs 3 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.66 % 
+PyCharm                  5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.56 % 
 Cursor                   13 secs             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 🐱‍💻 Projects: 
-ft_userdata              8 hrs 5 mins        █████████████░░░░░░░░░░░░   50.98 % 
-option-research          2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   18.82 % 
-poker-range-trainer      2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.44 % 
-obsidian-journal         1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.66 % 
-blog                     56 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.97 % 
+ft_userdata              8 hrs 8 mins        █████████████░░░░░░░░░░░░   51.12 % 
+option-research          2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   18.76 % 
+poker-range-trainer      2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.39 % 
+obsidian-journal         1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.64 % 
+blog                     56 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.95 % 
 
 💻 Operating System: 
-Windows                  15 hrs 47 mins      █████████████████████████   99.43 % 
-Unknown OS               5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 % 
+Windows                  15 hrs 49 mins      █████████████████████████   99.44 % 
+Unknown OS               5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.56 % 
 ```
 
 🏆 **AI Coding All Time** 
@@ -84,7 +84,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 15:31:39 UTC
+ Last Updated on 28/10/2026 22:44:47 UTC
 <!--END_SECTION:waka-->
 
 <picture>
