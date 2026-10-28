@@ -5,6 +5,9 @@ on:
     # Runs at 02:30 Asia/Shanghai
     - cron: "30 18 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
