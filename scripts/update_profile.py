@@ -361,6 +361,14 @@ def render_time(waka_data):
     return "\n".join(out)
 
 
+def load_assumptions():
+    try:
+        with open("data/ai-assumptions.json", encoding="utf-8") as fh:
+            return json.load(fh)
+    except Exception:
+        return {}
+
+
 def load_codex_usage():
     try:
         with open("data/codex-usage.json", encoding="utf-8") as fh:
@@ -388,16 +396,32 @@ def render_ai(waka_data):
             % (human_time(ai.get("seconds") or 0), pct)
         )
         out.append("")
-        if int(usage.get("added") or 0) > 0:
+        assume = load_assumptions()
+        hand = int(assume.get("hand_lines") or 0)
+        ai_lines = int(usage.get("added") or 0)
+        written = ai_lines + hand
+        ai_pct = (ai_lines / written * 100) if written else 0.0
+        manual_pct = (hand / written * 100) if written else 0.0
+
+        rate_in = float(assume.get("input_usd_per_mtok") or 0)
+        rate_out = float(assume.get("output_usd_per_mtok") or 0)
+        cost = (
+            int(ai.get("input_tokens") or 0) / 1000000 * rate_in
+            + int(ai.get("output_tokens") or 0) / 1000000 * rate_out
+        )
+
+        if ai_lines > 0:
             out.append(
-                "\u270d\ufe0f %s lines written by AI (%s removed)"
-                % (format(int(usage["added"]), ","), format(int(usage.get("removed") or 0), ","))
+                "\u270d\ufe0f %s lines written by AI, %s lines written by hand (%.2f%% AI-written)"
+                % (format(ai_lines, ","), format(hand, ","), ai_pct)
             )
             out.append("")
         out.append(
             "\U0001F524 %s Input Tokens, %s Output Tokens"
             % (format(int(ai.get("input_tokens") or 0), ","), format(int(ai.get("output_tokens") or 0), ","))
         )
+        out.append("")
+        out.append("\U0001F4B5 $%.2f Estimated AI Cost This Week" % cost)
         out.append("")
         out.append(
             "\U0001F9E0 %d AI Sessions, %d AI Prompts"
@@ -414,6 +438,13 @@ def render_ai(waka_data):
             out.append("")
 
         insights = []
+        if ai_lines:
+            reliance = (
+                "\U0001F916 AI-Driven" if ai_pct >= 66
+                else "\u2696\ufe0f Balanced with AI" if ai_pct >= 33
+                else "\U0001F9D1\u200d\U0001F4BB Mostly Hands-On"
+            )
+            insights.append("%s \u2014 %.2f%% of written lines came from AI" % (reliance, ai_pct))
         avg_len = int(usage.get("avg_prompt_chars") or 0)
         if avg_len:
             style = "\U0001F4DA Verbose Prompter" if avg_len >= 500 else "\u2702\ufe0f Concise Prompter"
@@ -423,6 +454,9 @@ def render_ai(waka_data):
             per = float(ai.get("prompts") or 0) / sessions_n
             style = "\U0001F501 Iterative Prompter" if per >= 3 else "\U0001F3AF One-Shot Prompter"
             insights.append("%s \u2014 average %.1f prompts per session" % (style, per))
+        if ai_lines:
+            review = "\U0001F680 High AI Trust" if manual_pct <= 5 else "\U0001F50D Hands-On Reviewer"
+            insights.append("%s \u2014 %.2f%% of changed lines were hand-edited" % (review, manual_pct))
         if insights:
             out.append("\U0001F50E AI Coding Insights:")
             out.extend(insights)
@@ -518,13 +552,23 @@ def render_ai_total(waka_data):
         return ""
 
     usage = load_codex_usage().get("all") or {}
+    assume = load_assumptions()
+    hand = int(assume.get("hand_lines") or 0)
+    ai_lines = int(usage.get("added") or 0)
+    written = ai_lines + hand
+    ai_pct = (ai_lines / written * 100) if written else 0.0
+    cost = (
+        int(total.get("input_tokens") or 0) / 1000000 * float(assume.get("input_usd_per_mtok") or 0)
+        + int(total.get("output_tokens") or 0) / 1000000 * float(assume.get("output_usd_per_mtok") or 0)
+    )
+
     out = ["\U0001F3C6 **AI Coding All Time** ", "", FENCE + "text"]
     out.append("\u23f1 %s" % human_time(ai.get("year_seconds") or 0))
     out.append("")
-    if int(usage.get("added") or 0) > 0:
+    if ai_lines > 0:
         out.append(
-            "\u270d\ufe0f %s lines written by AI (%s removed)"
-            % (format(int(usage["added"]), ","), format(int(usage.get("removed") or 0), ","))
+            "\u270d\ufe0f %s lines written by AI, %s lines written by hand (%.2f%% AI-written)"
+            % (format(ai_lines, ","), format(hand, ","), ai_pct)
         )
         out.append("")
     out.append(
@@ -534,6 +578,8 @@ def render_ai_total(waka_data):
             format(int(total.get("output_tokens") or 0), ","),
         )
     )
+    out.append("")
+    out.append("\U0001F4B5 $%.2f Estimated AI Cost" % cost)
     out.append("")
     out.append(
         "\U0001F9E0 %d AI Sessions, %d AI Prompts"
