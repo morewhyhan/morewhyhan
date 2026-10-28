@@ -9,7 +9,7 @@
 
 > 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 678 Contributions in the Year 2026
+> 🏆 681 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -86,18 +86,6 @@ gpt-6.1-terra            50 lines            ░░░░░░░░░░░�
 🧠 39 AI Sessions, 112 AI Prompts
 ```
 
-💳 **AI Spend** 
-
-```text
-ChatGPT Pro (3x ¥700)    $292                ██████████████░░░░░░░░░░░   56.76 % 
-ChatGPT Plus (3x ¥150)   $62                 ███░░░░░░░░░░░░░░░░░░░░░░   12.16 % 
-ChatGPT Plus (1x ¥150)   $21                 █░░░░░░░░░░░░░░░░░░░░░░░░   04.05 % 
-Relay API (one-off)      $69                 ███░░░░░░░░░░░░░░░░░░░░░░   13.51 % 
-DeepSeek API (one-off)   $69                 ███░░░░░░░░░░░░░░░░░░░░░░   13.51 % 
-
-Total                    $514                ¥3,700 @ 7.2
-```
-
 **I Mostly Code in TypeScript** 
 
 ```text
@@ -110,7 +98,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 07:46:44 UTC
+ Last Updated on 28/10/2026 07:48:44 UTC
 <!--END_SECTION:waka-->
 
 <picture>
