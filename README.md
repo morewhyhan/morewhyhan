@@ -9,7 +9,7 @@
 
 > 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 681 Contributions in the Year 2026
+> 🏆 682 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -46,32 +46,6 @@ Windows                  14 hrs 27 mins      ███████████�
 Unknown OS               5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.62 % 
 ```
 
-🤖 **AI Coding This Week** 
-
-```text
-⏱ AI Coding Time: 14 hrs 27 mins (99.38%)
-
-✍️ 86,319 lines written by AI, 0 lines written by hand (100.00% AI-written)
-
-🔤 2,139,554,112 Input Tokens, 7,673,467 Output Tokens
-
-💵 $2751.18 Estimated AI Cost This Week
-
-🧠 22 AI Sessions, 100 AI Prompts
-
-gpt-5.6-luna             55,070 lines        ████████████████░░░░░░░░░   63.80 % 
-gpt-6.1-sol              30,663 lines        █████████░░░░░░░░░░░░░░░░   35.52 % 
-gpt-6-astra              473 lines           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.55 % 
-gpt-6-sol                63 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 % 
-gpt-6.1-terra            50 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 % 
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 100.00% of written lines came from AI
-📚 Verbose Prompter — average 2,982 characters per prompt
-🔁 Iterative Prompter — average 4.5 prompts per session
-🚀 High AI Trust — 0.00% of changed lines were hand-edited
-```
-
 🏆 **AI Coding All Time** 
 
 ```text
@@ -79,11 +53,23 @@ gpt-6.1-terra            50 lines            ░░░░░░░░░░░�
 
 ✍️ 111,284 lines written by AI, 0 lines written by hand (100.00% AI-written)
 
-🔤 2,549,675,092 Input Tokens, 9,698,070 Output Tokens
+🔤 2,556,643,868 Input Tokens, 9,709,758 Output Tokens
 
-💵 $3284.07 Estimated AI Cost
+💵 $3292.90 Estimated AI Cost
 
 🧠 39 AI Sessions, 112 AI Prompts
+
+gpt-5.6-luna             57,192 lines        █████████████░░░░░░░░░░░░   51.46 % 
+gpt-6.1-sol              43,151 lines        ██████████░░░░░░░░░░░░░░░   38.83 % 
+gpt-6-astra              9,002 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   08.10 % 
+gpt-5.6-sol              1,720 lines         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.55 % 
+gpt-6-sol                63 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 % 
+
+🔎 AI Coding Insights:
+🤖 AI-Driven — 100.00% of written lines came from AI
+📚 Verbose Prompter — average 2,244 characters per prompt
+🎯 One-Shot Prompter — average 2.9 prompts per session
+🚀 High AI Trust — 0.00% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
@@ -98,7 +84,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 07:48:44 UTC
+ Last Updated on 28/10/2026 07:54:26 UTC
 <!--END_SECTION:waka-->
 
 <picture>
