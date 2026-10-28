@@ -97,9 +97,9 @@ function bump(bucket, model, a, d, promptLen) {
 
 function finalize(b) {
   const models = Object.entries(b.models)
-    .filter(([, v]) => v > 0)
+    .filter(([name, v]) => v > 0 && name !== 'unknown')
     .sort((x, y) => y[1] - x[1])
-    .slice(0, 6)
+    .slice(0, 5)
     .map(([name, lines]) => ({ name, lines }));
   return {
     sessions: b.sessions,

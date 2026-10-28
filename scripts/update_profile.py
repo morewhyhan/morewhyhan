@@ -587,6 +587,41 @@ def render_ai_total(waka_data):
         % (int(total.get("sessions") or 0), int(total.get("prompts") or 0))
     )
     out.append("")
+
+    models = usage.get("models") or []
+    if models:
+        model_total = sum(int(m.get("lines") or 0) for m in models) or 1
+        for model in models:
+            lines = int(model.get("lines") or 0)
+            out.append(row(str(model.get("name", "?")), format(lines, ",") + " lines", lines / model_total * 100))
+        out.append("")
+
+    manual_pct = (hand / written * 100) if written else 0.0
+    insights = []
+    if ai_lines:
+        reliance = (
+            "\U0001F916 AI-Driven" if ai_pct >= 66
+            else "\u2696\ufe0f Balanced with AI" if ai_pct >= 33
+            else "\U0001F9D1\u200d\U0001F4BB Mostly Hands-On"
+        )
+        insights.append("%s \u2014 %.2f%% of written lines came from AI" % (reliance, ai_pct))
+    avg_len = int(usage.get("avg_prompt_chars") or 0)
+    if avg_len:
+        style = "\U0001F4DA Verbose Prompter" if avg_len >= 500 else "\u2702\ufe0f Concise Prompter"
+        insights.append("%s \u2014 average %s characters per prompt" % (style, format(avg_len, ",")))
+    sessions_n = int(total.get("sessions") or 0)
+    if sessions_n:
+        per = float(total.get("prompts") or 0) / sessions_n
+        style = "\U0001F501 Iterative Prompter" if per >= 3 else "\U0001F3AF One-Shot Prompter"
+        insights.append("%s \u2014 average %.1f prompts per session" % (style, per))
+    if ai_lines:
+        review = "\U0001F680 High AI Trust" if manual_pct <= 5 else "\U0001F50D Hands-On Reviewer"
+        insights.append("%s \u2014 %.2f%% of changed lines were hand-edited" % (review, manual_pct))
+    if insights:
+        out.append("\U0001F50E AI Coding Insights:")
+        out.extend(insights)
+        out.append("")
+
     out[-1] = FENCE
     return "\n".join(out)
 
@@ -594,11 +629,7 @@ def render_ai_total(waka_data):
 def build_block(gh, waka_data):
     sections = []
 
-    if waka_data.get("enabled"):
-        time_block = render_time(waka_data)
-        ai_block = render_ai(waka_data)
-    else:
-        time_block = ai_block = ""
+    time_block = render_time(waka_data) if waka_data.get("enabled") else ""
 
     badges = render_badges(gh, waka_data)
     if badges:
@@ -607,8 +638,6 @@ def build_block(gh, waka_data):
     sections.append(render_github(gh, None if waka_data.get("enabled") else gh.get("views")))
     if time_block:
         sections.append(time_block)
-    if ai_block:
-        sections.append(ai_block)
     total_block = render_ai_total(waka_data) if waka_data.get("enabled") else ""
     if total_block:
         sections.append(total_block)
