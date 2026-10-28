@@ -9,11 +9,11 @@
 
 > 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 687 Contributions in the Year 2026
+> 🏆 754 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 16 Public Repositories 
+> 📜 18 Public Repositories 
  > 
 
 📊 **This Week I Spent My Time On** 
@@ -22,28 +22,28 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Markdown                 5 hrs 45 mins       ██████████░░░░░░░░░░░░░░░   39.27 % 
-Python                   5 hrs 11 mins       █████████░░░░░░░░░░░░░░░░   35.38 % 
-Other                    1 hrs 8 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.77 % 
-JavaScript               1 hrs 0 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.89 % 
-JSON                     48 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.50 % 
+Markdown                 6 hrs 4 mins        ██████████░░░░░░░░░░░░░░░   38.55 % 
+Python                   5 hrs 19 mins       ████████░░░░░░░░░░░░░░░░░   33.79 % 
+JSON                     1 hrs 30 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.59 % 
+JavaScript               1 hrs 18 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.33 % 
+HTML                     36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.84 % 
 
 🔥 Editors: 
-Codex Vscode             13 hrs 30 mins      ███████████████████████░░   92.14 % 
-Codex CLI                1 hrs 3 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.23 % 
-PyCharm                  5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 % 
-Cursor                   13 secs             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
+Codex Vscode             14 hrs 37 mins      ███████████████████████░░   92.69 % 
+Codex CLI                1 hrs 3 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.72 % 
+PyCharm                  5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 % 
+Cursor                   13 secs             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 🐱‍💻 Projects: 
-ft_userdata              7 hrs 41 mins       █████████████░░░░░░░░░░░░   52.41 % 
-期权量化                     2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   20.37 % 
-德州扑克GTO简化                2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.71 % 
-日记模板                     1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.29 % 
-blog                     8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.99 % 
+ft_userdata              8 hrs 1 mins        █████████████░░░░░░░░░░░░   50.85 % 
+期权量化                 2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   18.94 % 
+德州扑克GTO简化          2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.54 % 
+日记模板                 1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.71 % 
+blog                     55 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.82 % 
 
 💻 Operating System: 
-Windows                  14 hrs 34 mins      █████████████████████████   99.39 % 
-Unknown OS               5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 % 
+Windows                  15 hrs 41 mins      █████████████████████████   99.43 % 
+Unknown OS               5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 % 
 ```
 
 🏆 **AI Coding All Time** 
@@ -57,7 +57,7 @@ Unknown OS               5 mins              ░░░░░░░░░░░�
 
 💵 ¥3,700 Estimated AI Cost
 
-🧠 66 AI Sessions, 1494 AI Prompts
+🧠 66 AI Sessions, 1505 AI Prompts
 
 gpt-5.6-luna             57,222 lines        █████████████░░░░░░░░░░░░   51.48 % 
 gpt-6.1-sol              43,151 lines        ██████████░░░░░░░░░░░░░░░   38.82 % 
@@ -68,7 +68,7 @@ gpt-6-sol                63 lines            ░░░░░░░░░░░�
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.00% of written lines came from AI
 📚 Verbose Prompter — average 2,238 characters per prompt
-🔁 Iterative Prompter — average 22.6 prompts per session
+🔁 Iterative Prompter — average 22.8 prompts per session
 🚀 High AI Trust — 0.00% of changed lines were hand-edited
 ```
 
@@ -84,7 +84,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 08:15:21 UTC
+ Last Updated on 28/10/2026 10:21:20 UTC
 <!--END_SECTION:waka-->
 
 <picture>
