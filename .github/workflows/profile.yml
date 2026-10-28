@@ -1,0 +1,43 @@
+name: Profile Stats
+
+on:
+  schedule:
+    # Runs at 02:30 Asia/Shanghai
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    name: Update README stats block
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render stats block
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
+          GH_LOGIN: morewhyhan
+        run: python scripts/update_profile.py
+
+      - name: Commit README update
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "README already up to date."
+          else
+            git commit -m "chore: update profile stats"
+            git push
+          fi
