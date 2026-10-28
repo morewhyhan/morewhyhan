@@ -9,7 +9,7 @@
 
 > 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 675 Contributions in the Year 2026
+> 🏆 676 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -82,15 +82,15 @@ gpt-6.1-terra            36 lines            ░░░░░░░░░░░�
 
 💳 **AI Spend** 
 
-> 🟢 ChatGPT Plus · 2026-04 (1 × ¥150) — $21
-> 🔵 ChatGPT Pro · 2026-05 → 2026-07 (3 × ¥700) — $292
-> 🟢 ChatGPT Plus · 2026-08 → 2026-10 (3 × ¥150) — $62
-> 🔁 Relay API · 2026 (一次性) — $69
-> 🐳 DeepSeek API · 2026 (一次性) — $69
-> 
-> **Total — $514** (¥3,700 @ 7.2)
+```text
+ChatGPT Pro (3x ¥700)    $292                ██████████████░░░░░░░░░░░   56.76 % 
+ChatGPT Plus (3x ¥150)   $62                 ███░░░░░░░░░░░░░░░░░░░░░░   12.16 % 
+ChatGPT Plus (1x ¥150)   $21                 █░░░░░░░░░░░░░░░░░░░░░░░░   04.05 % 
+Relay API (one-off)      $69                 ███░░░░░░░░░░░░░░░░░░░░░░   13.51 % 
+DeepSeek API (one-off)   $69                 ███░░░░░░░░░░░░░░░░░░░░░░   13.51 % 
 
-<sub>Pro：2026-05 → 2026-07，共 3 个月；2026-04 为先 Plus 后升级 Pro。中转站与 DeepSeek 为一次性充值。汇率按 1 USD = 7.2 CNY 折算。</sub>
+Total                    $514                ¥3,700 @ 7.2
+```
 
 **I Mostly Code in TypeScript** 
 
@@ -104,7 +104,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 07:30:35 UTC
+ Last Updated on 28/10/2026 07:35:27 UTC
 <!--END_SECTION:waka-->
 
 <picture>
