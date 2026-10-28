@@ -361,13 +361,11 @@ def render_time(waka_data):
     return "\n".join(out)
 
 
-def billing_usd():
+def billing_cny():
     try:
         with open("data/ai-billing.json", encoding="utf-8") as fh:
             data = json.load(fh)
-        rate = float(data.get("exchange_rate_cny_per_usd") or 7.2)
-        total = sum(float(i.get("cny") or 0) for i in data.get("items") or [])
-        return total / rate if total and rate else 0.0
+        return sum(float(i.get("cny") or 0) for i in data.get("items") or [])
     except Exception:
         return 0.0
 
@@ -576,9 +574,11 @@ def render_ai_total(waka_data):
         tin / 1000000 * float(assume.get("input_usd_per_mtok") or 0)
         + tout / 1000000 * float(assume.get("output_usd_per_mtok") or 0)
     )
-    billed = billing_usd()
+    billed = billing_cny()
     if billed > 0:
-        cost = billed
+        cost_text = "\u00a5%s" % format(round(billed), ",")
+    else:
+        cost_text = "$%.2f" % cost
 
     out = ["\U0001F3C6 **AI Coding All Time** ", "", FENCE + "text"]
     out.append("\u23f1 %s" % human_time(ai.get("year_seconds") or 0))
@@ -594,7 +594,7 @@ def render_ai_total(waka_data):
         % (format(tin, ","), format(tout, ","))
     )
     out.append("")
-    out.append("\U0001F4B5 $%.2f Estimated AI Cost" % cost)
+    out.append("\U0001F4B5 %s Estimated AI Cost" % cost_text)
     out.append("")
     out.append(
         "\U0001F9E0 %d AI Sessions, %d AI Prompts"
