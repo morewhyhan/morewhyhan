@@ -9,7 +9,7 @@
 
 > 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 754 Contributions in the Year 2026
+> 🏆 755 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -36,9 +36,9 @@ Cursor                   13 secs             ░░░░░░░░░░░�
 
 🐱‍💻 Projects: 
 ft_userdata              8 hrs 1 mins        █████████████░░░░░░░░░░░░   50.85 % 
-期权量化                 2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   18.94 % 
-德州扑克GTO简化          2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.54 % 
-日记模板                 1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.71 % 
+option-research          2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   18.94 % 
+poker-range-trainer      2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.54 % 
+obsidian-journal         1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.71 % 
 blog                     55 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.82 % 
 
 💻 Operating System: 
@@ -84,7 +84,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 10:21:20 UTC
+ Last Updated on 28/10/2026 10:34:59 UTC
 <!--END_SECTION:waka-->
 
 <picture>
