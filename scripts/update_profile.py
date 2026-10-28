@@ -147,9 +147,9 @@ def collect_github():
                 "https://api.github.com/repos/%s/traffic/views?per=week" % REPO,
                 gh_headers(),
             )
-            views = traffic.get("uniques") or traffic.get("count")
+            views = traffic.get("uniques") or traffic.get("count") or 0
         except Exception:
-            views = None
+            views = 0
 
     return {
         "user": user,
