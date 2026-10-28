@@ -1,0 +1,30 @@
+{
+  "exchange_rate_cny_per_usd": 7.2,
+  "items": [
+    {
+      "label": "ChatGPT Plus",
+      "detail": "2026-04 · 1x ¥150",
+      "cny": 150
+    },
+    {
+      "label": "ChatGPT Pro",
+      "detail": "2026-05→07 · 3x ¥700",
+      "cny": 2100
+    },
+    {
+      "label": "ChatGPT Plus",
+      "detail": "2026-08→10 · 3x ¥150",
+      "cny": 450
+    },
+    {
+      "label": "Relay API",
+      "detail": "one-off",
+      "cny": 500
+    },
+    {
+      "label": "DeepSeek API",
+      "detail": "one-off",
+      "cny": 500
+    }
+  ]
+}

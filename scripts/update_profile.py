@@ -361,6 +361,17 @@ def render_time(waka_data):
     return "\n".join(out)
 
 
+def billing_usd():
+    try:
+        with open("data/ai-billing.json", encoding="utf-8") as fh:
+            data = json.load(fh)
+        rate = float(data.get("exchange_rate_cny_per_usd") or 7.2)
+        total = sum(float(i.get("cny") or 0) for i in data.get("items") or [])
+        return total / rate if total and rate else 0.0
+    except Exception:
+        return 0.0
+
+
 def load_assumptions():
     try:
         with open("data/ai-assumptions.json", encoding="utf-8") as fh:
@@ -565,6 +576,9 @@ def render_ai_total(waka_data):
         tin / 1000000 * float(assume.get("input_usd_per_mtok") or 0)
         + tout / 1000000 * float(assume.get("output_usd_per_mtok") or 0)
     )
+    billed = billing_usd()
+    if billed > 0:
+        cost = billed
 
     out = ["\U0001F3C6 **AI Coding All Time** ", "", FENCE + "text"]
     out.append("\u23f1 %s" % human_time(ai.get("year_seconds") or 0))
