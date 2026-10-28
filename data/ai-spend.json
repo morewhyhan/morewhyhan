@@ -1,0 +1,36 @@
+{
+  "exchange_rate_cny_per_usd": 7.2,
+  "note": "Pro：2026-05 → 2026-07，共 3 个月；2026-04 为先 Plus 后升级 Pro。中转站与 DeepSeek 为一次性充值。汇率按 1 USD = 7.2 CNY 折算。",
+  "items": [
+    {
+      "label": "ChatGPT Plus",
+      "period": "2026-04",
+      "cny": 150,
+      "detail": "1 × ¥150"
+    },
+    {
+      "label": "ChatGPT Pro",
+      "period": "2026-05 → 2026-07",
+      "cny": 2100,
+      "detail": "3 × ¥700"
+    },
+    {
+      "label": "ChatGPT Plus",
+      "period": "2026-08 → 2026-10",
+      "cny": 450,
+      "detail": "3 × ¥150"
+    },
+    {
+      "label": "Relay API",
+      "period": "2026",
+      "cny": 500,
+      "detail": "一次性"
+    },
+    {
+      "label": "DeepSeek API",
+      "period": "2026",
+      "cny": 500,
+      "detail": "一次性"
+    }
+  ]
+}
