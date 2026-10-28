@@ -1,7 +1,7 @@
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-215%20hrs%2046%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-154%20hrs%2021%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-215%20hrs%2046%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-154%20hrs%2021%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -9,7 +9,7 @@
 
 > 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 686 Contributions in the Year 2026
+> 🏆 685 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -49,15 +49,15 @@ Unknown OS               5 mins              ░░░░░░░░░░░�
 🏆 **AI Coding All Time** 
 
 ```text
-⏱ 215 hrs 46 mins
+⏱ 154 hrs 21 mins
 
 ✍️ 111,286 lines written by AI, 0 lines written by hand (100.00% AI-written)
 
-🔤 2,583,653,181 Input Tokens, 16,542,717 Output Tokens
+🔤 2,570,246,093 Input Tokens, 9,722,013 Output Tokens
 
 💵 ¥3,700 Estimated AI Cost
 
-🧠 66 AI Sessions, 1494 AI Prompts
+🧠 39 AI Sessions, 114 AI Prompts
 
 gpt-5.6-luna             57,194 lines        █████████████░░░░░░░░░░░░   51.47 % 
 gpt-6.1-sol              43,151 lines        ██████████░░░░░░░░░░░░░░░   38.83 % 
@@ -68,7 +68,7 @@ gpt-6-sol                63 lines            ░░░░░░░░░░░�
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.00% of written lines came from AI
 📚 Verbose Prompter — average 2,241 characters per prompt
-🔁 Iterative Prompter — average 22.6 prompts per session
+🎯 One-Shot Prompter — average 2.9 prompts per session
 🚀 High AI Trust — 0.00% of changed lines were hand-edited
 ```
 
@@ -84,7 +84,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 08:12:36 UTC
+ Last Updated on 28/10/2026 08:06:20 UTC
 <!--END_SECTION:waka-->
 
 <picture>
