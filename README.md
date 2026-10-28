@@ -1,9 +1,7 @@
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-18%20hrs%2055%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-18%20hrs%2053%20mins-blue?style=flat)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-18%20hrs%2049%20mins-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -22,38 +20,48 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Markdown                 5 hrs 40 mins       ██████████░░░░░░░░░░░░░░░   40.70 % 
-Python                   5 hrs 14 mins       █████████░░░░░░░░░░░░░░░░   37.65 % 
+Markdown                 5 hrs 43 mins       ██████████░░░░░░░░░░░░░░░   41.11 % 
+Python                   5 hrs 11 mins       █████████░░░░░░░░░░░░░░░░   37.25 % 
 JavaScript               53 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.44 % 
 JSON                     48 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.79 % 
 HTML                     36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.35 % 
 
 🔥 Editors: 
-Codex Vscode             12 hrs 50 mins      ███████████████████████░░   92.13 % 
+Codex Vscode             12 hrs 46 mins      ███████████████████████░░   91.72 % 
 Codex CLI                1 hrs 3 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.61 % 
-PyCharm                  2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 % 
+PyCharm                  5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.65 % 
 Cursor                   13 secs             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
 
 🐱‍💻 Projects: 
-ft_userdata              7 hrs 11 mins       █████████████░░░░░░░░░░░░   51.61 % 
+ft_userdata              7 hrs 7 mins        █████████████░░░░░░░░░░░░   51.20 % 
 期权量化                     2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   21.45 % 
 德州扑克GTO简化                2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.60 % 
 日记模板                     1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.73 % 
-github-profile           2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 % 
+github-profile           5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.65 % 
 
 💻 Operating System: 
-Windows                  13 hrs 53 mins      █████████████████████████   99.76 % 
-Unknown OS               2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 % 
+Windows                  13 hrs 50 mins      █████████████████████████   99.35 % 
+Unknown OS               5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.65 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 13 hrs 53 mins (99.76%)
+⏱ AI Coding Time: 13 hrs 50 mins (99.35%)
 
-🔤 38,665,206 Input Tokens, 7,162,878 Output Tokens
+🔤 36,273,186 Input Tokens, 6,739,294 Output Tokens
 
-🧠 20 AI Sessions, 98 AI Prompts
+🧠 18 AI Sessions, 81 AI Prompts
+```
+
+🏆 **AI Coding All Time** 
+
+```text
+⏱ 18 hrs 49 mins
+
+🔤 39,558,457 Input Tokens, 8,830,557 Output Tokens
+
+🧠 36 AI Sessions, 113 AI Prompts
 ```
 
 **I Mostly Code in TypeScript** 
@@ -68,7 +76,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 02:40:57 UTC
+ Last Updated on 28/10/2026 02:53:57 UTC
 <!--END_SECTION:waka-->
 
 <picture>

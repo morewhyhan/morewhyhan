@@ -204,30 +204,54 @@ def collect_wakatime():
         stats = {}
 
     STAGE = "wakatime:heartbeats"
-    sessions = set()
-    prompts = 0
-    tin = tout = 0
-    for i in range(7):
-        day = (now - timedelta(days=i)).strftime("%Y-%m-%d")
+    week_from = (now - timedelta(days=6)).date()
+    today = now.date()
+    cursor = (now - timedelta(days=90)).date()
+
+    acc = {
+        "week": {"sessions": set(), "prompts": 0, "tin": 0, "tout": 0},
+        "all": {"sessions": set(), "prompts": 0, "tin": 0, "tout": 0},
+    }
+
+    while cursor <= today:
+        chunk_end = min(cursor + timedelta(days=1), today)
         try:
-            beats = waka("users/current/heartbeats?date=%s" % day).get("data") or []
+            beats = waka(
+                "users/current/heartbeats?start=%s&end=%s" % (cursor, chunk_end)
+            ).get("data") or []
         except Exception:
-            continue
+            beats = []
+
         for hb in beats:
-            if hb.get("ai_session"):
-                sessions.add(hb["ai_session"])
-            if float(hb.get("ai_prompt_length") or 0) > 0:
-                prompts += 1
-            tin += int(float(hb.get("ai_input_tokens") or 0))
-            tout += int(float(hb.get("ai_output_tokens") or 0))
+            try:
+                day = datetime.fromtimestamp(float(hb.get("time")), timezone.utc).date()
+            except Exception:
+                day = today
+            targets = [acc["all"]] if day < week_from else [acc["all"], acc["week"]]
+            for bucket in targets:
+                if hb.get("ai_session"):
+                    bucket["sessions"].add(hb["ai_session"])
+                if float(hb.get("ai_prompt_length") or 0) > 0:
+                    bucket["prompts"] += 1
+                bucket["tin"] += int(float(hb.get("ai_input_tokens") or 0))
+                bucket["tout"] += int(float(hb.get("ai_output_tokens") or 0))
+
+        cursor = chunk_end + timedelta(days=1)
+        time.sleep(0.05)
 
     ai = {
-        "sessions": len(sessions),
-        "prompts": prompts,
-        "input_tokens": tin,
-        "output_tokens": tout,
+        "sessions": len(acc["week"]["sessions"]),
+        "prompts": acc["week"]["prompts"],
+        "input_tokens": acc["week"]["tin"],
+        "output_tokens": acc["week"]["tout"],
         "seconds": ai_seconds(week.get("data") or []),
         "year_seconds": ai_seconds(year.get("data") or []),
+        "total": {
+            "sessions": len(acc["all"]["sessions"]),
+            "prompts": acc["all"]["prompts"],
+            "input_tokens": acc["all"]["tin"],
+            "output_tokens": acc["all"]["tout"],
+        },
     }
 
     return {"enabled": True, "week": week, "year": year, "stats": stats, "ai": ai}
@@ -448,6 +472,32 @@ def render_languages(gh):
     return "\n".join(out)
 
 
+def render_ai_total(waka_data):
+    ai = waka_data.get("ai") or {}
+    total = ai.get("total") or {}
+    if int(total.get("sessions") or 0) <= 0:
+        return ""
+
+    out = ["\U0001F3C6 **AI Coding All Time** ", "", FENCE + "text"]
+    out.append("\u23f1 %s" % human_time(ai.get("year_seconds") or 0))
+    out.append("")
+    out.append(
+        "\U0001F524 %s Input Tokens, %s Output Tokens"
+        % (
+            format(int(total.get("input_tokens") or 0), ","),
+            format(int(total.get("output_tokens") or 0), ","),
+        )
+    )
+    out.append("")
+    out.append(
+        "\U0001F9E0 %d AI Sessions, %d AI Prompts"
+        % (int(total.get("sessions") or 0), int(total.get("prompts") or 0))
+    )
+    out.append("")
+    out[-1] = FENCE
+    return "\n".join(out)
+
+
 def build_block(gh, waka_data):
     sections = []
 
@@ -466,6 +516,9 @@ def build_block(gh, waka_data):
         sections.append(time_block)
     if ai_block:
         sections.append(ai_block)
+    total_block = render_ai_total(waka_data) if waka_data.get("enabled") else ""
+    if total_block:
+        sections.append(total_block)
     sections.append(render_languages(gh))
 
     now = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M:%S")
