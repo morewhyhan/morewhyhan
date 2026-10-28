@@ -1,7 +1,7 @@
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-19%20hrs%2031%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-19%20hrs%2039%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-19%20hrs%2026%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-19%20hrs%2033%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -9,7 +9,7 @@
 
 > 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 682 Contributions in the Year 2026
+> 🏆 683 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -22,42 +22,42 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Markdown                 5 hrs 44 mins       ██████████░░░░░░░░░░░░░░░   39.44 % 
-Python                   5 hrs 11 mins       █████████░░░░░░░░░░░░░░░░   35.68 % 
-Other                    1 hrs 6 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.68 % 
-JavaScript               55 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.41 % 
-JSON                     48 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.55 % 
+Markdown                 5 hrs 45 mins       ██████████░░░░░░░░░░░░░░░   39.27 % 
+Python                   5 hrs 11 mins       █████████░░░░░░░░░░░░░░░░   35.38 % 
+Other                    1 hrs 8 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.77 % 
+JavaScript               1 hrs 0 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.89 % 
+JSON                     48 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.50 % 
 
 🔥 Editors: 
-Codex Vscode             13 hrs 23 mins      ███████████████████████░░   92.07 % 
-Codex CLI                1 hrs 3 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.29 % 
-PyCharm                  5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.62 % 
+Codex Vscode             13 hrs 30 mins      ███████████████████████░░   92.14 % 
+Codex CLI                1 hrs 3 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.23 % 
+PyCharm                  5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 % 
 Cursor                   13 secs             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
 
 🐱‍💻 Projects: 
-ft_userdata              7 hrs 39 mins       █████████████░░░░░░░░░░░░   52.70 % 
-期权量化                     2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   20.54 % 
-德州扑克GTO简化                2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.86 % 
-日记模板                     1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.36 % 
-github-profile           5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.62 % 
+ft_userdata              7 hrs 41 mins       █████████████░░░░░░░░░░░░   52.41 % 
+期权量化                     2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   20.37 % 
+德州扑克GTO简化                2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.71 % 
+日记模板                     1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.29 % 
+blog                     8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.99 % 
 
 💻 Operating System: 
-Windows                  14 hrs 27 mins      █████████████████████████   99.38 % 
-Unknown OS               5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.62 % 
+Windows                  14 hrs 34 mins      █████████████████████████   99.39 % 
+Unknown OS               5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 % 
 ```
 
 🏆 **AI Coding All Time** 
 
 ```text
-⏱ 19 hrs 26 mins
+⏱ 19 hrs 33 mins
 
 ✍️ 111,284 lines written by AI, 0 lines written by hand (100.00% AI-written)
 
 🔤 2,556,643,868 Input Tokens, 9,709,758 Output Tokens
 
-💵 $3292.90 Estimated AI Cost
+💵 $513.89 Estimated AI Cost
 
-🧠 39 AI Sessions, 112 AI Prompts
+🧠 39 AI Sessions, 114 AI Prompts
 
 gpt-5.6-luna             57,192 lines        █████████████░░░░░░░░░░░░   51.46 % 
 gpt-6.1-sol              43,151 lines        ██████████░░░░░░░░░░░░░░░   38.83 % 
@@ -84,7 +84,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 07:54:26 UTC
+ Last Updated on 28/10/2026 07:59:44 UTC
 <!--END_SECTION:waka-->
 
 <picture>
