@@ -361,6 +361,14 @@ def render_time(waka_data):
     return "\n".join(out)
 
 
+def load_codex_usage():
+    try:
+        with open("data/codex-usage.json", encoding="utf-8") as fh:
+            return json.load(fh)
+    except Exception:
+        return {}
+
+
 def render_ai(waka_data):
     data = waka_data.get("stats") or {}
     category = find_category(data.get("categories"), "AI Coding")
@@ -373,12 +381,19 @@ def render_ai(waka_data):
         cumulative = (waka_data.get("week") or {}).get("cumulative_total") or {}
         total_seconds = float(cumulative.get("seconds") or 0)
         pct = (float(ai.get("seconds") or 0) / total_seconds * 100) if total_seconds else 0.0
+        usage = load_codex_usage().get("week") or {}
         out = ["\U0001F916 **AI Coding This Week** ", "", FENCE + "text"]
         out.append(
             "⏱ AI Coding Time: %s (%.2f%%)"
             % (human_time(ai.get("seconds") or 0), pct)
         )
         out.append("")
+        if int(usage.get("added") or 0) > 0:
+            out.append(
+                "\u270d\ufe0f %s lines written by AI (%s removed)"
+                % (format(int(usage["added"]), ","), format(int(usage.get("removed") or 0), ","))
+            )
+            out.append("")
         out.append(
             "\U0001F524 %s Input Tokens, %s Output Tokens"
             % (format(int(ai.get("input_tokens") or 0), ","), format(int(ai.get("output_tokens") or 0), ","))
@@ -389,6 +404,30 @@ def render_ai(waka_data):
             % (int(ai.get("sessions") or 0), int(ai.get("prompts") or 0))
         )
         out.append("")
+
+        models = usage.get("models") or []
+        if models:
+            total_lines = sum(int(m.get("lines") or 0) for m in models) or 1
+            for model in models:
+                lines = int(model.get("lines") or 0)
+                out.append(row(str(model.get("name", "?")), format(lines, ",") + " lines", lines / total_lines * 100))
+            out.append("")
+
+        insights = []
+        avg_len = int(usage.get("avg_prompt_chars") or 0)
+        if avg_len:
+            style = "\U0001F4DA Verbose Prompter" if avg_len >= 500 else "\u2702\ufe0f Concise Prompter"
+            insights.append("%s \u2014 average %s characters per prompt" % (style, format(avg_len, ",")))
+        sessions_n = int(ai.get("sessions") or 0)
+        if sessions_n:
+            per = float(ai.get("prompts") or 0) / sessions_n
+            style = "\U0001F501 Iterative Prompter" if per >= 3 else "\U0001F3AF One-Shot Prompter"
+            insights.append("%s \u2014 average %.1f prompts per session" % (style, per))
+        if insights:
+            out.append("\U0001F50E AI Coding Insights:")
+            out.extend(insights)
+            out.append("")
+
         out[-1] = FENCE
         return "\n".join(out)
 
@@ -478,9 +517,16 @@ def render_ai_total(waka_data):
     if int(total.get("sessions") or 0) <= 0:
         return ""
 
+    usage = load_codex_usage().get("all") or {}
     out = ["\U0001F3C6 **AI Coding All Time** ", "", FENCE + "text"]
     out.append("\u23f1 %s" % human_time(ai.get("year_seconds") or 0))
     out.append("")
+    if int(usage.get("added") or 0) > 0:
+        out.append(
+            "\u270d\ufe0f %s lines written by AI (%s removed)"
+            % (format(int(usage["added"]), ","), format(int(usage.get("removed") or 0), ","))
+        )
+        out.append("")
     out.append(
         "\U0001F524 %s Input Tokens, %s Output Tokens"
         % (
@@ -560,12 +606,16 @@ def main():
 
     if gh is not None:
         waka_data = {"enabled": False}
+        waka_failed = False
         if WAKA_KEY:
             try:
                 waka_data = collect_wakatime()
             except Exception as exc:
-                problems.append(error_comment(exc))
+                waka_failed = True
                 print("wakatime collection failed at %s: %s" % (STAGE, exc), flush=True)
+        if waka_failed:
+            print("keeping existing README because wakatime is unavailable", flush=True)
+            return 0
         block = build_block(gh, waka_data)
         print("rendered block, wakatime=%s" % waka_data.get("enabled"), flush=True)
 

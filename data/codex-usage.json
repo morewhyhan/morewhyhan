@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-10-28T07:12:03.220Z",
+  "source": "codex-sessions",
+  "week": {
+    "sessions": 28,
+    "prompts": 372,
+    "avg_prompt_chars": 3005,
+    "added": 86444,
+    "removed": 7169,
+    "models": [
+      {
+        "name": "gpt-5.6-luna",
+        "lines": 55062
+      },
+      {
+        "name": "gpt-6.1-sol",
+        "lines": 30810
+      },
+      {
+        "name": "gpt-6-astra",
+        "lines": 473
+      },
+      {
+        "name": "gpt-6-sol",
+        "lines": 63
+      },
+      {
+        "name": "gpt-6.1-terra",
+        "lines": 36
+      }
+    ]
+  },
+  "all": {
+    "sessions": 29,
+    "prompts": 499,
+    "avg_prompt_chars": 2266,
+    "added": 111262,
+    "removed": 7696,
+    "models": [
+      {
+        "name": "gpt-5.6-luna",
+        "lines": 57184
+      },
+      {
+        "name": "gpt-6.1-sol",
+        "lines": 43151
+      },
+      {
+        "name": "gpt-6-astra",
+        "lines": 9002
+      },
+      {
+        "name": "gpt-5.6-sol",
+        "lines": 1720
+      },
+      {
+        "name": "unknown",
+        "lines": 106
+      },
+      {
+        "name": "gpt-6-sol",
+        "lines": 63
+      }
+    ]
+  }
+}
