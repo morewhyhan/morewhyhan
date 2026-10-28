@@ -1,7 +1,7 @@
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-18%20hrs%2053%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-18%20hrs%2055%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-18%20hrs%2053%20mins-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -20,26 +20,38 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Python                   5 hrs 14 mins       █████████░░░░░░░░░░░░░░░░   37.74 % 
-Markdown                 5 hrs 13 mins       █████████░░░░░░░░░░░░░░░░   37.54 % 
-Other                    58 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.97 % 
-JavaScript               53 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.45 % 
-JSON                     48 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.81 % 
+Markdown                 5 hrs 40 mins       ██████████░░░░░░░░░░░░░░░   40.70 % 
+Python                   5 hrs 14 mins       █████████░░░░░░░░░░░░░░░░   37.65 % 
+JavaScript               53 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.44 % 
+JSON                     48 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.79 % 
+HTML                     36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.35 % 
 
 🔥 Editors: 
-Codex Vscode             12 hrs 50 mins      ███████████████████████░░   92.35 % 
-Codex CLI                1 hrs 3 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.63 % 
+Codex Vscode             12 hrs 50 mins      ███████████████████████░░   92.13 % 
+Codex CLI                1 hrs 3 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.61 % 
+PyCharm                  2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 % 
 Cursor                   13 secs             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
 
 🐱‍💻 Projects: 
-ft_userdata              7 hrs 11 mins       █████████████░░░░░░░░░░░░   51.73 % 
-期权量化                     2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   21.50 % 
-德州扑克GTO简化                2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.64 % 
-日记模板                     1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.75 % 
-taskbot                  1 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 % 
+ft_userdata              7 hrs 11 mins       █████████████░░░░░░░░░░░░   51.61 % 
+期权量化                     2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   21.45 % 
+德州扑克GTO简化                2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.60 % 
+日记模板                     1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.73 % 
+github-profile           2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 % 
 
 💻 Operating System: 
-Windows                  13 hrs 53 mins      █████████████████████████   100.00 % 
+Windows                  13 hrs 53 mins      █████████████████████████   99.76 % 
+Unknown OS               2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 % 
+```
+
+🤖 **AI Coding This Week** 
+
+```text
+⏱ AI Coding Time: 13 hrs 53 mins (99.76%)
+
+🔤 38,665,206 Input Tokens, 7,162,878 Output Tokens
+
+🧠 20 AI Sessions, 98 AI Prompts
 ```
 
 **I Mostly Code in TypeScript** 
@@ -54,7 +66,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 01:44:41 UTC
+ Last Updated on 28/10/2026 02:39:37 UTC
 <!--END_SECTION:waka-->
 
 <picture>
@@ -72,3 +84,4 @@ PowerShell               1 repo              ██░░░░░░░░░�
 - [奥德赛意识流](https://morewhyhan.github.io/2026/08/23/life-notes-odyssey/) - 2026-08-23
 - [再挤挤](https://morewhyhan.github.io/2026/08/10/life-notes-make-room/) - 2026-08-10
 <!-- BLOG-POST-LIST:END -->
+

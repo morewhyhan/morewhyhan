@@ -13,6 +13,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -32,16 +33,23 @@ STAGE = "init"
 
 
 def http_text(url, headers=None, timeout=30):
-    req = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "morewhyhan-profile-bot",
-            "Accept": "application/vnd.github+json",
-            **(headers or {}),
-        },
-    )
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read().decode("utf-8", "replace")
+    last = None
+    for attempt in range(3):
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "morewhyhan-profile-bot",
+                "Accept": "application/vnd.github+json",
+                **(headers or {}),
+            },
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8", "replace")
+        except Exception as exc:
+            last = exc
+            time.sleep(2 * (attempt + 1))
+    raise last
 
 
 def http_json(url, headers=None, timeout=30):
@@ -195,12 +203,48 @@ def collect_wakatime():
     except Exception:
         stats = {}
 
-    return {"enabled": True, "week": week, "year": year, "stats": stats}
+    STAGE = "wakatime:heartbeats"
+    sessions = set()
+    prompts = 0
+    tin = tout = 0
+    for i in range(7):
+        day = (now - timedelta(days=i)).strftime("%Y-%m-%d")
+        try:
+            beats = waka("users/current/heartbeats?date=%s" % day).get("data") or []
+        except Exception:
+            continue
+        for hb in beats:
+            if hb.get("ai_session"):
+                sessions.add(hb["ai_session"])
+            if float(hb.get("ai_prompt_length") or 0) > 0:
+                prompts += 1
+            tin += int(float(hb.get("ai_input_tokens") or 0))
+            tout += int(float(hb.get("ai_output_tokens") or 0))
+
+    ai = {
+        "sessions": len(sessions),
+        "prompts": prompts,
+        "input_tokens": tin,
+        "output_tokens": tout,
+        "seconds": ai_seconds(week.get("data") or []),
+        "year_seconds": ai_seconds(year.get("data") or []),
+    }
+
+    return {"enabled": True, "week": week, "year": year, "stats": stats, "ai": ai}
 
 
 # --------------------------------------------------------------------------- #
 # renderers
 # --------------------------------------------------------------------------- #
+
+def ai_seconds(days):
+    total = 0.0
+    for day in days:
+        for cat in day.get("categories") or []:
+            if str(cat.get("name", "")).strip().lower() == "ai coding":
+                total += float(cat.get("total_seconds") or 0)
+    return total
+
 
 def aggregate(days, key, limit=5):
     totals = {}
@@ -218,6 +262,9 @@ def render_badges(gh, waka_data):
         total = (waka_data["year"].get("cumulative_total") or {}).get("text") or ""
         if total and total != "0 secs":
             badges.append(badge("Code Time", total))
+        year_ai = float((waka_data.get("ai") or {}).get("year_seconds") or 0)
+        if year_ai > 0:
+            badges.append(badge("AI Code Time", human_time(year_ai)))
     if gh.get("views") is not None:
         badges.append(badge("Profile Views", gh["views"]))
     return badges
@@ -294,8 +341,32 @@ def render_ai(waka_data):
     data = waka_data.get("stats") or {}
     category = find_category(data.get("categories"), "AI Coding")
     sessions = int(data.get("ai_sessions") or 0)
-    if not category and not sessions:
-        return ""
+
+    if sessions <= 0:
+        ai = waka_data.get("ai") or {}
+        if int(ai.get("sessions") or 0) <= 0:
+            return ""
+        cumulative = (waka_data.get("week") or {}).get("cumulative_total") or {}
+        total_seconds = float(cumulative.get("seconds") or 0)
+        pct = (float(ai.get("seconds") or 0) / total_seconds * 100) if total_seconds else 0.0
+        out = ["\U0001F916 **AI Coding This Week** ", "", FENCE + "text"]
+        out.append(
+            "⏱ AI Coding Time: %s (%.2f%%)"
+            % (human_time(ai.get("seconds") or 0), pct)
+        )
+        out.append("")
+        out.append(
+            "\U0001F524 %s Input Tokens, %s Output Tokens"
+            % (format(int(ai.get("input_tokens") or 0), ","), format(int(ai.get("output_tokens") or 0), ","))
+        )
+        out.append("")
+        out.append(
+            "\U0001F9E0 %d AI Sessions, %d AI Prompts"
+            % (int(ai.get("sessions") or 0), int(ai.get("prompts") or 0))
+        )
+        out.append("")
+        out[-1] = FENCE
+        return "\n".join(out)
 
     ai_add = int(data.get("ai_additions") or 0)
     ai_del = int(data.get("ai_deletions") or 0)
