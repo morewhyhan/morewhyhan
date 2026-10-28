@@ -564,25 +564,24 @@ def render_spend():
         "DeepSeek API": "\U0001F433",
     }
 
-    out = ["\U0001F4B3 **AI Spend** ", ""]
+    out = ["\U0001F4B3 **AI Spend** ", "", FENCE + "text"]
     for item in items:
         label = str(item.get("label", ""))
-        icon = icons.get(label, "\u2022")
         detail = item.get("detail") or ""
-        suffix = " (%s)" % detail if detail else ""
-        usd = float(item.get("cny") or 0) / rate
-        out.append(
-            "> %s %s \u00b7 %s%s \u2014 $%s"
-            % (icon, label, item.get("period", ""), suffix, format(round(usd), ","))
-        )
-    out.append("> ")
+        name = "%s (%s)" % (label, detail) if detail else label
+        cny = float(item.get("cny") or 0)
+        pct = (cny / total_cny * 100) if total_cny else 0.0
+        out.append(row(name, "$%s" % format(round(cny / rate), ","), pct))
+    out.append("")
     out.append(
-        "> **Total \u2014 $%s** (\u00a5%s @ %.1f)"
-        % (format(round(total_cny / rate), ","), format(round(total_cny), ","), rate)
+        "%-25s%-20s%s"
+        % (
+            "Total",
+            "$%s" % format(round(total_cny / rate), ","),
+            "\u00a5%s @ %.1f" % (format(round(total_cny), ","), rate),
+        )
     )
-    if data.get("note"):
-        out.append("")
-        out.append("<sub>%s</sub>" % data["note"])
+    out.append(FENCE)
     return "\n".join(out)
 
 
