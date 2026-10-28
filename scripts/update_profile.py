@@ -591,47 +591,6 @@ def render_ai_total(waka_data):
     return "\n".join(out)
 
 
-def render_spend():
-    try:
-        with open("data/ai-spend.json", encoding="utf-8") as fh:
-            data = json.load(fh)
-    except Exception:
-        return ""
-
-    items = data.get("items") or []
-    if not items:
-        return ""
-
-    rate = float(data.get("exchange_rate_cny_per_usd") or 7.2)
-    total_cny = sum(float(i.get("cny") or 0) for i in items)
-    icons = {
-        "ChatGPT Plus": "\U0001F7E2",
-        "ChatGPT Pro": "\U0001F535",
-        "Relay API": "\U0001F501",
-        "DeepSeek API": "\U0001F433",
-    }
-
-    out = ["\U0001F4B3 **AI Spend** ", "", FENCE + "text"]
-    for item in items:
-        label = str(item.get("label", ""))
-        detail = item.get("detail") or ""
-        name = "%s (%s)" % (label, detail) if detail else label
-        cny = float(item.get("cny") or 0)
-        pct = (cny / total_cny * 100) if total_cny else 0.0
-        out.append(row(name, "$%s" % format(round(cny / rate), ","), pct))
-    out.append("")
-    out.append(
-        "%-25s%-20s%s"
-        % (
-            "Total",
-            "$%s" % format(round(total_cny / rate), ","),
-            "\u00a5%s @ %.1f" % (format(round(total_cny), ","), rate),
-        )
-    )
-    out.append(FENCE)
-    return "\n".join(out)
-
-
 def build_block(gh, waka_data):
     sections = []
 
@@ -653,9 +612,6 @@ def build_block(gh, waka_data):
     total_block = render_ai_total(waka_data) if waka_data.get("enabled") else ""
     if total_block:
         sections.append(total_block)
-    spend_block = render_spend()
-    if spend_block:
-        sections.append(spend_block)
     sections.append(render_languages(gh))
 
     now = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M:%S")
