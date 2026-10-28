@@ -75,7 +75,17 @@ def display_width(text):
 
 def pad(text, width):
     text = str(text)
-    return text + " " * max(0, width - display_width(text))
+    if display_width(text) <= width:
+        return text + " " * (width - display_width(text))
+    kept = ""
+    used = 0
+    for ch in text:
+        ch_width = 2 if unicodedata.east_asian_width(ch) in ("W", "F") else 1
+        if used + ch_width > width - 1:
+            break
+        kept += ch
+        used += ch_width
+    return kept + "\u2026" + " " * (width - used - 1)
 
 
 def row(name, value, pct):
@@ -283,11 +293,21 @@ def ai_seconds(days):
     return total
 
 
-def aggregate(days, key, limit=5):
+def load_project_aliases():
+    try:
+        with open("data/project-aliases.json", encoding="utf-8") as fh:
+            return json.load(fh)
+    except Exception:
+        return {}
+
+
+def aggregate(days, key, limit=5, aliases=None):
     totals = {}
     for day in days:
         for item in day.get(key) or []:
             name = str(item.get("name") or "Other")
+            if aliases:
+                name = aliases.get(name, name)
             totals[name] = totals.get(name, 0.0) + float(item.get("total_seconds") or 0)
     ranked = sorted(totals.items(), key=lambda kv: -kv[1])[:limit]
     return ranked
@@ -377,7 +397,7 @@ def render_time(waka_data):
         ("\U0001F4BB", "Operating System", "operating_systems"),
     ]
     for icon, title, key in sections:
-        ranked = aggregate(days, key)
+        ranked = aggregate(days, key, aliases=load_project_aliases() if key == "projects" else None)
         out.append("%s %s: " % (icon, title))
         if not ranked:
             out.append("No Activity Tracked This Week")
