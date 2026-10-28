@@ -14,6 +14,7 @@ import json
 import os
 import re
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -65,8 +66,20 @@ def bar(pct, width=25):
     return "\u2588" * filled + "\u2591" * (width - filled)
 
 
+def display_width(text):
+    width = 0
+    for ch in str(text):
+        width += 2 if unicodedata.east_asian_width(ch) in ("W", "F") else 1
+    return width
+
+
+def pad(text, width):
+    text = str(text)
+    return text + " " * max(0, width - display_width(text))
+
+
 def row(name, value, pct):
-    return "%-25s%-20s%s   %05.2f %% " % (name, value, bar(pct), pct)
+    return "%s%s%s   %05.2f %% " % (pad(name, 25), pad(value, 20), bar(pct), pct)
 
 
 def human_size(kb):
