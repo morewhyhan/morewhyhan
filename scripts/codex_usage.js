@@ -36,8 +36,9 @@ async function parseFile(file, acc) {
   let model = 'unknown';
   let inWeek = false;
   let inAll = false;
+  let lastUsage = null;
   for await (const line of rl) {
-    if (!line.includes('"FileChange"') && !line.includes('"thread_settings_applied"') && !line.includes('"UserMessage"')) continue;
+    if (!line.includes('"FileChange"') && !line.includes('"thread_settings_applied"') && !line.includes('"UserMessage"') && !line.includes('"token_count"')) continue;
     let obj;
     try { obj = JSON.parse(line); } catch { continue; }
     const p = obj.payload;
@@ -66,13 +67,21 @@ async function parseFile(file, acc) {
       }
       if (ts >= now - ALL_MS) inAll = true;
       if (ts >= now - WEEK_MS) inWeek = true;
+    } else if (p.type === 'token_count') {
+      const usage = (p.info || {}).last_token_usage;
+      if (usage) {
+        const ti = Number(usage.input_tokens || 0);
+        const to = Number(usage.output_tokens || 0);
+        if (ts >= now - WEEK_MS) { acc.week.tokens.in += ti; acc.week.tokens.out += to; }
+        if (ts >= now - ALL_MS) { acc.all.tokens.in += ti; acc.all.tokens.out += to; }
+      }
     }
   }
   if (inAll) acc.all.sessions += 1;
   if (inWeek) acc.week.sessions += 1;
 }
 
-const empty = () => ({ sessions: 0, prompts: 0, promptChars: 0, added: 0, removed: 0, models: {} });
+const empty = () => ({ sessions: 0, prompts: 0, promptChars: 0, added: 0, removed: 0, models: {}, tokens: { in: 0, out: 0 } });
 
 function add(acc, ts, model, a, d, promptLen) {
   if (ts >= now - ALL_MS) bump(acc.all, model, a, d, promptLen);
@@ -99,6 +108,7 @@ function finalize(b) {
     added: b.added,
     removed: b.removed,
     models,
+    tokens: b.tokens,
   };
 }
 

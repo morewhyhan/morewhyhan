@@ -405,10 +405,10 @@ def render_ai(waka_data):
 
         rate_in = float(assume.get("input_usd_per_mtok") or 0)
         rate_out = float(assume.get("output_usd_per_mtok") or 0)
-        cost = (
-            int(ai.get("input_tokens") or 0) / 1000000 * rate_in
-            + int(ai.get("output_tokens") or 0) / 1000000 * rate_out
-        )
+        tokens = usage.get("tokens") or {}
+        tin = int(tokens.get("in") or ai.get("input_tokens") or 0)
+        tout = int(tokens.get("out") or ai.get("output_tokens") or 0)
+        cost = tin / 1000000 * rate_in + tout / 1000000 * rate_out
 
         if ai_lines > 0:
             out.append(
@@ -418,7 +418,7 @@ def render_ai(waka_data):
             out.append("")
         out.append(
             "\U0001F524 %s Input Tokens, %s Output Tokens"
-            % (format(int(ai.get("input_tokens") or 0), ","), format(int(ai.get("output_tokens") or 0), ","))
+            % (format(tin, ","), format(tout, ","))
         )
         out.append("")
         out.append("\U0001F4B5 $%.2f Estimated AI Cost This Week" % cost)
@@ -551,15 +551,19 @@ def render_ai_total(waka_data):
     if int(total.get("sessions") or 0) <= 0:
         return ""
 
-    usage = load_codex_usage().get("all") or {}
+    codex = load_codex_usage()
+    usage = codex.get("all") or {}
+    tokens = usage.get("tokens") or {}
     assume = load_assumptions()
     hand = int(assume.get("hand_lines") or 0)
     ai_lines = int(usage.get("added") or 0)
     written = ai_lines + hand
     ai_pct = (ai_lines / written * 100) if written else 0.0
+    tin = int(tokens.get("in") or total.get("input_tokens") or 0)
+    tout = int(tokens.get("out") or total.get("output_tokens") or 0)
     cost = (
-        int(total.get("input_tokens") or 0) / 1000000 * float(assume.get("input_usd_per_mtok") or 0)
-        + int(total.get("output_tokens") or 0) / 1000000 * float(assume.get("output_usd_per_mtok") or 0)
+        tin / 1000000 * float(assume.get("input_usd_per_mtok") or 0)
+        + tout / 1000000 * float(assume.get("output_usd_per_mtok") or 0)
     )
 
     out = ["\U0001F3C6 **AI Coding All Time** ", "", FENCE + "text"]
@@ -573,10 +577,7 @@ def render_ai_total(waka_data):
         out.append("")
     out.append(
         "\U0001F524 %s Input Tokens, %s Output Tokens"
-        % (
-            format(int(total.get("input_tokens") or 0), ","),
-            format(int(total.get("output_tokens") or 0), ","),
-        )
+        % (format(tin, ","), format(tout, ","))
     )
     out.append("")
     out.append("\U0001F4B5 $%.2f Estimated AI Cost" % cost)
