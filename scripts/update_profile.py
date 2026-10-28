@@ -280,11 +280,20 @@ def aggregate(days, key, limit=5):
     return ranked
 
 
+def load_dsh_usage():
+    try:
+        with open("data/dsh-usage.json", encoding="utf-8") as fh:
+            return json.load(fh)
+    except Exception:
+        return {}
+
+
 def render_badges(gh, waka_data):
     badges = []
     if waka_data.get("enabled"):
         codex = load_codex_usage()
-        active = int((codex.get("all") or {}).get("active_seconds") or 0)
+        dsh = load_dsh_usage()
+        active = int((codex.get("all") or {}).get("active_seconds") or 0) + int(dsh.get("active_seconds") or 0)
         if active > 0:
             badges.append(badge("Code Time", human_time(active)))
             badges.append(badge("AI Code Time", human_time(active)))
@@ -586,7 +595,13 @@ def render_ai_total(waka_data):
     else:
         cost_text = "$%.2f" % cost
 
-    active = int(usage.get("active_seconds") or 0)
+    dsh = load_dsh_usage()
+    active = int(usage.get("active_seconds") or 0) + int(dsh.get("active_seconds") or 0)
+    tin += int((dsh.get("tokens") or {}).get("in") or 0)
+    tout += int((dsh.get("tokens") or {}).get("out") or 0)
+    sessions_total = int(total.get("sessions") or 0) + int(dsh.get("sessions") or 0)
+    prompts_total = int(total.get("prompts") or 0) + int(dsh.get("prompts") or 0)
+
     out = ["\U0001F3C6 **AI Coding All Time** ", "", FENCE + "text"]
     out.append("\u23f1 %s" % human_time(active or ai.get("year_seconds") or 0))
     out.append("")
@@ -605,7 +620,7 @@ def render_ai_total(waka_data):
     out.append("")
     out.append(
         "\U0001F9E0 %d AI Sessions, %d AI Prompts"
-        % (int(total.get("sessions") or 0), int(total.get("prompts") or 0))
+        % (sessions_total, prompts_total)
     )
     out.append("")
 
@@ -630,9 +645,9 @@ def render_ai_total(waka_data):
     if avg_len:
         style = "\U0001F4DA Verbose Prompter" if avg_len >= 500 else "\u2702\ufe0f Concise Prompter"
         insights.append("%s \u2014 average %s characters per prompt" % (style, format(avg_len, ",")))
-    sessions_n = int(total.get("sessions") or 0)
+    sessions_n = sessions_total
     if sessions_n:
-        per = float(total.get("prompts") or 0) / sessions_n
+        per = float(prompts_total) / sessions_n
         style = "\U0001F501 Iterative Prompter" if per >= 3 else "\U0001F3AF One-Shot Prompter"
         insights.append("%s \u2014 average %.1f prompts per session" % (style, per))
     if ai_lines:
