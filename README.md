@@ -1,7 +1,7 @@
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-216%20hrs%206%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-232%20hrs%2012%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-216%20hrs%206%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-232%20hrs%2012%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -9,11 +9,11 @@
 
 > 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 754 Contributions in the Year 2026
+> 🏆 782 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 18 Public Repositories 
+> 📜 19 Public Repositories 
  > 
 
 📊 **This Week I Spent My Time On** 
@@ -22,69 +22,69 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Markdown                 6 hrs 4 mins        ██████████░░░░░░░░░░░░░░░   38.55 % 
-Python                   5 hrs 19 mins       ████████░░░░░░░░░░░░░░░░░   33.79 % 
-JSON                     1 hrs 30 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.59 % 
-JavaScript               1 hrs 18 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.33 % 
-HTML                     36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.84 % 
+Markdown                 7 hrs 51 mins       █████████░░░░░░░░░░░░░░░░   36.32 % 
+Python                   5 hrs 28 mins       ██████░░░░░░░░░░░░░░░░░░░   25.35 % 
+YAML                     3 hrs 0 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.94 % 
+JavaScript               1 hrs 38 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.56 % 
+JSON                     1 hrs 31 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.02 % 
 
 🔥 Editors: 
-Codex Vscode             14 hrs 37 mins      ███████████████████████░░   92.69 % 
-Codex CLI                1 hrs 3 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.72 % 
-PyCharm                  5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 % 
+Codex Vscode             20 hrs 28 mins      ████████████████████████░   94.67 % 
+Codex CLI                1 hrs 3 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.90 % 
+PyCharm                  5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.42 % 
 Cursor                   13 secs             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 🐱‍💻 Projects: 
-ft_userdata              8 hrs 1 mins        █████████████░░░░░░░░░░░░   50.85 % 
-期权量化                 2 hrs 59 mins       █████░░░░░░░░░░░░░░░░░░░░   18.94 % 
-德州扑克GTO简化          2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.54 % 
-日记模板                 1 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.71 % 
-blog                     55 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.82 % 
+ft_userdata              8 hrs 23 mins       ██████████░░░░░░░░░░░░░░░   38.83 % 
+blog                     5 hrs 56 mins       ███████░░░░░░░░░░░░░░░░░░   27.51 % 
+option-research          2 hrs 59 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.82 % 
+poker-range-trainer      2 hrs 27 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.34 % 
+obsidian-journal         1 hrs 12 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.62 % 
 
 💻 Operating System: 
-Windows                  15 hrs 41 mins      █████████████████████████   99.43 % 
-Unknown OS               5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 % 
+Windows                  21 hrs 31 mins      █████████████████████████   99.58 % 
+Unknown OS               5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.42 % 
 ```
 
 🏆 **AI Coding All Time** 
 
 ```text
-⏱ 216 hrs 6 mins
+⏱ 232 hrs 12 mins
 
-✍️ 111,314 lines written by AI, 0 lines written by hand (100.00% AI-written)
+✍️ 118,398 lines written by AI, 0 lines written by hand (100.00% AI-written)
 
-🔤 2,589,714,759 Input Tokens, 16,554,668 Output Tokens
+🔤 2,772,176,821 Input Tokens, 17,122,223 Output Tokens
 
 💵 ¥3,700 Estimated AI Cost
 
-🧠 66 AI Sessions, 1505 AI Prompts
+🧠 67 AI Sessions, 1619 AI Prompts
 
-gpt-5.6-luna             57,222 lines        █████████████░░░░░░░░░░░░   51.48 % 
-gpt-6.1-sol              43,151 lines        ██████████░░░░░░░░░░░░░░░   38.82 % 
-gpt-6-astra              9,002 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   08.10 % 
-gpt-5.6-sol              1,720 lines         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.55 % 
-gpt-6-sol                63 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 % 
+gpt-5.6-luna             57,222 lines        ████████████░░░░░░░░░░░░░   48.40 % 
+gpt-6.1-sol              46,761 lines        ██████████░░░░░░░░░░░░░░░   39.55 % 
+gpt-6-astra              9,898 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   08.37 % 
+gpt-6.1-terra            2,628 lines         █░░░░░░░░░░░░░░░░░░░░░░░░   02.22 % 
+gpt-5.6-sol              1,720 lines         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.45 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.00% of written lines came from AI
-📚 Verbose Prompter — average 2,238 characters per prompt
-🔁 Iterative Prompter — average 22.8 prompts per session
+📚 Verbose Prompter — average 1,892 characters per prompt
+🔁 Iterative Prompter — average 24.2 prompts per session
 🚀 High AI Trust — 0.00% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
 
 ```text
-TypeScript               8 repos             ██████████████░░░░░░░░░░░   57.14 % 
-Python                   4 repos             ███████░░░░░░░░░░░░░░░░░░   28.57 % 
-JavaScript               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   07.14 % 
-PowerShell               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   07.14 % 
+TypeScript               8 repos             █████████████░░░░░░░░░░░░   53.33 % 
+Python                   5 repos             ████████░░░░░░░░░░░░░░░░░   33.33 % 
+JavaScript               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
+PowerShell               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
 ```
 
 
 
 
- Last Updated on 28/10/2026 10:21:20 UTC
+ Last Updated on 29/10/2026 15:31:52 UTC
 <!--END_SECTION:waka-->
 
 <picture>
