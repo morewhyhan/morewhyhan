@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-28T15:30:11.527Z",
+  "generated_at": "2026-10-29T15:30:14.193Z",
   "source": "codex-sessions",
   "week": {
-    "sessions": 29,
-    "prompts": 396,
-    "avg_prompt_chars": 2841,
-    "added": 76120,
-    "removed": 7058,
+    "sessions": 27,
+    "prompts": 457,
+    "avg_prompt_chars": 2170,
+    "added": 51000,
+    "removed": 6345,
     "models": [
       {
-        "name": "gpt-5.6-luna",
-        "lines": 44968
+        "name": "gpt-6.1-sol",
+        "lines": 32672
       },
       {
-        "name": "gpt-6.1-sol",
-        "lines": 29062
+        "name": "gpt-5.6-luna",
+        "lines": 14268
+      },
+      {
+        "name": "gpt-6.1-terra",
+        "lines": 2628
       },
       {
         "name": "gpt-6-astra",
         "lines": 1369
-      },
-      {
-        "name": "gpt-6.1-terra",
-        "lines": 658
       },
       {
         "name": "gpt-6-sol",
@@ -30,17 +30,17 @@
       }
     ],
     "tokens": {
-      "in": 2048275397,
-      "out": 7154272
+      "in": 1516300028,
+      "out": 5252536
     },
-    "active_seconds": 354739
+    "active_seconds": 350178
   },
   "all": {
-    "sessions": 29,
-    "prompts": 523,
-    "avg_prompt_chars": 2176,
-    "added": 112818,
-    "removed": 7734,
+    "sessions": 30,
+    "prompts": 605,
+    "avg_prompt_chars": 1892,
+    "added": 118398,
+    "removed": 8425,
     "models": [
       {
         "name": "gpt-5.6-luna",
@@ -48,25 +48,25 @@
       },
       {
         "name": "gpt-6.1-sol",
-        "lines": 43151
+        "lines": 46761
       },
       {
         "name": "gpt-6-astra",
         "lines": 9898
       },
       {
-        "name": "gpt-5.6-sol",
-        "lines": 1720
+        "name": "gpt-6.1-terra",
+        "lines": 2628
       },
       {
-        "name": "gpt-6.1-terra",
-        "lines": 658
+        "name": "gpt-5.6-sol",
+        "lines": 1720
       }
     ],
     "tokens": {
-      "in": 2597195671,
-      "out": 9841409
+      "in": 2758709138,
+      "out": 10202012
     },
-    "active_seconds": 564447
+    "active_seconds": 602764
   }
 }
