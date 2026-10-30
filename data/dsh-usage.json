@@ -1,13 +1,13 @@
 {
-  "sessions": 27,
-  "prompts": 1425,
+  "sessions": 28,
+  "prompts": 1682,
   "tokens": {
-    "in": 13467683,
-    "out": 6920211
+    "in": 15500142,
+    "out": 7450822
   },
-  "active_seconds": 233215,
+  "active_seconds": 255530,
   "models": {
-    "deepseek-flash": 612,
+    "deepseek-flash": 761,
     "deepseek-v4-flash": 23,
     "deepseek-v4-pro": 4
   }
