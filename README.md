@@ -9,7 +9,7 @@
 
 > 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 770 Contributions in the Year 2026
+> 🏆 772 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -56,6 +56,10 @@ Windows                  26 hrs 28 mins      ███████████�
 
 🧠 89 AI Sessions, 3541 AI Prompts
 
+🧩 Assistants:
+OpenAI Codex             207 hrs 54 mins     ███████████████░░░░░░░░░░   61.77 % 
+DeepSeek DSH             128 hrs 39 mins     ██████████░░░░░░░░░░░░░░░   38.23 % 
+
 gpt-5.6-luna             71,957 lines        █████████████░░░░░░░░░░░░   51.22 % 
 gpt-6.1-sol              49,084 lines        █████████░░░░░░░░░░░░░░░░   34.94 % 
 gpt-6-astra              14,397 lines        ███░░░░░░░░░░░░░░░░░░░░░░   10.25 % 
@@ -81,7 +85,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 06/11/2026 17:36:41 UTC
+ Last Updated on 06/11/2026 17:40:12 UTC
 <!--END_SECTION:waka-->
 
 <picture>
