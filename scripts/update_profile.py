@@ -657,6 +657,15 @@ def render_ai_total(waka_data):
     )
     out.append("")
 
+    codex_active = int(usage.get("active_seconds") or 0)
+    dsh_active = int(dsh.get("active_seconds") or 0)
+    if codex_active and dsh_active:
+        active_total = codex_active + dsh_active
+        out.append("\U0001F9E9 Assistants:")
+        out.append(row("OpenAI Codex", human_time(codex_active), codex_active / active_total * 100))
+        out.append(row("DeepSeek DSH", human_time(dsh_active), dsh_active / active_total * 100))
+        out.append("")
+
     models = usage.get("models") or []
     if models:
         model_total = sum(int(m.get("lines") or 0) for m in models) or 1
