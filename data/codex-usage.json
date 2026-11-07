@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-06T15:30:18.159Z",
+  "generated_at": "2026-11-07T15:30:16.732Z",
   "source": "codex-sessions",
   "week": {
     "sessions": 42,
-    "prompts": 472,
-    "avg_prompt_chars": 3140,
-    "added": 29398,
-    "removed": 3444,
+    "prompts": 486,
+    "avg_prompt_chars": 3064,
+    "added": 30441,
+    "removed": 3509,
     "models": [
       {
         "name": "gpt-5.6-luna",
-        "lines": 17254
+        "lines": 19441
       },
       {
         "name": "gpt-6.1-sol",
-        "lines": 9107
+        "lines": 8482
       },
       {
         "name": "gpt-6-astra",
-        "lines": 2467
+        "lines": 1948
       },
       {
         "name": "gpt-6.1-terra",
@@ -30,43 +30,43 @@
       }
     ],
     "tokens": {
-      "in": 1056346226,
-      "out": 3094260
+      "in": 1090816099,
+      "out": 3223272
     },
-    "active_seconds": 226975
+    "active_seconds": 233127
   },
   "all": {
-    "sessions": 56,
-    "prompts": 845,
-    "avg_prompt_chars": 1864,
-    "added": 140562,
-    "removed": 10586,
+    "sessions": 42,
+    "prompts": 526,
+    "avg_prompt_chars": 2841,
+    "added": 91282,
+    "removed": 6016,
     "models": [
       {
         "name": "gpt-5.6-luna",
-        "lines": 71957
+        "lines": 63582
       },
       {
         "name": "gpt-6.1-sol",
-        "lines": 49084
+        "lines": 24590
       },
       {
         "name": "gpt-6-astra",
-        "lines": 14397
+        "lines": 2467
       },
       {
         "name": "gpt-6.1-terra",
-        "lines": 3485
+        "lines": 636
       },
       {
-        "name": "gpt-5.6-sol",
-        "lines": 1562
+        "name": "gpt-5.6-terra",
+        "lines": 7
       }
     ],
     "tokens": {
-      "in": 3451767166,
-      "out": 12055709
+      "in": 2261822007,
+      "out": 7951777
     },
-    "active_seconds": 748464
+    "active_seconds": 366067
   }
 }
