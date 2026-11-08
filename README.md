@@ -1,7 +1,7 @@
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-336%20hrs%2033%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-283%20hrs%2042%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-336%20hrs%2033%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-283%20hrs%2042%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -9,7 +9,7 @@
 
 > 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 770 Contributions in the Year 2026
+> 🏆 1,530 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -22,50 +22,54 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Markdown                 10 hrs 18 mins      ██████████░░░░░░░░░░░░░░░   38.93 % 
-TypeScript               4 hrs 7 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.55 % 
-CSS                      4 hrs 2 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.29 % 
-JavaScript               3 hrs 8 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.85 % 
-Python                   1 hrs 30 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.72 % 
+Markdown                 9 hrs 45 mins       ██████████░░░░░░░░░░░░░░░   41.00 % 
+TypeScript               4 hrs 55 mins       █████░░░░░░░░░░░░░░░░░░░░   20.71 % 
+CSS                      3 hrs 48 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.98 % 
+JavaScript               1 hrs 34 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.64 % 
+Python                   1 hrs 17 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.41 % 
 
 🔥 Editors: 
-Codex Vscode             26 hrs 19 mins      █████████████████████████   99.45 % 
-Codex CLI                8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.55 % 
+Codex Vscode             23 hrs 40 mins      █████████████████████████   99.49 % 
+Codex CLI                7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.51 % 
 
 🐱‍💻 Projects: 
-whitepaper-english       12 hrs 54 mins      ████████████░░░░░░░░░░░░░   48.77 % 
-quant-research-history   4 hrs 18 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.28 % 
-poker-range-trainer      3 hrs 54 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.75 % 
-mehrwis-skills           3 hrs 29 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.16 % 
-chatgpt-conversation-6ae…1 hrs 14 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   04.67 % 
+whitepaper-english       12 hrs 54 mins      ██████████████░░░░░░░░░░░   54.27 % 
+quant-research-history   4 hrs 18 mins       █████░░░░░░░░░░░░░░░░░░░░   18.11 % 
+mehrwis-skills           3 hrs 29 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.64 % 
+obsidian-journal         1 hrs 16 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.34 % 
+poker-range-trainer      1 hrs 12 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.11 % 
 
 💻 Operating System: 
-Windows                  26 hrs 28 mins      █████████████████████████   100.00 % 
+Windows                  23 hrs 47 mins      █████████████████████████   100.00 % 
 ```
 
 🏆 **AI Coding All Time** 
 
 ```text
-⏱ 336 hrs 33 mins
+⏱ 283 hrs 42 mins
 
-✍️ 140,562 lines written by AI, 0 lines written by hand (100.00% AI-written)
+✍️ 91,734 lines written by AI, 0 lines written by hand (100.00% AI-written)
 
-🔤 3,474,768,585 Input Tokens, 22,565,816 Output Tokens
+🔤 2,311,376,952 Input Tokens, 24,006,021 Output Tokens
 
 💵 ¥3,700 Estimated AI Cost
 
-🧠 89 AI Sessions, 3541 AI Prompts
+🧠 163 AI Sessions, 5136 AI Prompts
 
-gpt-5.6-luna             71,957 lines        █████████████░░░░░░░░░░░░   51.22 % 
-gpt-6.1-sol              49,084 lines        █████████░░░░░░░░░░░░░░░░   34.94 % 
-gpt-6-astra              14,397 lines        ███░░░░░░░░░░░░░░░░░░░░░░   10.25 % 
-gpt-6.1-terra            3,485 lines         █░░░░░░░░░░░░░░░░░░░░░░░░   02.48 % 
-gpt-5.6-sol              1,562 lines         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.11 % 
+🧩 Assistants:
+OpenAI Codex             103 hrs 52 mins     █████████░░░░░░░░░░░░░░░░   36.61 % 
+DeepSeek DSH             179 hrs 50 mins     ████████████████░░░░░░░░░   63.39 % 
+
+gpt-5.6-luna             64,034 lines        █████████████████░░░░░░░░   69.80 % 
+gpt-6.1-sol              24,590 lines        ███████░░░░░░░░░░░░░░░░░░   26.81 % 
+gpt-6-astra              2,467 lines         █░░░░░░░░░░░░░░░░░░░░░░░░   02.69 % 
+gpt-6.1-terra            636 lines           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.69 % 
+gpt-5.6-terra            7 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.00% of written lines came from AI
-📚 Verbose Prompter — average 1,864 characters per prompt
-🔁 Iterative Prompter — average 39.8 prompts per session
+📚 Verbose Prompter — average 2,810 characters per prompt
+🔁 Iterative Prompter — average 31.5 prompts per session
 🚀 High AI Trust — 0.00% of changed lines were hand-edited
 ```
 
@@ -81,7 +85,7 @@ PowerShell               1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 06/11/2026 17:36:41 UTC
+ Last Updated on 08/11/2026 15:31:31 UTC
 <!--END_SECTION:waka-->
 
 <picture>
