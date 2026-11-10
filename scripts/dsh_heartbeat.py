@@ -7,6 +7,7 @@ ROOT = os.path.join(os.path.expanduser("~"), ".dsh", "sessions")
 STATE = os.path.join(BASE, "data", "dsh-heartbeat-state.json")
 MIN_GAP = 60
 BATCH = 100
+UA = "wakatime/v1.0.0 (windows-10.0.26200) go1.27.3 deepseek-harness/1.0"
 dctx = zstandard.ZstdDecompressor()
 EVENT_TYPES = {"user/message", "workspace/changes", "assistant/message", "tool/call"}
 
@@ -28,7 +29,7 @@ def post(beats, key):
     body = json.dumps(beats).encode()
     req = urllib.request.Request(
         url, data=body, method="POST",
-        headers={"Content-Type": "application/json", "User-Agent": "wakatime/deepseek-harness/1.0"},
+        headers={"Content-Type": "application/json", "User-Agent": UA},
     )
     with urllib.request.urlopen(req, timeout=60) as resp:
         return resp.status, resp.read().decode()[:160]
@@ -89,6 +90,7 @@ def main():
                         "category": "ai coding",
                         "project": "deepseek-harness",
                         "is_write": False,
+                        "user_agent": UA,
                     })
         except Exception as exc:
             print("skip", os.path.basename(path), exc)
