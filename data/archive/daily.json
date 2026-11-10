@@ -560,11 +560,11 @@
   "tokens_out": 387400
  },
  "2026-10-04": {
-  "sessions": 3,
-  "active_seconds": 32261,
-  "added": 1457,
-  "tokens_in": 143009627,
-  "tokens_out": 241486
+  "sessions": 4,
+  "active_seconds": 62315,
+  "added": 2397,
+  "tokens_in": 281055317,
+  "tokens_out": 449960
  },
  "2026-10-05": {
   "sessions": 6,
