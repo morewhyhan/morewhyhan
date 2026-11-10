@@ -1,0 +1,3224 @@
+{
+ "generated_at": "2026-11-10T13:34:56.855054+00:00",
+ "sessions": [
+  {
+   "file": "session-54e846f3-9b3c-40cd-a7bf-6714a631c3d4",
+   "path": "--C-Users-why-Documents--/session-54e846f3-9b3c-40cd-a7bf-6714a631c3d4/session.jsonl.zstd",
+   "size": 890,
+   "sha256": "dc802d24c75d2a6af65dccdc3ecbb8d2a3e806837963294016d56f1c817e68eb",
+   "events": 12,
+   "prompts": 0,
+   "start": "2026-08-16T13:45:14.854000+00:00",
+   "end": "2026-08-16T13:45:23.738000+00:00",
+   "active_seconds": 8,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
+   "file": "session-af1001fd-b0cc-4228-b198-2e9032b3074d",
+   "path": "--C-Users-why-Documents-goal-pilot--/session-af1001fd-b0cc-4228-b198-2e9032b3074d/session.jsonl.zstd",
+   "size": 6395263,
+   "sha256": "631408b55cb1154d8cdf74c76fea9cff5ba6b78804788bdaf978ae8faba9b672",
+   "events": 7726,
+   "prompts": 53,
+   "start": "2026-08-16T13:45:40.475000+00:00",
+   "end": "2026-08-16T18:25:33.663000+00:00",
+   "active_seconds": 15025,
+   "tokens": {
+    "in": 1209240,
+    "out": 298156
+   },
+   "models": {
+    "deepseek-v4-pro": 2,
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "session-af1001fd-b0cc-4228-b198-2e9032b3074d",
+   "path": "--C-Users-why-Documents-goal-pilot--/session-af1001fd-b0cc-4228-b198-2e9032b3074d/session.v4.jsonl.zstd",
+   "size": 1723523,
+   "sha256": "925dd98eb6b9ab215e195603ef3ed0fcc24343eaf6adcd74f19d59fce5c07061",
+   "events": 3485,
+   "prompts": 53,
+   "start": "2026-08-16T13:45:40.475000+00:00",
+   "end": "2026-10-18T21:22:54.678000+00:00",
+   "active_seconds": 15925,
+   "tokens": {
+    "in": 1209240,
+    "out": 298156
+   },
+   "models": {
+    "deepseek-v4-pro": 2,
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "e1723ae1-e300-4f4e-90ae-d0195f7f325d",
+   "path": "--C-Users-why-Documents-goal-pilot--/e1723ae1-e300-4f4e-90ae-d0195f7f325d/session.jsonl.zstd",
+   "size": 219727,
+   "sha256": "f14734816ed3e63cd0277e3634486372c1a7da7514489fa134a2b3078bce0cc5",
+   "events": 349,
+   "prompts": 3,
+   "start": "2026-08-16T13:56:11.835000+00:00",
+   "end": "2026-08-16T14:08:38.756000+00:00",
+   "active_seconds": 746,
+   "tokens": {
+    "in": 32562,
+    "out": 11615
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "5e84c370-f865-4995-8d17-93b7fd110b8c",
+   "path": "--C-Users-why-Documents-goal-pilot--/5e84c370-f865-4995-8d17-93b7fd110b8c/session.jsonl.zstd",
+   "size": 747735,
+   "sha256": "705715d22da4c5ecb995f5cf43c7e7018413f65102a4105a6abdd552f2f98b60",
+   "events": 909,
+   "prompts": 8,
+   "start": "2026-08-16T13:57:39.251000+00:00",
+   "end": "2026-08-16T14:19:22.158000+00:00",
+   "active_seconds": 1302,
+   "tokens": {
+    "in": 47315,
+    "out": 37598
+   },
+   "models": {
+    "deepseek-v4-flash": 4
+   }
+  },
+  {
+   "file": "0ce87114-9a19-4532-8f69-8715859694da",
+   "path": "--C-Users-why-Documents-goal-pilot--/0ce87114-9a19-4532-8f69-8715859694da/session.jsonl.zstd",
+   "size": 827510,
+   "sha256": "041d78e1c23ebda48c62acc3fa398a03c43f5d7dea27febe509a3898d07a9210",
+   "events": 1227,
+   "prompts": 2,
+   "start": "2026-08-16T14:17:56.712000+00:00",
+   "end": "2026-08-16T14:41:54.537000+00:00",
+   "active_seconds": 1437,
+   "tokens": {
+    "in": 65834,
+    "out": 52446
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "c3478ef1-fd2b-427f-9aaa-e3a7b4ad7975",
+   "path": "--C-Users-why-Documents-goal-pilot--/c3478ef1-fd2b-427f-9aaa-e3a7b4ad7975/session.jsonl.zstd",
+   "size": 1239752,
+   "sha256": "4cbf5443e97946beec82fafc2a5268ba444b0c205457f7b304a061040b92a322",
+   "events": 1629,
+   "prompts": 2,
+   "start": "2026-08-16T14:38:54.863000+00:00",
+   "end": "2026-08-16T14:55:35.585000+00:00",
+   "active_seconds": 1000,
+   "tokens": {
+    "in": 91821,
+    "out": 80384
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "41a15649-968a-430e-8297-6a7b19483610",
+   "path": "--C-Users-why-Documents-goal-pilot--/41a15649-968a-430e-8297-6a7b19483610/session.jsonl.zstd",
+   "size": 1180832,
+   "sha256": "3389373e01049ffd995a1c8316899c464e25c1c9472c73843478960c312ea9ba",
+   "events": 1881,
+   "prompts": 2,
+   "start": "2026-08-16T15:03:09.268000+00:00",
+   "end": "2026-08-16T15:26:46.845000+00:00",
+   "active_seconds": 1417,
+   "tokens": {
+    "in": 117273,
+    "out": 69164
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "815c6525-3bb7-427a-89eb-895d03d3bffc",
+   "path": "--C-Users-why-Documents-goal-pilot--/815c6525-3bb7-427a-89eb-895d03d3bffc/session.jsonl.zstd",
+   "size": 1255733,
+   "sha256": "f217b0302f0da470d32ef56848572e1e0511bfae50c03781dd6ba135f86feded",
+   "events": 1652,
+   "prompts": 2,
+   "start": "2026-08-16T15:10:13.436000+00:00",
+   "end": "2026-08-16T15:22:37.190000+00:00",
+   "active_seconds": 743,
+   "tokens": {
+    "in": 132746,
+    "out": 64530
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "9189e544-edb3-474f-91e6-1061d079251d",
+   "path": "--C-Users-why-Documents-goal-pilot--/9189e544-edb3-474f-91e6-1061d079251d/session.jsonl.zstd",
+   "size": 921498,
+   "sha256": "1ee9a14a7450b621beddb2b2613166efd62c1f4e4148d9c41fb8d432a9336bb0",
+   "events": 1073,
+   "prompts": 2,
+   "start": "2026-08-16T15:10:13.467000+00:00",
+   "end": "2026-08-16T15:18:34.571000+00:00",
+   "active_seconds": 501,
+   "tokens": {
+    "in": 106255,
+    "out": 46632
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "fece4edd-f9c6-4388-a3b5-9127b9789740",
+   "path": "--C-Users-why-Documents-goal-pilot--/fece4edd-f9c6-4388-a3b5-9127b9789740/session.jsonl.zstd",
+   "size": 860569,
+   "sha256": "4c91e910eec53d9a59a1bdbd27458cc8c35cd48ff30839b4008e1e706a718504",
+   "events": 1265,
+   "prompts": 2,
+   "start": "2026-08-16T15:10:13.489000+00:00",
+   "end": "2026-08-16T15:17:39.248000+00:00",
+   "active_seconds": 445,
+   "tokens": {
+    "in": 101003,
+    "out": 41300
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "687abdd0-157a-4e0c-8dc5-ea8c711355ee",
+   "path": "--C-Users-why-Documents-goal-pilot--/687abdd0-157a-4e0c-8dc5-ea8c711355ee/session.jsonl.zstd",
+   "size": 1062139,
+   "sha256": "96c703cd681748349922a4cfbfc5a66953c55b2e61a1ef7e1d4242b025991931",
+   "events": 1147,
+   "prompts": 2,
+   "start": "2026-08-16T15:10:13.514000+00:00",
+   "end": "2026-08-16T15:19:41.232000+00:00",
+   "active_seconds": 567,
+   "tokens": {
+    "in": 93104,
+    "out": 58360
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "858f576d-80f8-4166-88ef-4b8636c71d79",
+   "path": "--C-Users-why-Documents-goal-pilot--/858f576d-80f8-4166-88ef-4b8636c71d79/session.jsonl.zstd",
+   "size": 1212287,
+   "sha256": "c28aea34e23a8153752a75c121c50cef2152763cceca2be71cac801d5d43c6c9",
+   "events": 1719,
+   "prompts": 2,
+   "start": "2026-08-16T15:22:44.663000+00:00",
+   "end": "2026-08-16T15:47:01.697000+00:00",
+   "active_seconds": 1457,
+   "tokens": {
+    "in": 97183,
+    "out": 73370
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "0d5e65f8-c514-4a35-84a2-b7d1f0514feb",
+   "path": "--C-Users-why-Documents-goal-pilot--/0d5e65f8-c514-4a35-84a2-b7d1f0514feb/session.jsonl.zstd",
+   "size": 1138888,
+   "sha256": "79b1723348a1d9b38e0c9041f85c276f9ae7db4016e805634d0d9fc242333440",
+   "events": 1641,
+   "prompts": 4,
+   "start": "2026-08-16T15:24:16.835000+00:00",
+   "end": "2026-08-16T15:43:29.404000+00:00",
+   "active_seconds": 1152,
+   "tokens": {
+    "in": 75432,
+    "out": 69650
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "2c74c18c-4af2-4360-b209-ce0386cb1620",
+   "path": "--C-Users-why-Documents-goal-pilot--/2c74c18c-4af2-4360-b209-ce0386cb1620/session.jsonl.zstd",
+   "size": 1093379,
+   "sha256": "111cc785a55261228a0632dfe49ca64d5a50d165b776fa7ee0a91a9e4bea3e38",
+   "events": 1865,
+   "prompts": 4,
+   "start": "2026-08-16T15:28:59.544000+00:00",
+   "end": "2026-08-16T15:42:35.027000+00:00",
+   "active_seconds": 815,
+   "tokens": {
+    "in": 126666,
+    "out": 63960
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "d2059933-1c46-4789-8f52-58657f106046",
+   "path": "--C-Users-why-Documents-goal-pilot--/d2059933-1c46-4789-8f52-58657f106046/session.jsonl.zstd",
+   "size": 1059925,
+   "sha256": "20e80bf96142e871fee49d2123f4c5a0212b11f8bf49438f7430b97d1c95eb79",
+   "events": 1408,
+   "prompts": 2,
+   "start": "2026-08-16T15:48:28.915000+00:00",
+   "end": "2026-08-16T16:03:00.016000+00:00",
+   "active_seconds": 871,
+   "tokens": {
+    "in": 63293,
+    "out": 69252
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "cbce7b15-eabc-4e93-a997-691c3e69a0e7",
+   "path": "--C-Users-why-Documents-goal-pilot--/cbce7b15-eabc-4e93-a997-691c3e69a0e7/session.jsonl.zstd",
+   "size": 1535218,
+   "sha256": "6257542f98aae22b6a7180a5b33b59d24a2e5748d41ec3a0508da9abf9aa9775",
+   "events": 2198,
+   "prompts": 5,
+   "start": "2026-08-16T16:16:15.427000+00:00",
+   "end": "2026-08-16T16:36:27.728000+00:00",
+   "active_seconds": 1212,
+   "tokens": {
+    "in": 153181,
+    "out": 97103
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "8b6154be-b14c-4d2d-ab70-f75f2331aafe",
+   "path": "--C-Users-why-Documents-goal-pilot--/8b6154be-b14c-4d2d-ab70-f75f2331aafe/session.jsonl.zstd",
+   "size": 1059979,
+   "sha256": "bff514a7868bb714d3535edc44858129908c054f08fa7ff5ac6d84d3a4874ff1",
+   "events": 1906,
+   "prompts": 4,
+   "start": "2026-08-16T16:54:15.106000+00:00",
+   "end": "2026-08-16T17:21:56.100000+00:00",
+   "active_seconds": 1660,
+   "tokens": {
+    "in": 103400,
+    "out": 59938
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "20912910-12ac-4617-97bc-240d5582359e",
+   "path": "--C-Users-why-Documents-goal-pilot--/20912910-12ac-4617-97bc-240d5582359e/session.jsonl.zstd",
+   "size": 1697685,
+   "sha256": "e98739844b1eee7fe1bfe0eca6c4cebc49c3b9f90d3b82f11e9ddbe2575065f3",
+   "events": 2758,
+   "prompts": 2,
+   "start": "2026-08-16T16:55:23.197000+00:00",
+   "end": "2026-08-16T17:19:44.118000+00:00",
+   "active_seconds": 1460,
+   "tokens": {
+    "in": 153937,
+    "out": 104129
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "01855d9b-f71a-41c6-b307-86f26664bdba",
+   "path": "--C-Users-why-Documents-goal-pilot--/01855d9b-f71a-41c6-b307-86f26664bdba/session.jsonl.zstd",
+   "size": 1442988,
+   "sha256": "074260f4438c8499351852aa8c88f5f16d874561b48ec7bb648e190889bfd9e5",
+   "events": 2539,
+   "prompts": 2,
+   "start": "2026-08-16T17:20:42.355000+00:00",
+   "end": "2026-08-16T17:43:46.266000+00:00",
+   "active_seconds": 1383,
+   "tokens": {
+    "in": 122432,
+    "out": 84113
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "adcc6845-ee16-46d3-8b61-0bce51c8382c",
+   "path": "--C-Users-why-Documents-goal-pilot--/adcc6845-ee16-46d3-8b61-0bce51c8382c/session.jsonl.zstd",
+   "size": 1365184,
+   "sha256": "cee1fc6bb904a97eefa579020e505f78b4e04ce32dbcd6236d6ecb34b51770f1",
+   "events": 2174,
+   "prompts": 2,
+   "start": "2026-08-16T17:53:38.087000+00:00",
+   "end": "2026-08-16T18:19:18.714000+00:00",
+   "active_seconds": 1540,
+   "tokens": {
+    "in": 128586,
+    "out": 83459
+   },
+   "models": {
+    "deepseek-v4-flash": 1
+   }
+  },
+  {
+   "file": "session-7af222b8-4fee-40a3-ac3b-8378ff82ae8c",
+   "path": "--C-Users-why-Documents-goal-pilot--/session-7af222b8-4fee-40a3-ac3b-8378ff82ae8c/session.v4.jsonl.zstd",
+   "size": 431,
+   "sha256": "d931f0d0f03f3d1111d196a1f42269c02f6f22993bf3e8dfab738bfe4f85e3bd",
+   "events": 4,
+   "prompts": 0,
+   "start": "2026-10-18T21:21:59.699000+00:00",
+   "end": "2026-10-18T21:22:29.720000+00:00",
+   "active_seconds": 30,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
+   "file": "session-27d73d06-d914-4dbb-af70-7f4840371f4e",
+   "path": "--C-Users-why-Documents-Downloads--/session-27d73d06-d914-4dbb-af70-7f4840371f4e/session.v4.jsonl.zstd",
+   "size": 329,
+   "sha256": "bcf0df2d009c5d3fb4f5009e1883d916f08d73dd9aa5da10521490382db29234",
+   "events": 3,
+   "prompts": 0,
+   "start": "2026-10-19T19:54:12.699000+00:00",
+   "end": "2026-10-19T19:54:12.702000+00:00",
+   "active_seconds": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
+   "file": "session-23607153-282b-4d49-b37a-0aca8346ed85",
+   "path": "--C-Users-why-Documents-ChatGPT-~77E5~8BC6~4ED3~5E93~7814~7A76--/session-23607153-282b-4d49-b37a-0aca8346ed85/session.v4.jsonl.zstd",
+   "size": 25982559,
+   "sha256": "7edf5db02b51557477944e6241b08054ff167deb445d1151d70811fefbbc590b",
+   "events": 31972,
+   "prompts": 669,
+   "start": "2026-10-19T19:54:29.685000+00:00",
+   "end": "2026-10-22T13:12:08.250000+00:00",
+   "active_seconds": 34326,
+   "tokens": {
+    "in": 4594807,
+    "out": 2947179
+   },
+   "models": {
+    "deepseek-flash": 559
+   }
+  },
+  {
+   "file": "session-d149e8ad-023e-47b0-8a55-5e41d6e17319",
+   "path": "--C-Users-why-Desktop-~82F1~8BED~8BED~6CD5~5B66~4E60--/session-d149e8ad-023e-47b0-8a55-5e41d6e17319/session.v4.jsonl.zstd",
+   "size": 218766,
+   "sha256": "197b4e9dbce313e74ddee150177117bd0c26fa183208e9a34b52b2dd0f7a4bd3",
+   "events": 314,
+   "prompts": 7,
+   "start": "2026-10-19T20:06:22.401000+00:00",
+   "end": "2026-10-19T20:12:25.923000+00:00",
+   "active_seconds": 363,
+   "tokens": {
+    "in": 18891,
+    "out": 20183
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "session-c387d1b2-8ddd-4e73-98cc-ed13745359b8",
+   "path": "--C-Users-why-Desktop-~82F1~8BED~8BED~6CD5~5B66~4E60--/session-c387d1b2-8ddd-4e73-98cc-ed13745359b8/session.v4.jsonl.zstd",
+   "size": 522728,
+   "sha256": "3bf3085a6e13684c02c831dc58cfc58c927544c5fb4dafe1ce8d5a8b00416287",
+   "events": 800,
+   "prompts": 28,
+   "start": "2026-10-19T20:18:59.456000+00:00",
+   "end": "2026-10-27T22:46:38.555000+00:00",
+   "active_seconds": 4766,
+   "tokens": {
+    "in": 58335,
+    "out": 61001
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "session-f63299a5-583b-4884-950e-dd21196f347e",
+   "path": "--C-Users-why-Desktop-ft_userdata--/session-f63299a5-583b-4884-950e-dd21196f347e/session.v4.jsonl.zstd",
+   "size": 18123076,
+   "sha256": "52cbc2caae988e936204172c928ae8268f5f021384faea9dde7e112574c0a67f",
+   "events": 35599,
+   "prompts": 655,
+   "start": "2026-10-22T13:13:32.608000+00:00",
+   "end": "2026-11-09T23:55:08.477000+00:00",
+   "active_seconds": 173591,
+   "tokens": {
+    "in": 4400721,
+    "out": 1856868
+   },
+   "models": {
+    "deepseek-flash": 53
+   }
+  },
+  {
+   "file": "session-a3220ee0-a39a-441e-a954-9c1f32aa446d",
+   "path": "--C-Users-why-Desktop-ft_userdata--/session-a3220ee0-a39a-441e-a954-9c1f32aa446d/session.v4.jsonl.zstd",
+   "size": 326,
+   "sha256": "675f4e577040b8557a715b382087e190cdb41bad07ff03eaa2b11db5756c1abf",
+   "events": 3,
+   "prompts": 0,
+   "start": "2026-10-25T21:13:51.471000+00:00",
+   "end": "2026-10-25T21:13:51.472000+00:00",
+   "active_seconds": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
+   "file": "session-648f5df2-7d45-414d-8f26-ed419ddbb709",
+   "path": "--C-Users-why-Documents-ChatGPT-~65E5~8BB0~6A21~677F--/session-648f5df2-7d45-414d-8f26-ed419ddbb709/session.v4.jsonl.zstd",
+   "size": 5855151,
+   "sha256": "0f9b6624a2c948ff67a51958dc0264a9b5ba58e601c5d4c56f8e292da00f05cd",
+   "events": 8628,
+   "prompts": 90,
+   "start": "2026-10-27T10:06:33.955000+00:00",
+   "end": "2026-11-01T13:53:06.427000+00:00",
+   "active_seconds": 27334,
+   "tokens": {
+    "in": 1102160,
+    "out": 449371
+   },
+   "models": {
+    "deepseek-flash": 2
+   }
+  },
+  {
+   "file": "session-b00b1d24-4305-44fe-bd13-0bef8c7b4cf4",
+   "path": "--C-Users-why-Documents-ChatGPT-~65E5~8BB0~6A21~677F--/session-b00b1d24-4305-44fe-bd13-0bef8c7b4cf4/session.v4.jsonl.zstd",
+   "size": 356,
+   "sha256": "be2db628011b45b2cfa14de4326f34ae19d79b32e7a2e6c3ba9252b9faee534a",
+   "events": 3,
+   "prompts": 0,
+   "start": "2026-10-27T14:26:43.638000+00:00",
+   "end": "2026-10-27T14:26:43.639000+00:00",
+   "active_seconds": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
+   "file": "session-da6630ba-fa70-4493-8b9c-8d2f68ef27b1",
+   "path": "--C-Users-why-Documents-ChatGPT-~65E5~8BB0~6A21~677F--/session-da6630ba-fa70-4493-8b9c-8d2f68ef27b1/session.v4.jsonl.zstd",
+   "size": 609581,
+   "sha256": "345e5c373829d5a8405a9ee8aec70e9a7f438ed8606dbe3f76972a6ef817cfa0",
+   "events": 523,
+   "prompts": 10,
+   "start": "2026-10-27T14:31:36.435000+00:00",
+   "end": "2026-10-27T14:51:21.631000+00:00",
+   "active_seconds": 1185,
+   "tokens": {
+    "in": 202430,
+    "out": 64985
+   },
+   "models": {
+    "deepseek-flash": 2
+   }
+  },
+  {
+   "file": "session-135c4667-27ab-42d0-b1c9-69a350dec9ef",
+   "path": "--C-Users-why-Documents-ChatGPT-github~4E3B~9875--/session-135c4667-27ab-42d0-b1c9-69a350dec9ef/session.v4.jsonl.zstd",
+   "size": 4020754,
+   "sha256": "7fb948140dee94534ed72fd2f5c97ccfcb95a5f51109b6a5623727df4e2a3df5",
+   "events": 6409,
+   "prompts": 118,
+   "start": "2026-10-28T00:28:15.937000+00:00",
+   "end": "2026-11-10T13:33:57.445000+00:00",
+   "active_seconds": 24530,
+   "tokens": {
+    "in": 245531,
+    "out": 495169
+   },
+   "models": {
+    "deepseek-flash": 3
+   }
+  },
+  {
+   "file": "session-c3d3fad8-5ada-4d1b-9557-0e9dd7700b11",
+   "path": "--C-Users-why-Desktop-ft_userdata--/session-c3d3fad8-5ada-4d1b-9557-0e9dd7700b11/session.v4.jsonl.zstd",
+   "size": 327,
+   "sha256": "f97551ff68111ed7dc78d704d158461e05d3d93bc363a8c0c7a47aafdad1b071",
+   "events": 3,
+   "prompts": 0,
+   "start": "2026-10-28T03:24:37.980000+00:00",
+   "end": "2026-10-28T03:24:37.981000+00:00",
+   "active_seconds": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
+   "file": "session-26350d64-ac96-4238-9a2d-ea0eb91f19a1",
+   "path": "--C-Users-why-Documents-ChatGPT-~65E5~8BB0~6A21~677F--/session-26350d64-ac96-4238-9a2d-ea0eb91f19a1/session.v4.jsonl.zstd",
+   "size": 18027722,
+   "sha256": "1a750097417966858e116513f2641d0d16a6e4c73ed5fc1583ba405ca54a4a69",
+   "events": 27349,
+   "prompts": 822,
+   "start": "2026-10-30T05:27:45.547000+00:00",
+   "end": "2026-11-01T21:49:13.914000+00:00",
+   "active_seconds": 88985,
+   "tokens": {
+    "in": 4287386,
+    "out": 1451814
+   },
+   "models": {
+    "deepseek-flash": 264
+   }
+  },
+  {
+   "file": "session-2e6dbac0-6456-4607-9fa9-8164cdabff42",
+   "path": "--C-Users-why-Documents-ChatGPT-igent-Ignite--/session-2e6dbac0-6456-4607-9fa9-8164cdabff42/session.v4.jsonl.zstd",
+   "size": 29405301,
+   "sha256": "a5fbb4cffffdc7de139502875f3fc62d693f728e8f9b02a948661e834c6ab847",
+   "events": 50076,
+   "prompts": 1515,
+   "start": "2026-11-05T15:53:28.256000+00:00",
+   "end": "2026-11-08T21:46:53.736000+00:00",
+   "active_seconds": 165723,
+   "tokens": {
+    "in": 5103829,
+    "out": 2418204
+   },
+   "models": {
+    "deepseek-flash": 543
+   }
+  },
+  {
+   "file": "c916603f-731c-425b-ba25-e00b7437487a",
+   "path": "--C-Users-why-Documents-ChatGPT-igent-Ignite--/c916603f-731c-425b-ba25-e00b7437487a/session.v4.jsonl.zstd",
+   "size": 449787,
+   "sha256": "5c552e2f8f92495087bfd4b23d1ece40492601dc3b6f66d4edcd03177231e9b5",
+   "events": 403,
+   "prompts": 5,
+   "start": "2026-11-05T16:39:19.236000+00:00",
+   "end": "2026-11-05T16:45:05.696000+00:00",
+   "active_seconds": 346,
+   "tokens": {
+    "in": 54240,
+    "out": 55243
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "4e6085c2-9e63-4844-be99-e323b002007b",
+   "path": "--C-Users-why-Documents-ChatGPT-igent-Ignite--/4e6085c2-9e63-4844-be99-e323b002007b/session.v4.jsonl.zstd",
+   "size": 1110836,
+   "sha256": "c43836214a6e6ff4786e6ca6f41e47fbd80d82e4524fb4e082d9810d779f4541",
+   "events": 685,
+   "prompts": 11,
+   "start": "2026-11-05T16:51:02.058000+00:00",
+   "end": "2026-11-05T17:13:45.302000+00:00",
+   "active_seconds": 1363,
+   "tokens": {
+    "in": 115338,
+    "out": 211343
+   },
+   "models": {
+    "deepseek-flash": 5
+   }
+  },
+  {
+   "file": "ed3c40cb-303c-40fa-aeb4-4ae8d0ef7ad4",
+   "path": "--C-Users-why-Documents-ChatGPT-igent-Ignite--/ed3c40cb-303c-40fa-aeb4-4ae8d0ef7ad4/session.v4.jsonl.zstd",
+   "size": 3440443,
+   "sha256": "54637d4114ea71f4e3c38faa203d0e241104f231f25448db551bb2e61aae4696",
+   "events": 3515,
+   "prompts": 73,
+   "start": "2026-11-05T17:33:20.961000+00:00",
+   "end": "2026-11-06T11:12:09.618000+00:00",
+   "active_seconds": 25358,
+   "tokens": {
+    "in": 1168225,
+    "out": 553560
+   },
+   "models": {
+    "deepseek-flash": 42
+   }
+  },
+  {
+   "file": "4ea277bc-8ec8-4dbf-98d3-a922ed064c28",
+   "path": "--C-Users-why-Documents-ChatGPT-igent-Ignite--/4ea277bc-8ec8-4dbf-98d3-a922ed064c28/session.v4.jsonl.zstd",
+   "size": 33698,
+   "sha256": "4b0f209e148781c95fa34bde0f5b0ff46d47f878792187e5edb1c5581841fbd5",
+   "events": 44,
+   "prompts": 5,
+   "start": "2026-11-07T15:30:48.564000+00:00",
+   "end": "2026-11-07T15:31:04.073000+00:00",
+   "active_seconds": 15,
+   "tokens": {
+    "in": 5469,
+    "out": 616
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "8890f60a-c899-450d-9a8a-2fabf30a4a16",
+   "path": "--C-Users-why-Documents-ChatGPT-igent-Ignite--/8890f60a-c899-450d-9a8a-2fabf30a4a16/session.v4.jsonl.zstd",
+   "size": 267679,
+   "sha256": "ed2544093974076b12ae99784ce7f66fc6c550351710b0164a24a5e3aaac32a7",
+   "events": 214,
+   "prompts": 5,
+   "start": "2026-11-07T15:30:55.517000+00:00",
+   "end": "2026-11-07T15:32:31.730000+00:00",
+   "active_seconds": 96,
+   "tokens": {
+    "in": 51749,
+    "out": 5062
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "988a899a-af6c-457c-9d59-db688d81f436",
+   "path": "--C-Users-why-Documents-ChatGPT-igent-Ignite--/988a899a-af6c-457c-9d59-db688d81f436/session.v4.jsonl.zstd",
+   "size": 221001,
+   "sha256": "5f72090bebde969d0e78b1033d1088c2a5d8d0f25afb6515a8ec743928315355",
+   "events": 188,
+   "prompts": 5,
+   "start": "2026-11-07T15:35:18.545000+00:00",
+   "end": "2026-11-07T15:36:57.570000+00:00",
+   "active_seconds": 99,
+   "tokens": {
+    "in": 55480,
+    "out": 7284
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "94ac5bc6-cf1f-40ba-a28f-f7afa1ac800c",
+   "path": "--C-Users-why-Documents-ChatGPT-igent-Ignite--/94ac5bc6-cf1f-40ba-a28f-f7afa1ac800c/session.v4.jsonl.zstd",
+   "size": 869842,
+   "sha256": "9bed5a19b19ce362da8e42825817935b7c672d7a2ca70648261071160ee3ef68",
+   "events": 715,
+   "prompts": 6,
+   "start": "2026-11-07T15:38:30.563000+00:00",
+   "end": "2026-11-07T15:52:29.772000+00:00",
+   "active_seconds": 839,
+   "tokens": {
+    "in": 133535,
+    "out": 101460
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "935880a4-9b3e-483a-9fb7-55d3e2936f05",
+   "path": "--C-Users-why-Documents-ChatGPT-igent-Ignite--/935880a4-9b3e-483a-9fb7-55d3e2936f05/session.v4.jsonl.zstd",
+   "size": 310596,
+   "sha256": "7d0bd14043788234b4e400f44171c7fa11cdb287aa9e37849db307bca9b5e2d5",
+   "events": 222,
+   "prompts": 5,
+   "start": "2026-11-07T15:48:56.898000+00:00",
+   "end": "2026-11-07T15:52:29.776000+00:00",
+   "active_seconds": 212,
+   "tokens": {
+    "in": 57805,
+    "out": 19251
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "session-c07e6f04-3bbb-4a6f-913f-5ff084d2c1af",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/session-c07e6f04-3bbb-4a6f-913f-5ff084d2c1af/session.v4.jsonl.zstd",
+   "size": 14113565,
+   "sha256": "21e19574c10ed33905e2309b120776ab7dd8c9be30acce5fbc2d56e50504356d",
+   "events": 24549,
+   "prompts": 593,
+   "start": "2026-11-07T17:01:33.106000+00:00",
+   "end": "2026-11-10T13:33:24.900000+00:00",
+   "active_seconds": 105222,
+   "tokens": {
+    "in": 3534697,
+    "out": 1494204
+   },
+   "models": {
+    "deepseek-flash": 31
+   }
+  },
+  {
+   "file": "981d2441-7113-4c56-9cc3-faaea990e2b0",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/981d2441-7113-4c56-9cc3-faaea990e2b0/session.v4.jsonl.zstd",
+   "size": 1802848,
+   "sha256": "bba23574f8cf4383bb85ef23f6506cad21024ac846ee57b1c75d2c555d43fb49",
+   "events": 1054,
+   "prompts": 30,
+   "start": "2026-11-07T20:05:37.784000+00:00",
+   "end": "2026-11-07T22:59:28.339000+00:00",
+   "active_seconds": 7694,
+   "tokens": {
+    "in": 209432,
+    "out": 379354
+   },
+   "models": {
+    "deepseek-flash": 16
+   }
+  },
+  {
+   "file": "2f4ab65c-e576-4307-bafb-5c3d4454baac",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/2f4ab65c-e576-4307-bafb-5c3d4454baac/session.v4.jsonl.zstd",
+   "size": 269221,
+   "sha256": "7e40a13e5a75dbe6d70ce13024425b4881bccfb06ac3ed93e148ff38074aa2d7",
+   "events": 155,
+   "prompts": 5,
+   "start": "2026-11-08T06:22:42.519000+00:00",
+   "end": "2026-11-08T06:27:01.817000+00:00",
+   "active_seconds": 259,
+   "tokens": {
+    "in": 22335,
+    "out": 23143
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "0a80c503-eac5-4aca-bb40-c8b5c580610c",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/0a80c503-eac5-4aca-bb40-c8b5c580610c/session.v4.jsonl.zstd",
+   "size": 175370,
+   "sha256": "e43810eede8f9ff6173761aad0c41bfe4e706fbb06c3e5d3f66da673b5b6f82c",
+   "events": 169,
+   "prompts": 5,
+   "start": "2026-11-08T06:22:42.521000+00:00",
+   "end": "2026-11-08T06:25:57.999000+00:00",
+   "active_seconds": 195,
+   "tokens": {
+    "in": 18713,
+    "out": 22723
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "75e39fdc-9228-4c8c-9dc4-5f66b5acb12f",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/75e39fdc-9228-4c8c-9dc4-5f66b5acb12f/session.v4.jsonl.zstd",
+   "size": 268951,
+   "sha256": "7b2b5216d06945b4202d4071a8399043f66b984fc61b1174ecd1f482b7634cce",
+   "events": 161,
+   "prompts": 5,
+   "start": "2026-11-08T06:22:42.521000+00:00",
+   "end": "2026-11-08T06:25:54.243000+00:00",
+   "active_seconds": 191,
+   "tokens": {
+    "in": 25100,
+    "out": 34219
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "af9a7467-d5f6-4ae5-8a72-9b6b073f5afe",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/af9a7467-d5f6-4ae5-8a72-9b6b073f5afe/session.v4.jsonl.zstd",
+   "size": 252772,
+   "sha256": "79981c8057da192c66eead954071e026c266cbbcfcc080ffdd40c7918f3ac689",
+   "events": 177,
+   "prompts": 5,
+   "start": "2026-11-08T06:22:42.523000+00:00",
+   "end": "2026-11-08T06:28:39.892000+00:00",
+   "active_seconds": 357,
+   "tokens": {
+    "in": 24811,
+    "out": 31691
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "e741d58a-5057-48b5-9bab-fb40f9390801",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/e741d58a-5057-48b5-9bab-fb40f9390801/session.v4.jsonl.zstd",
+   "size": 291636,
+   "sha256": "04213f0297538e9bd2e98c887e3bb4b1253d69b61210321d249c9700a3207509",
+   "events": 193,
+   "prompts": 5,
+   "start": "2026-11-08T06:22:42.524000+00:00",
+   "end": "2026-11-08T06:25:18.245000+00:00",
+   "active_seconds": 155,
+   "tokens": {
+    "in": 20277,
+    "out": 15640
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "ad20b423-b432-4620-8878-c17606e838f6",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/ad20b423-b432-4620-8878-c17606e838f6/session.v4.jsonl.zstd",
+   "size": 430121,
+   "sha256": "3c15fa7823fd54310cc852ac89d764a4f1691a7758d97b400ea978fe9827380f",
+   "events": 203,
+   "prompts": 5,
+   "start": "2026-11-08T06:22:42.526000+00:00",
+   "end": "2026-11-08T06:25:55.660000+00:00",
+   "active_seconds": 193,
+   "tokens": {
+    "in": 19201,
+    "out": 23236
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "acf0d6c6-9303-4146-a95e-cd653c0b2853",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/acf0d6c6-9303-4146-a95e-cd653c0b2853/session.v4.jsonl.zstd",
+   "size": 128363,
+   "sha256": "9e3f6f7f1007b8c4217c2045b81d81ed41b48f70e86a6ed0b8f33046ecd33b67",
+   "events": 115,
+   "prompts": 5,
+   "start": "2026-11-08T06:47:27.315000+00:00",
+   "end": "2026-11-08T06:50:56.893000+00:00",
+   "active_seconds": 209,
+   "tokens": {
+    "in": 11004,
+    "out": 19854
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "25d6856b-d69e-428b-9a3c-986e518f770f",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/25d6856b-d69e-428b-9a3c-986e518f770f/session.v4.jsonl.zstd",
+   "size": 164241,
+   "sha256": "6842874181dae7a69b5af5b15b9ae9e83f7e0a31b53926dce05c0aa96602608b",
+   "events": 133,
+   "prompts": 5,
+   "start": "2026-11-08T06:47:27.316000+00:00",
+   "end": "2026-11-08T06:51:30.934000+00:00",
+   "active_seconds": 243,
+   "tokens": {
+    "in": 11822,
+    "out": 29353
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "86d3b776-72ef-4f04-9ffb-312349d8b3fb",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/86d3b776-72ef-4f04-9ffb-312349d8b3fb/session.v4.jsonl.zstd",
+   "size": 118153,
+   "sha256": "b627871a89373e096230b0953e49d999beab2c7904f18f781e97bc487282e8fc",
+   "events": 111,
+   "prompts": 5,
+   "start": "2026-11-08T06:47:27.317000+00:00",
+   "end": "2026-11-08T06:49:16.320000+00:00",
+   "active_seconds": 109,
+   "tokens": {
+    "in": 11030,
+    "out": 18946
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "8a1d1b7a-e4d2-4392-9e75-e437817f74a2",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/8a1d1b7a-e4d2-4392-9e75-e437817f74a2/session.v4.jsonl.zstd",
+   "size": 153727,
+   "sha256": "2bd8abbcc475b2960890e6afa680a6f0463f8ad7ec7f5fdfba22d665f1f9a9ea",
+   "events": 135,
+   "prompts": 5,
+   "start": "2026-11-08T06:47:27.318000+00:00",
+   "end": "2026-11-08T06:52:04.113000+00:00",
+   "active_seconds": 276,
+   "tokens": {
+    "in": 11803,
+    "out": 24293
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "631372a0-69ab-470c-8b59-695d28a0debc",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/631372a0-69ab-470c-8b59-695d28a0debc/session.v4.jsonl.zstd",
+   "size": 205319,
+   "sha256": "cf44467370e2ea28599acaebc0c132bb37b5bc9d30f993392998fe3942b02999",
+   "events": 191,
+   "prompts": 5,
+   "start": "2026-11-08T07:47:38.757000+00:00",
+   "end": "2026-11-08T07:53:16.409000+00:00",
+   "active_seconds": 337,
+   "tokens": {
+    "in": 16944,
+    "out": 37912
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "a71f68f6-4995-4222-9a6f-1b555614c8a5",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/a71f68f6-4995-4222-9a6f-1b555614c8a5/session.v4.jsonl.zstd",
+   "size": 173645,
+   "sha256": "11e818a4a029f6a28311d651ccad4c6ec4cbfba6da1ed85f3736d92c3421c28e",
+   "events": 135,
+   "prompts": 5,
+   "start": "2026-11-08T07:47:38.757000+00:00",
+   "end": "2026-11-08T07:51:28.894000+00:00",
+   "active_seconds": 230,
+   "tokens": {
+    "in": 11951,
+    "out": 29791
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "0dd5920c-eee2-4cc8-a528-54ee5e5e70e7",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/0dd5920c-eee2-4cc8-a528-54ee5e5e70e7/session.v4.jsonl.zstd",
+   "size": 161920,
+   "sha256": "77fe7f19d21ed231f15f4f3a464a666752be0643c472790d43555f571221a5a9",
+   "events": 125,
+   "prompts": 5,
+   "start": "2026-11-08T07:47:38.758000+00:00",
+   "end": "2026-11-08T07:50:29.399000+00:00",
+   "active_seconds": 170,
+   "tokens": {
+    "in": 24926,
+    "out": 26181
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "52c93bd7-7f0e-42ca-b069-ed6e2c21ee59",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/52c93bd7-7f0e-42ca-b069-ed6e2c21ee59/session.v4.jsonl.zstd",
+   "size": 169890,
+   "sha256": "2765a795a9ce83108a930b5cd9726eab4c9becb5ba103c19760c75ff2d6b61ce",
+   "events": 123,
+   "prompts": 5,
+   "start": "2026-11-08T07:47:38.759000+00:00",
+   "end": "2026-11-08T07:51:21.226000+00:00",
+   "active_seconds": 222,
+   "tokens": {
+    "in": 11777,
+    "out": 35751
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "52e859c0-29b0-415e-93d0-6394a4c309df",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/52e859c0-29b0-415e-93d0-6394a4c309df/session.v4.jsonl.zstd",
+   "size": 156590,
+   "sha256": "424b122f81f978fdea24d39f0ed3886eb042a7635bddeaab701dc6fe4a447f3c",
+   "events": 127,
+   "prompts": 5,
+   "start": "2026-11-08T07:47:38.759000+00:00",
+   "end": "2026-11-08T07:51:08.091000+00:00",
+   "active_seconds": 209,
+   "tokens": {
+    "in": 11405,
+    "out": 31121
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "c5c98a1f-e6db-4fda-9b29-f59dd7d91ffb",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/c5c98a1f-e6db-4fda-9b29-f59dd7d91ffb/session.v4.jsonl.zstd",
+   "size": 165012,
+   "sha256": "62a9da1312470c014123ac618b4d08267ca4998c98b44ccce2c1a10ccfaafc9e",
+   "events": 173,
+   "prompts": 5,
+   "start": "2026-11-08T07:47:38.760000+00:00",
+   "end": "2026-11-08T07:52:30.147000+00:00",
+   "active_seconds": 291,
+   "tokens": {
+    "in": 13606,
+    "out": 27727
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "afd4e80e-a41e-4fcb-82f6-00f14d9c6b56",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/afd4e80e-a41e-4fcb-82f6-00f14d9c6b56/session.v4.jsonl.zstd",
+   "size": 194564,
+   "sha256": "0877d27ef9a9190ba8f3b183055d310aac77d5f7293f50758052df84451f3362",
+   "events": 197,
+   "prompts": 5,
+   "start": "2026-11-08T07:47:38.761000+00:00",
+   "end": "2026-11-08T07:52:15.203000+00:00",
+   "active_seconds": 276,
+   "tokens": {
+    "in": 14063,
+    "out": 36458
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "60ca05c4-1af1-4205-b1df-abcc81c86126",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/60ca05c4-1af1-4205-b1df-abcc81c86126/session.v4.jsonl.zstd",
+   "size": 150153,
+   "sha256": "606608859574401397ab7ad681554e22d822f78701407a7421940f02041554ae",
+   "events": 137,
+   "prompts": 5,
+   "start": "2026-11-08T07:47:38.766000+00:00",
+   "end": "2026-11-08T07:52:12.519000+00:00",
+   "active_seconds": 273,
+   "tokens": {
+    "in": 11676,
+    "out": 25800
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "1a6da669-34a5-45fb-8757-eb65ec3e407a",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/1a6da669-34a5-45fb-8757-eb65ec3e407a/session.v4.jsonl.zstd",
+   "size": 162881,
+   "sha256": "842bc90ff704513f6baf8017c29774aea55b69d9323c7fc3c9b13e840834e563",
+   "events": 123,
+   "prompts": 5,
+   "start": "2026-11-08T07:54:34.735000+00:00",
+   "end": "2026-11-08T07:57:34.507000+00:00",
+   "active_seconds": 179,
+   "tokens": {
+    "in": 11328,
+    "out": 28456
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "b6a1e282-e732-4660-b45f-f26dc3aeb7de",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/b6a1e282-e732-4660-b45f-f26dc3aeb7de/session.v4.jsonl.zstd",
+   "size": 205829,
+   "sha256": "206cc913f50ac3f631969548f70123667bfe6ca188774e88ee0f309571f66eff",
+   "events": 187,
+   "prompts": 5,
+   "start": "2026-11-08T07:54:34.737000+00:00",
+   "end": "2026-11-08T08:00:43.369000+00:00",
+   "active_seconds": 368,
+   "tokens": {
+    "in": 13506,
+    "out": 40633
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "f66f3d74-c3be-42f4-84ac-35541d30a77e",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/f66f3d74-c3be-42f4-84ac-35541d30a77e/session.v4.jsonl.zstd",
+   "size": 165067,
+   "sha256": "38d91d3fdc6266e2fd2e5c713bdba5aa089417e591cef823cc1c55a41c7760b3",
+   "events": 139,
+   "prompts": 5,
+   "start": "2026-11-08T07:54:34.738000+00:00",
+   "end": "2026-11-08T07:59:49.354000+00:00",
+   "active_seconds": 314,
+   "tokens": {
+    "in": 12139,
+    "out": 32111
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "c1e0fdd9-1b4d-42bc-b2f0-2c6c4c610541",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/c1e0fdd9-1b4d-42bc-b2f0-2c6c4c610541/session.v4.jsonl.zstd",
+   "size": 177697,
+   "sha256": "76280e9dbe4e6661efbdece8c524dc2ea704f1ff47c552dccd13b6f2d231653c",
+   "events": 123,
+   "prompts": 5,
+   "start": "2026-11-08T07:54:34.740000+00:00",
+   "end": "2026-11-08T07:58:16.506000+00:00",
+   "active_seconds": 221,
+   "tokens": {
+    "in": 11371,
+    "out": 35090
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "9b68cd4e-480e-495a-916d-92efcd262094",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/9b68cd4e-480e-495a-916d-92efcd262094/session.v4.jsonl.zstd",
+   "size": 170667,
+   "sha256": "1db38878d608d92fe800d5ad219d3135d8cb035262facf224b45e853ef5812c5",
+   "events": 147,
+   "prompts": 5,
+   "start": "2026-11-08T07:54:34.741000+00:00",
+   "end": "2026-11-08T07:58:15.413000+00:00",
+   "active_seconds": 220,
+   "tokens": {
+    "in": 11156,
+    "out": 29282
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "b3e14e3a-0143-4073-a3f8-cf82ae526eae",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/b3e14e3a-0143-4073-a3f8-cf82ae526eae/session.v4.jsonl.zstd",
+   "size": 220332,
+   "sha256": "4d73cd78a62c367603c43d2a8f1472e420884cd82c9e41ffbeb410c1dba0c5ae",
+   "events": 149,
+   "prompts": 5,
+   "start": "2026-11-08T07:54:34.743000+00:00",
+   "end": "2026-11-08T08:00:46.903000+00:00",
+   "active_seconds": 372,
+   "tokens": {
+    "in": 12626,
+    "out": 41162
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "a4d5063e-c9e3-4b56-916b-a133dbe04936",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/a4d5063e-c9e3-4b56-916b-a133dbe04936/session.v4.jsonl.zstd",
+   "size": 207326,
+   "sha256": "a5804faa48fe00d823bdbd241e7a99c199b55c0fb9b3471d8ef18a999178b6c5",
+   "events": 143,
+   "prompts": 5,
+   "start": "2026-11-08T07:54:34.744000+00:00",
+   "end": "2026-11-08T07:58:44.826000+00:00",
+   "active_seconds": 250,
+   "tokens": {
+    "in": 12248,
+    "out": 40098
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "1f162a8c-8097-4a9a-af39-d2bba453a9a6",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/1f162a8c-8097-4a9a-af39-d2bba453a9a6/session.v4.jsonl.zstd",
+   "size": 211607,
+   "sha256": "b86ce14908a2c6e386a99805ea88832120de0052d0e0eae1c2119a3a4ac2456f",
+   "events": 131,
+   "prompts": 5,
+   "start": "2026-11-08T07:54:34.746000+00:00",
+   "end": "2026-11-08T07:57:46.864000+00:00",
+   "active_seconds": 192,
+   "tokens": {
+    "in": 11544,
+    "out": 30786
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "1a7e8f8b-f467-48f7-a0b2-3de20e11a7af",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/1a7e8f8b-f467-48f7-a0b2-3de20e11a7af/session.v4.jsonl.zstd",
+   "size": 176908,
+   "sha256": "8462ff9c1cc8b7c60855928bd46054b8d3892efbfeb258b96d1c501490c35fab",
+   "events": 161,
+   "prompts": 5,
+   "start": "2026-11-08T08:00:53.790000+00:00",
+   "end": "2026-11-08T08:06:12.495000+00:00",
+   "active_seconds": 318,
+   "tokens": {
+    "in": 13120,
+    "out": 31288
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "55bfedf6-a8f4-4377-b3aa-5a3a12fb0c81",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/55bfedf6-a8f4-4377-b3aa-5a3a12fb0c81/session.v4.jsonl.zstd",
+   "size": 176927,
+   "sha256": "f80feedd450b0b2d0bcc672f854ef9c401d5fcfbe7b479d8ebcfc3d2bb4c927f",
+   "events": 161,
+   "prompts": 5,
+   "start": "2026-11-08T08:00:53.791000+00:00",
+   "end": "2026-11-08T08:06:02.261000+00:00",
+   "active_seconds": 308,
+   "tokens": {
+    "in": 12563,
+    "out": 34170
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "8541da72-1214-4b4b-baaf-d230ec1723d4",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/8541da72-1214-4b4b-baaf-d230ec1723d4/session.v4.jsonl.zstd",
+   "size": 204430,
+   "sha256": "f05cc5da7dbd944c78da5051544c478167df63475bb7d2dc0a5a209e4de0d4b7",
+   "events": 141,
+   "prompts": 5,
+   "start": "2026-11-08T08:00:53.791000+00:00",
+   "end": "2026-11-08T08:05:13.892000+00:00",
+   "active_seconds": 260,
+   "tokens": {
+    "in": 12595,
+    "out": 43639
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "3d106eed-49a6-445a-99fe-a1432aa6585c",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/3d106eed-49a6-445a-99fe-a1432aa6585c/session.v4.jsonl.zstd",
+   "size": 168112,
+   "sha256": "37d352765a2becc0183b555915db55be4760923b97e653af059032480f3524c7",
+   "events": 123,
+   "prompts": 5,
+   "start": "2026-11-08T08:00:53.792000+00:00",
+   "end": "2026-11-08T08:04:26.933000+00:00",
+   "active_seconds": 213,
+   "tokens": {
+    "in": 11634,
+    "out": 32222
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "68b86bfa-432a-44ae-81ec-e4d3ba6432fb",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/68b86bfa-432a-44ae-81ec-e4d3ba6432fb/session.v4.jsonl.zstd",
+   "size": 253618,
+   "sha256": "f98a2aefca7f6b27a74ce32e41804dae3658250a073bfb356e4f75b83d9a5621",
+   "events": 338,
+   "prompts": 6,
+   "start": "2026-11-08T08:00:53.792000+00:00",
+   "end": "2026-11-08T08:09:50.435000+00:00",
+   "active_seconds": 536,
+   "tokens": {
+    "in": 24497,
+    "out": 38757
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "27fe5a95-aaf6-4958-899f-6ebb7e3f1792",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/27fe5a95-aaf6-4958-899f-6ebb7e3f1792/session.v4.jsonl.zstd",
+   "size": 217570,
+   "sha256": "6784fef02f98246f8103f9a7481905e654a2e5d5973185d47daefdce08bf430f",
+   "events": 181,
+   "prompts": 5,
+   "start": "2026-11-08T08:00:53.793000+00:00",
+   "end": "2026-11-08T08:05:06.158000+00:00",
+   "active_seconds": 252,
+   "tokens": {
+    "in": 14123,
+    "out": 40516
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "12958a64-2e89-449d-9bf1-ae88ee2f24c5",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/12958a64-2e89-449d-9bf1-ae88ee2f24c5/session.v4.jsonl.zstd",
+   "size": 187960,
+   "sha256": "8a105e902d0201ae16b2e2eaa3ddff4ced31863db740e5ecaad41db42624c010",
+   "events": 151,
+   "prompts": 5,
+   "start": "2026-11-08T08:00:53.794000+00:00",
+   "end": "2026-11-08T08:05:05.865000+00:00",
+   "active_seconds": 252,
+   "tokens": {
+    "in": 14082,
+    "out": 33701
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "523fcd20-b14f-404a-91cf-d30239964f5f",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/523fcd20-b14f-404a-91cf-d30239964f5f/session.v4.jsonl.zstd",
+   "size": 127888,
+   "sha256": "014f2eeb961c94993c3cf96c144a4cc3602468337d46ac1d3fb537dcd3730a5d",
+   "events": 125,
+   "prompts": 5,
+   "start": "2026-11-08T08:00:53.795000+00:00",
+   "end": "2026-11-08T08:03:16.044000+00:00",
+   "active_seconds": 142,
+   "tokens": {
+    "in": 12021,
+    "out": 18902
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "58b9de60-bb63-406c-9dc8-930be0f42a91",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/58b9de60-bb63-406c-9dc8-930be0f42a91/session.v4.jsonl.zstd",
+   "size": 256444,
+   "sha256": "11fd9cc4a9704162653e480b146c4d2dcbf052ac3343e031b11bd754221e7f6f",
+   "events": 141,
+   "prompts": 5,
+   "start": "2026-11-08T08:10:33.034000+00:00",
+   "end": "2026-11-08T08:15:46.283000+00:00",
+   "active_seconds": 313,
+   "tokens": {
+    "in": 14609,
+    "out": 49978
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "84f24493-76a9-46b7-8ead-56aad595999e",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/84f24493-76a9-46b7-8ead-56aad595999e/session.v4.jsonl.zstd",
+   "size": 239526,
+   "sha256": "127194c94c8f657988f23453c9eeae0b6fe26ac040c2829efacd61a2b59e988b",
+   "events": 119,
+   "prompts": 5,
+   "start": "2026-11-08T08:23:59.777000+00:00",
+   "end": "2026-11-08T08:28:42.094000+00:00",
+   "active_seconds": 282,
+   "tokens": {
+    "in": 11637,
+    "out": 52525
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "660c543e-32d1-46c9-b693-13eb6b65f2c1",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/660c543e-32d1-46c9-b693-13eb6b65f2c1/session.v4.jsonl.zstd",
+   "size": 226197,
+   "sha256": "f7cbd4e45b283d8294c0d81b20bd40a26341f13999ff7c033b5b2aadf79cc5f4",
+   "events": 115,
+   "prompts": 5,
+   "start": "2026-11-08T08:23:59.779000+00:00",
+   "end": "2026-11-08T08:29:12.669000+00:00",
+   "active_seconds": 312,
+   "tokens": {
+    "in": 11784,
+    "out": 56341
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "ee77a939-e728-429d-bafc-af79c3710acb",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/ee77a939-e728-429d-bafc-af79c3710acb/session.v4.jsonl.zstd",
+   "size": 198391,
+   "sha256": "38a4fce1d87bfc83ac9cb70aff94d75ed82274835eae02ffae9ea65282219548",
+   "events": 129,
+   "prompts": 5,
+   "start": "2026-11-08T08:23:59.782000+00:00",
+   "end": "2026-11-08T08:28:09.302000+00:00",
+   "active_seconds": 249,
+   "tokens": {
+    "in": 11423,
+    "out": 42352
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "566f5230-ab12-463c-b178-908697af1f4b",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/566f5230-ab12-463c-b178-908697af1f4b/session.v4.jsonl.zstd",
+   "size": 239908,
+   "sha256": "3a0b391e52abaa33e99474d70a0786e951f21f1f414ca993b697bf22f555819b",
+   "events": 137,
+   "prompts": 5,
+   "start": "2026-11-08T08:23:59.784000+00:00",
+   "end": "2026-11-08T08:28:52.118000+00:00",
+   "active_seconds": 292,
+   "tokens": {
+    "in": 11405,
+    "out": 50082
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "e5ba17b0-9a28-4445-915c-4c6cb666938a",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/e5ba17b0-9a28-4445-915c-4c6cb666938a/session.v4.jsonl.zstd",
+   "size": 380327,
+   "sha256": "174efc605044b5661f02c037f46d91181b79d3b02a8ef43c401878468d43e784",
+   "events": 89,
+   "prompts": 5,
+   "start": "2026-11-08T08:23:59.785000+00:00",
+   "end": "2026-11-08T08:33:38.415000+00:00",
+   "active_seconds": 578,
+   "tokens": {
+    "in": 11774,
+    "out": 107366
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "c811cecb-feaf-4a21-802d-cd999bfc5cf9",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/c811cecb-feaf-4a21-802d-cd999bfc5cf9/session.v4.jsonl.zstd",
+   "size": 224591,
+   "sha256": "9f5c751d6ee1c8b4c4f98d19fa9c10ce1ab0e330e8bccfdc3138a8ea9d47067a",
+   "events": 111,
+   "prompts": 5,
+   "start": "2026-11-08T08:23:59.787000+00:00",
+   "end": "2026-11-08T08:28:21.621000+00:00",
+   "active_seconds": 261,
+   "tokens": {
+    "in": 11661,
+    "out": 48369
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "2bf072ad-d335-4f5e-a714-52ed29397bd4",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/2bf072ad-d335-4f5e-a714-52ed29397bd4/session.v4.jsonl.zstd",
+   "size": 294294,
+   "sha256": "9c3831cab3fd88c3eba6fa1fe65d79291250409c31dbff0dce719b28bc86d888",
+   "events": 159,
+   "prompts": 5,
+   "start": "2026-11-08T08:23:59.789000+00:00",
+   "end": "2026-11-08T08:30:36.308000+00:00",
+   "active_seconds": 396,
+   "tokens": {
+    "in": 21708,
+    "out": 66108
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "a815851e-8433-4a7a-ac05-ab4533bae128",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/a815851e-8433-4a7a-ac05-ab4533bae128/session.v4.jsonl.zstd",
+   "size": 246028,
+   "sha256": "6907d5464b92f2b7e12318687f459863faa3058fcff3e89244c3d084432b8e42",
+   "events": 77,
+   "prompts": 5,
+   "start": "2026-11-08T08:23:59.791000+00:00",
+   "end": "2026-11-08T08:29:26.636000+00:00",
+   "active_seconds": 326,
+   "tokens": {
+    "in": 11593,
+    "out": 57351
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "f80cb7b6-6605-4ebd-9f01-5e85df4e2c8f",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/f80cb7b6-6605-4ebd-9f01-5e85df4e2c8f/session.v4.jsonl.zstd",
+   "size": 207096,
+   "sha256": "4c7bf8e6db9ecae84706f4870d5c4cc5c119e67aa58c13842c8f6afe0ed76c5f",
+   "events": 87,
+   "prompts": 5,
+   "start": "2026-11-08T08:35:20.989000+00:00",
+   "end": "2026-11-08T08:39:44.698000+00:00",
+   "active_seconds": 263,
+   "tokens": {
+    "in": 10009,
+    "out": 47418
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "f321cecf-8c78-41a6-b9b9-383cab872439",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/f321cecf-8c78-41a6-b9b9-383cab872439/session.v4.jsonl.zstd",
+   "size": 203530,
+   "sha256": "53508822fd0537a8aed4514ed49c6e24b89200e6c36ad96f20657a408269831d",
+   "events": 115,
+   "prompts": 5,
+   "start": "2026-11-08T08:35:20.991000+00:00",
+   "end": "2026-11-08T08:39:34.056000+00:00",
+   "active_seconds": 253,
+   "tokens": {
+    "in": 10942,
+    "out": 45111
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "40e9900c-82ce-4871-a8a4-b3fe228f8f39",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/40e9900c-82ce-4871-a8a4-b3fe228f8f39/session.v4.jsonl.zstd",
+   "size": 239717,
+   "sha256": "a77bbc68013e2cc20df873e28592857e5fa12218c96d44f24150a670675bec67",
+   "events": 143,
+   "prompts": 5,
+   "start": "2026-11-08T08:35:20.992000+00:00",
+   "end": "2026-11-08T08:40:49.345000+00:00",
+   "active_seconds": 328,
+   "tokens": {
+    "in": 12433,
+    "out": 57825
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "ac389beb-dee4-4592-a8b2-a6be28d2f4a2",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/ac389beb-dee4-4592-a8b2-a6be28d2f4a2/session.v4.jsonl.zstd",
+   "size": 254696,
+   "sha256": "79895a42274adf225bae50b08645b076042b2750c7723ebc1fb3c978ed202147",
+   "events": 99,
+   "prompts": 5,
+   "start": "2026-11-08T08:35:20.993000+00:00",
+   "end": "2026-11-08T08:41:23.425000+00:00",
+   "active_seconds": 362,
+   "tokens": {
+    "in": 10781,
+    "out": 58901
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "0fc3d27a-0061-4938-80ea-87efbb7f65ce",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/0fc3d27a-0061-4938-80ea-87efbb7f65ce/session.v4.jsonl.zstd",
+   "size": 316093,
+   "sha256": "ea47bc89958c70c71125ae977121066c971151f9966536593401dd84300a8c33",
+   "events": 169,
+   "prompts": 5,
+   "start": "2026-11-08T08:35:20.994000+00:00",
+   "end": "2026-11-08T08:41:11.741000+00:00",
+   "active_seconds": 350,
+   "tokens": {
+    "in": 12546,
+    "out": 66548
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "e7b5387b-edb6-4028-9c51-620088a63a09",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/e7b5387b-edb6-4028-9c51-620088a63a09/session.v4.jsonl.zstd",
+   "size": 346825,
+   "sha256": "747e178d6686d832a7dcc819844fe4b823c45448cc697041bf3d7f3d79d4be29",
+   "events": 175,
+   "prompts": 5,
+   "start": "2026-11-08T08:35:20.999000+00:00",
+   "end": "2026-11-08T08:42:49.284000+00:00",
+   "active_seconds": 448,
+   "tokens": {
+    "in": 13400,
+    "out": 71370
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "65302596-e2f7-4112-9744-eb9cdd57be35",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/65302596-e2f7-4112-9744-eb9cdd57be35/session.v4.jsonl.zstd",
+   "size": 214439,
+   "sha256": "aa58cea2c7095f169f5187d914a17880cf63f4c381766667ca7933169b64673b",
+   "events": 161,
+   "prompts": 5,
+   "start": "2026-11-08T08:35:21.003000+00:00",
+   "end": "2026-11-08T08:40:13.363000+00:00",
+   "active_seconds": 292,
+   "tokens": {
+    "in": 12911,
+    "out": 43729
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "b6dbcdf7-1889-458a-826e-35cc92d1bcc6",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/b6dbcdf7-1889-458a-826e-35cc92d1bcc6/session.v4.jsonl.zstd",
+   "size": 253795,
+   "sha256": "07c4abda83bda545b39277d6e151af2716bbd7e587433c9d9f1c5d7bc780f504",
+   "events": 115,
+   "prompts": 5,
+   "start": "2026-11-08T08:35:21.006000+00:00",
+   "end": "2026-11-08T08:40:08.668000+00:00",
+   "active_seconds": 287,
+   "tokens": {
+    "in": 12041,
+    "out": 54582
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "5f907dab-102d-4250-a411-efea9dfa4875",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/5f907dab-102d-4250-a411-efea9dfa4875/session.v4.jsonl.zstd",
+   "size": 214705,
+   "sha256": "d585b4991661cadfd652427170783abff8df17c3338ae67848b73a17306131a8",
+   "events": 123,
+   "prompts": 5,
+   "start": "2026-11-08T08:43:45.873000+00:00",
+   "end": "2026-11-08T08:48:01.667000+00:00",
+   "active_seconds": 255,
+   "tokens": {
+    "in": 12542,
+    "out": 47391
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "96f06d7d-c639-4c49-aa7f-a551a10b009e",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/96f06d7d-c639-4c49-aa7f-a551a10b009e/session.v4.jsonl.zstd",
+   "size": 241436,
+   "sha256": "08e3ebab6fe1d6606222ce8fb0d2fceaf3527c5a2beaa1aefe0f367ae20d247a",
+   "events": 125,
+   "prompts": 5,
+   "start": "2026-11-08T08:43:45.883000+00:00",
+   "end": "2026-11-08T08:47:56.038000+00:00",
+   "active_seconds": 250,
+   "tokens": {
+    "in": 10977,
+    "out": 50122
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "2b4955aa-d619-46a2-9829-97ca1c5fbfbd",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/2b4955aa-d619-46a2-9829-97ca1c5fbfbd/session.v4.jsonl.zstd",
+   "size": 274095,
+   "sha256": "67e25114d8e215847417bebf85f56aa7adda87d0337b2a3b28fb775fcc9a8690",
+   "events": 155,
+   "prompts": 5,
+   "start": "2026-11-08T08:43:45.894000+00:00",
+   "end": "2026-11-08T08:49:22.425000+00:00",
+   "active_seconds": 336,
+   "tokens": {
+    "in": 12483,
+    "out": 64144
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "1dacc126-d10e-42c8-8a6d-3008b8d83237",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/1dacc126-d10e-42c8-8a6d-3008b8d83237/session.v4.jsonl.zstd",
+   "size": 189084,
+   "sha256": "12cfb570494877f9e47cb9e2907ee3cc570919d3daf2fbf9fe49cd4b97eaba89",
+   "events": 125,
+   "prompts": 5,
+   "start": "2026-11-08T08:43:45.906000+00:00",
+   "end": "2026-11-08T08:47:17.804000+00:00",
+   "active_seconds": 211,
+   "tokens": {
+    "in": 12020,
+    "out": 36210
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "20e4c7aa-90f8-4cf6-a212-d5a866a2fb02",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/20e4c7aa-90f8-4cf6-a212-d5a866a2fb02/session.v4.jsonl.zstd",
+   "size": 301186,
+   "sha256": "f4567398a87cdc62cfca79f8085b0daeda76a83b275e8c3ebbc1388ed715b4bc",
+   "events": 173,
+   "prompts": 5,
+   "start": "2026-11-08T08:43:45.917000+00:00",
+   "end": "2026-11-08T08:49:24.291000+00:00",
+   "active_seconds": 338,
+   "tokens": {
+    "in": 14104,
+    "out": 64679
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "9e268e78-87d7-4621-9fb8-50205f047284",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/9e268e78-87d7-4621-9fb8-50205f047284/session.v4.jsonl.zstd",
+   "size": 197313,
+   "sha256": "476943c1b9249c34fda5c04b80f32235a3d04496aa450fa7b02767dbe87dabde",
+   "events": 85,
+   "prompts": 5,
+   "start": "2026-11-08T08:43:45.928000+00:00",
+   "end": "2026-11-08T08:47:13.126000+00:00",
+   "active_seconds": 207,
+   "tokens": {
+    "in": 11619,
+    "out": 39078
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "63eb662b-ed8a-46cd-ad4a-7566201afa94",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/63eb662b-ed8a-46cd-ad4a-7566201afa94/session.v4.jsonl.zstd",
+   "size": 308743,
+   "sha256": "da3e2c60f6383fb2e5f65ba58b584939eb95387c5616c10e3756db629eb9625a",
+   "events": 187,
+   "prompts": 5,
+   "start": "2026-11-08T08:43:45.938000+00:00",
+   "end": "2026-11-08T08:48:57.160000+00:00",
+   "active_seconds": 311,
+   "tokens": {
+    "in": 19991,
+    "out": 61348
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "e73411b8-1acd-4d6e-a051-6fc8d9e9b4fb",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/e73411b8-1acd-4d6e-a051-6fc8d9e9b4fb/session.v4.jsonl.zstd",
+   "size": 238507,
+   "sha256": "0295523a8bfabae31ba69e2cb331cef167ed0103fff1e4692fe4b6018a0f3785",
+   "events": 143,
+   "prompts": 5,
+   "start": "2026-11-08T08:43:45.950000+00:00",
+   "end": "2026-11-08T08:48:22.771000+00:00",
+   "active_seconds": 276,
+   "tokens": {
+    "in": 11572,
+    "out": 48801
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "5df02784-b6a7-4c21-b763-c505c80a6625",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/5df02784-b6a7-4c21-b763-c505c80a6625/session.v4.jsonl.zstd",
+   "size": 233993,
+   "sha256": "a9c413829c10cd5da54340fe323de0152abd0e1d4cb23772e428f8a58e332a1c",
+   "events": 97,
+   "prompts": 5,
+   "start": "2026-11-08T08:50:53.017000+00:00",
+   "end": "2026-11-08T08:55:24.613000+00:00",
+   "active_seconds": 271,
+   "tokens": {
+    "in": 10920,
+    "out": 52255
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "9c75d1e5-bb20-4809-92bd-151e16e50b25",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/9c75d1e5-bb20-4809-92bd-151e16e50b25/session.v4.jsonl.zstd",
+   "size": 159200,
+   "sha256": "c6a5c7b4345edc33977298c404fdd6625f6c1c734b20bbef9bf488e92a66aeb3",
+   "events": 71,
+   "prompts": 5,
+   "start": "2026-11-08T08:50:53.020000+00:00",
+   "end": "2026-11-08T08:53:27.565000+00:00",
+   "active_seconds": 154,
+   "tokens": {
+    "in": 10666,
+    "out": 30217
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "f9198dcf-a4c8-47c8-a5f0-ba026c6131f3",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/f9198dcf-a4c8-47c8-a5f0-ba026c6131f3/session.v4.jsonl.zstd",
+   "size": 264610,
+   "sha256": "8a0a0ed1b7ddc309ddb0adbd4a3bd95d18ca8d29d4e949fb9cb96608d7004e9e",
+   "events": 115,
+   "prompts": 5,
+   "start": "2026-11-08T08:50:53.027000+00:00",
+   "end": "2026-11-08T08:56:06.004000+00:00",
+   "active_seconds": 312,
+   "tokens": {
+    "in": 23355,
+    "out": 60616
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "d611f611-36f2-4389-a7a3-d22caaf0fe2e",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/d611f611-36f2-4389-a7a3-d22caaf0fe2e/session.v4.jsonl.zstd",
+   "size": 193785,
+   "sha256": "cd6dd55b946ced8623add09a1d7785df476563c7d6f31087bd925484ae61bc23",
+   "events": 115,
+   "prompts": 5,
+   "start": "2026-11-08T08:50:53.030000+00:00",
+   "end": "2026-11-08T08:54:38.637000+00:00",
+   "active_seconds": 225,
+   "tokens": {
+    "in": 11257,
+    "out": 41333
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "78519d9d-5d8b-49db-b3e5-436abde7af83",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/78519d9d-5d8b-49db-b3e5-436abde7af83/session.v4.jsonl.zstd",
+   "size": 174158,
+   "sha256": "9eeb34d85ea8a4e03163f6a92a0901d9d52831573f93ea598c379596933b0c41",
+   "events": 87,
+   "prompts": 5,
+   "start": "2026-11-08T08:50:53.034000+00:00",
+   "end": "2026-11-08T08:54:09.625000+00:00",
+   "active_seconds": 196,
+   "tokens": {
+    "in": 10362,
+    "out": 39393
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "f1691c81-d78c-4438-b7cf-db91517dac7c",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/f1691c81-d78c-4438-b7cf-db91517dac7c/session.v4.jsonl.zstd",
+   "size": 198837,
+   "sha256": "1029fa8424ffac3d32b840bb6b4b7b57b41016ddc6caa0a43e67751d01ea5bad",
+   "events": 101,
+   "prompts": 5,
+   "start": "2026-11-08T08:50:53.040000+00:00",
+   "end": "2026-11-08T08:54:43.519000+00:00",
+   "active_seconds": 230,
+   "tokens": {
+    "in": 15350,
+    "out": 40851
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "7d3a8862-84d9-439e-9d0b-6f86b80e9b83",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/7d3a8862-84d9-439e-9d0b-6f86b80e9b83/session.v4.jsonl.zstd",
+   "size": 265714,
+   "sha256": "ea6859f7a8b979ce4c299d3f74a7b83baca92c5ca7565dc77103fa915aa111bb",
+   "events": 135,
+   "prompts": 5,
+   "start": "2026-11-08T08:50:53.043000+00:00",
+   "end": "2026-11-08T08:55:04.715000+00:00",
+   "active_seconds": 251,
+   "tokens": {
+    "in": 11497,
+    "out": 49746
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "95b6bd0d-27b0-4039-b858-a19b0ce99953",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/95b6bd0d-27b0-4039-b858-a19b0ce99953/session.v4.jsonl.zstd",
+   "size": 244593,
+   "sha256": "899512e6b84532f112db732704ed0eef7111327ba9ec46d8f89ee7e7ff277b37",
+   "events": 151,
+   "prompts": 5,
+   "start": "2026-11-08T08:50:53.046000+00:00",
+   "end": "2026-11-08T08:55:02.408000+00:00",
+   "active_seconds": 249,
+   "tokens": {
+    "in": 11916,
+    "out": 44469
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "session-8b6466d8-e105-4993-9eda-226339ca5a3b",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/session-8b6466d8-e105-4993-9eda-226339ca5a3b/session.v4.jsonl.zstd",
+   "size": 5445922,
+   "sha256": "fa68e680699ae4544620863eb04601f25b06eb0e15cde6cb208fade4b2ac9315",
+   "events": 6798,
+   "prompts": 334,
+   "start": "2026-11-09T02:02:22.988000+00:00",
+   "end": "2026-11-09T17:09:20.336000+00:00",
+   "active_seconds": 30392,
+   "tokens": {
+    "in": 1386360,
+    "out": 663950
+   },
+   "models": {
+    "deepseek-flash": 4
+   }
+  },
+  {
+   "file": "56383cdd-63ec-4084-b308-eb91203cef7b",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/56383cdd-63ec-4084-b308-eb91203cef7b/session.v4.jsonl.zstd",
+   "size": 1152052,
+   "sha256": "12da6107f7e075a28ff347d8661cf6079b852b47edc255977ed74f4580285f9e",
+   "events": 817,
+   "prompts": 23,
+   "start": "2026-11-09T12:12:14.127000+00:00",
+   "end": "2026-11-09T12:34:46.017000+00:00",
+   "active_seconds": 1351,
+   "tokens": {
+    "in": 109872,
+    "out": 224166
+   },
+   "models": {
+    "deepseek-flash": 2
+   }
+  },
+  {
+   "file": "c7767b36-c829-43b4-9fdb-c4d72a271366",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/c7767b36-c829-43b4-9fdb-c4d72a271366/session.v4.jsonl.zstd",
+   "size": 559907,
+   "sha256": "7f27a30e54b2882b4876f0a28dd4a8a0090bb90837c7d218524d1b60dbbb00f7",
+   "events": 338,
+   "prompts": 4,
+   "start": "2026-11-09T12:12:14.160000+00:00",
+   "end": "2026-11-09T12:20:22.042000+00:00",
+   "active_seconds": 487,
+   "tokens": {
+    "in": 80229,
+    "out": 71720
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "da63a6f2-93af-4c62-9447-e770b0063833",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/da63a6f2-93af-4c62-9447-e770b0063833/session.v4.jsonl.zstd",
+   "size": 1033664,
+   "sha256": "4cf529e942cc32f3aa502e18a765f2e981593ca0fea1ef94baef6e7327983a61",
+   "events": 816,
+   "prompts": 32,
+   "start": "2026-11-09T12:12:14.194000+00:00",
+   "end": "2026-11-09T12:34:46.025000+00:00",
+   "active_seconds": 1351,
+   "tokens": {
+    "in": 90892,
+    "out": 196586
+   },
+   "models": {
+    "deepseek-flash": 4
+   }
+  },
+  {
+   "file": "9cb39e21-6c63-4c5f-a132-c537b349d8cd",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/9cb39e21-6c63-4c5f-a132-c537b349d8cd/session.v4.jsonl.zstd",
+   "size": 1042998,
+   "sha256": "104283e4c12ffbe85fa3ffa150e869b31a4dcbe7414314d725c7509e78a3e7ee",
+   "events": 911,
+   "prompts": 27,
+   "start": "2026-11-09T12:12:14.226000+00:00",
+   "end": "2026-11-09T12:34:46.029000+00:00",
+   "active_seconds": 1351,
+   "tokens": {
+    "in": 108336,
+    "out": 191170
+   },
+   "models": {
+    "deepseek-flash": 4
+   }
+  },
+  {
+   "file": "0d308921-52d8-4446-8a03-f475c2ba6d60",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/0d308921-52d8-4446-8a03-f475c2ba6d60/session.v4.jsonl.zstd",
+   "size": 1130038,
+   "sha256": "3ba0ae8845407f430377cfd9cbf9c21c1a16c61926e067bea3385cba7cc0b912",
+   "events": 619,
+   "prompts": 15,
+   "start": "2026-11-09T12:12:14.263000+00:00",
+   "end": "2026-11-09T12:34:46.033000+00:00",
+   "active_seconds": 1351,
+   "tokens": {
+    "in": 131728,
+    "out": 237127
+   },
+   "models": {
+    "deepseek-flash": 2
+   }
+  },
+  {
+   "file": "8a9141e5-990f-43c2-bcc8-24acf3864dc6",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/8a9141e5-990f-43c2-bcc8-24acf3864dc6/session.v4.jsonl.zstd",
+   "size": 941377,
+   "sha256": "ac8e7f66a3a654d953133f97b71f934dd41dedb958603253c1409bc7ed4ffa3d",
+   "events": 655,
+   "prompts": 17,
+   "start": "2026-11-09T12:12:14.302000+00:00",
+   "end": "2026-11-09T12:29:49.332000+00:00",
+   "active_seconds": 1055,
+   "tokens": {
+    "in": 93684,
+    "out": 164610
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "373c2855-4a03-42d9-b21f-b7a844157db9",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/373c2855-4a03-42d9-b21f-b7a844157db9/session.v4.jsonl.zstd",
+   "size": 718157,
+   "sha256": "9ccb15e2564448c4b3c5d5a20dfe215c383227d6705e0a9c21e4d7eedd30f5da",
+   "events": 1526,
+   "prompts": 74,
+   "start": "2026-11-09T12:38:35.115000+00:00",
+   "end": "2026-11-09T12:49:51.584000+00:00",
+   "active_seconds": 676,
+   "tokens": {
+    "in": 96523,
+    "out": 73617
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "077ac617-056d-4b28-ae24-806561af77a2",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/077ac617-056d-4b28-ae24-806561af77a2/session.v4.jsonl.zstd",
+   "size": 664192,
+   "sha256": "fae0dbbb3a8fcb193c3cd4cc67e7c9b331ad857a97cb8de271475439f7983a43",
+   "events": 1256,
+   "prompts": 81,
+   "start": "2026-11-09T12:38:35.141000+00:00",
+   "end": "2026-11-09T12:48:32.625000+00:00",
+   "active_seconds": 597,
+   "tokens": {
+    "in": 99659,
+    "out": 80829
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "a5d12dd5-604c-4f95-a6e6-4cefa6d729d5",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/a5d12dd5-604c-4f95-a6e6-4cefa6d729d5/session.v4.jsonl.zstd",
+   "size": 437930,
+   "sha256": "6011441d1cb4b11dd5b76dd70207332eb5de1f5f360d8f2fb96303796ff010e5",
+   "events": 857,
+   "prompts": 74,
+   "start": "2026-11-09T12:43:53.098000+00:00",
+   "end": "2026-11-09T12:51:45.456000+00:00",
+   "active_seconds": 472,
+   "tokens": {
+    "in": 98633,
+    "out": 62656
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "39907e03-10a3-4215-a2f3-9d462d0653af",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/39907e03-10a3-4215-a2f3-9d462d0653af/session.v4.jsonl.zstd",
+   "size": 941423,
+   "sha256": "0aad3f6a5c2c6d35fadbb85cb9fcc6e55677c2f7e6f60b0cff2606b727ed94e7",
+   "events": 1521,
+   "prompts": 61,
+   "start": "2026-11-09T12:43:53.125000+00:00",
+   "end": "2026-11-09T12:54:23.056000+00:00",
+   "active_seconds": 629,
+   "tokens": {
+    "in": 96475,
+    "out": 72933
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "d1b0511a-619f-4070-8ded-569925e9cd42",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/d1b0511a-619f-4070-8ded-569925e9cd42/session.v4.jsonl.zstd",
+   "size": 865905,
+   "sha256": "874f4563b1c60f5c2f60c6b5126df8eb8f94b5184cac0b3a50eb65a92059b2f7",
+   "events": 1858,
+   "prompts": 104,
+   "start": "2026-11-09T12:43:53.160000+00:00",
+   "end": "2026-11-09T12:59:33.825000+00:00",
+   "active_seconds": 940,
+   "tokens": {
+    "in": 127776,
+    "out": 111639
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "bc59e6fa-1a47-482c-955b-1e1fdc89b314",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/bc59e6fa-1a47-482c-955b-1e1fdc89b314/session.v4.jsonl.zstd",
+   "size": 806056,
+   "sha256": "4dda883957a4503ad804b039275f43acff73a9ff171146f0a414bd40b1e4b103",
+   "events": 1559,
+   "prompts": 106,
+   "start": "2026-11-09T12:43:53.187000+00:00",
+   "end": "2026-11-09T12:56:08.918000+00:00",
+   "active_seconds": 735,
+   "tokens": {
+    "in": 122787,
+    "out": 77112
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "dda40f79-fd5a-45f6-8e67-acecfcd9a5ce",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/dda40f79-fd5a-45f6-8e67-acecfcd9a5ce/session.v4.jsonl.zstd",
+   "size": 533980,
+   "sha256": "e9c082705dc9fbe2ae8a01f30188dff009434ad3462841f9d90951eb19b4190b",
+   "events": 1168,
+   "prompts": 75,
+   "start": "2026-11-09T12:43:53.220000+00:00",
+   "end": "2026-11-09T12:54:31.232000+00:00",
+   "active_seconds": 638,
+   "tokens": {
+    "in": 90546,
+    "out": 70678
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "11d3d359-ad09-4746-b0c1-f68530895318",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/11d3d359-ad09-4746-b0c1-f68530895318/session.v4.jsonl.zstd",
+   "size": 855027,
+   "sha256": "3c5e42ebab2efe4be68eda7c68aa46a5a75c58a9a9c5ba3eefe46bc1a55426df",
+   "events": 1832,
+   "prompts": 112,
+   "start": "2026-11-09T12:43:53.254000+00:00",
+   "end": "2026-11-09T13:01:02.091000+00:00",
+   "active_seconds": 1028,
+   "tokens": {
+    "in": 121153,
+    "out": 93406
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "a0ede8a9-79e4-43f9-98b7-df962482b6fe",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/a0ede8a9-79e4-43f9-98b7-df962482b6fe/session.v4.jsonl.zstd",
+   "size": 353896,
+   "sha256": "c5f413ddbae9504557f724ad8428de732debbc5106cdb39e089b725b3e750df3",
+   "events": 715,
+   "prompts": 43,
+   "start": "2026-11-09T12:48:37.202000+00:00",
+   "end": "2026-11-09T12:54:13.622000+00:00",
+   "active_seconds": 336,
+   "tokens": {
+    "in": 55001,
+    "out": 42048
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "313bf68f-01cb-4ec9-9865-68ba2e987bc8",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/313bf68f-01cb-4ec9-9865-68ba2e987bc8/session.v4.jsonl.zstd",
+   "size": 640927,
+   "sha256": "38e8038f4856e97bb89565b1f1c8bd29278cdea7d6c92f598c2228cd974dfc2e",
+   "events": 1387,
+   "prompts": 83,
+   "start": "2026-11-09T12:49:51.631000+00:00",
+   "end": "2026-11-09T12:58:34.038000+00:00",
+   "active_seconds": 522,
+   "tokens": {
+    "in": 98662,
+    "out": 47139
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "16bd7549-1869-49c3-b3b4-ba3194f0b94a",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/16bd7549-1869-49c3-b3b4-ba3194f0b94a/session.v4.jsonl.zstd",
+   "size": 1560157,
+   "sha256": "d9449db614369cc6251c6bee2b60a6e2c4aeb8bd032334080d9f7f6b4fd6aba9",
+   "events": 1533,
+   "prompts": 10,
+   "start": "2026-11-09T13:32:36.106000+00:00",
+   "end": "2026-11-09T14:00:07.926000+00:00",
+   "active_seconds": 1651,
+   "tokens": {
+    "in": 76303,
+    "out": 245316
+   },
+   "models": {
+    "deepseek-flash": 2
+   }
+  },
+  {
+   "file": "ccb65215-64c9-4674-8cb1-6bc11365de8a",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/ccb65215-64c9-4674-8cb1-6bc11365de8a/session.v4.jsonl.zstd",
+   "size": 1263002,
+   "sha256": "b5af730500153f81b1e31713aea4c51fa2636730b3b6e23c8a16e6810a3386bc",
+   "events": 670,
+   "prompts": 8,
+   "start": "2026-11-09T13:32:36.132000+00:00",
+   "end": "2026-11-09T13:56:19.776000+00:00",
+   "active_seconds": 1423,
+   "tokens": {
+    "in": 79366,
+    "out": 207354
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "55c2f71f-1f58-43e8-bb19-55c13d797632",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/55c2f71f-1f58-43e8-bb19-55c13d797632/session.v4.jsonl.zstd",
+   "size": 1246442,
+   "sha256": "5c91c99001a43a156c43ac566c2090fd12b1f0493a3790bce175d92a0d57d34f",
+   "events": 892,
+   "prompts": 17,
+   "start": "2026-11-09T13:32:36.163000+00:00",
+   "end": "2026-11-09T14:00:05.557000+00:00",
+   "active_seconds": 1649,
+   "tokens": {
+    "in": 157375,
+    "out": 253573
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "a2972b7e-79fb-4640-b699-55eabac19c96",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/a2972b7e-79fb-4640-b699-55eabac19c96/session.v4.jsonl.zstd",
+   "size": 1035700,
+   "sha256": "15403f5595a0a0921afdcc41d3cae3654b27a47c5c009df4c3e9ba2a3daee218",
+   "events": 757,
+   "prompts": 5,
+   "start": "2026-11-09T13:32:36.199000+00:00",
+   "end": "2026-11-09T13:50:09.893000+00:00",
+   "active_seconds": 1053,
+   "tokens": {
+    "in": 68350,
+    "out": 145940
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "be81d258-c9ee-4000-9bf7-99ae53d3d59f",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/be81d258-c9ee-4000-9bf7-99ae53d3d59f/session.v4.jsonl.zstd",
+   "size": 1186097,
+   "sha256": "78221cfc8ae7c62e25d575803bc56b7ea4a9ac5880601aa7847477cc4a10e1df",
+   "events": 442,
+   "prompts": 7,
+   "start": "2026-11-09T13:32:36.231000+00:00",
+   "end": "2026-11-09T14:00:29.722000+00:00",
+   "active_seconds": 1673,
+   "tokens": {
+    "in": 72505,
+    "out": 284590
+   },
+   "models": {
+    "deepseek-flash": 2
+   }
+  },
+  {
+   "file": "a40f8ec1-4d99-4443-87f4-b5451a7cf84b",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/a40f8ec1-4d99-4443-87f4-b5451a7cf84b/session.v4.jsonl.zstd",
+   "size": 411361,
+   "sha256": "0dc2fc739166e808e3ea35077a8c9c6a7fa1613d4d1a1f3d6673bd043d0442a4",
+   "events": 180,
+   "prompts": 4,
+   "start": "2026-11-09T13:32:36.266000+00:00",
+   "end": "2026-11-09T13:42:38.637000+00:00",
+   "active_seconds": 602,
+   "tokens": {
+    "in": 72636,
+    "out": 94206
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "221f71b0-a509-480b-8d0e-cc7a7d0b9e82",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/221f71b0-a509-480b-8d0e-cc7a7d0b9e82/session.v4.jsonl.zstd",
+   "size": 609455,
+   "sha256": "7ab9368a38345d143864fe4aad5a1e2b2d901838d8a42c5f9792dab34f2a499e",
+   "events": 322,
+   "prompts": 4,
+   "start": "2026-11-09T13:32:36.299000+00:00",
+   "end": "2026-11-09T13:41:29.596000+00:00",
+   "active_seconds": 533,
+   "tokens": {
+    "in": 68107,
+    "out": 70943
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "8852e47c-e38f-4fab-8d50-a884b9772d3e",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/8852e47c-e38f-4fab-8d50-a884b9772d3e/session.v4.jsonl.zstd",
+   "size": 574450,
+   "sha256": "1e5e0855d45be6639a38ac78a30f39b5e8a7a5228064e0a54e096953fd201121",
+   "events": 483,
+   "prompts": 13,
+   "start": "2026-11-09T13:32:36.339000+00:00",
+   "end": "2026-11-09T13:46:38.339000+00:00",
+   "active_seconds": 842,
+   "tokens": {
+    "in": 54003,
+    "out": 105621
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "5eb859f6-0d66-4787-9189-e322db60d202",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/5eb859f6-0d66-4787-9189-e322db60d202/session.v4.jsonl.zstd",
+   "size": 976365,
+   "sha256": "45e24e3d543b5f42e244c4eff6172cb0ff8f413b2474475f3f2692d07c51b13e",
+   "events": 527,
+   "prompts": 5,
+   "start": "2026-11-09T13:41:36.675000+00:00",
+   "end": "2026-11-09T13:54:19.773000+00:00",
+   "active_seconds": 763,
+   "tokens": {
+    "in": 72283,
+    "out": 115627
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "09586f63-5391-4a06-b330-59544843e368",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/09586f63-5391-4a06-b330-59544843e368/session.v4.jsonl.zstd",
+   "size": 704195,
+   "sha256": "968aa9e47e2ec86431bcd636b5b11c4a1c48939f847006b0e4480547068c942e",
+   "events": 518,
+   "prompts": 6,
+   "start": "2026-11-09T13:42:39.764000+00:00",
+   "end": "2026-11-09T13:52:40.529000+00:00",
+   "active_seconds": 600,
+   "tokens": {
+    "in": 87231,
+    "out": 93190
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "1b402dd4-2b55-4128-a36f-423d33b3b807",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/1b402dd4-2b55-4128-a36f-423d33b3b807/session.v4.jsonl.zstd",
+   "size": 718123,
+   "sha256": "2d5fd10e488d084d098756ca041dad5e402e30067f45296a80dbfefbc6d3d417",
+   "events": 697,
+   "prompts": 7,
+   "start": "2026-11-09T13:46:40.010000+00:00",
+   "end": "2026-11-09T14:00:09.160000+00:00",
+   "active_seconds": 809,
+   "tokens": {
+    "in": 96762,
+    "out": 96725
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "8dd2a874-5ee8-4041-9614-e1856bc21cb2",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/8dd2a874-5ee8-4041-9614-e1856bc21cb2/session.v4.jsonl.zstd",
+   "size": 9547874,
+   "sha256": "ddb05713a1cea0fbf8497cc2a388629f11329221042198f6f9d6a66678fb9625",
+   "events": 1235,
+   "prompts": 4,
+   "start": "2026-11-09T13:50:16.486000+00:00",
+   "end": "2026-11-09T14:00:05.165000+00:00",
+   "active_seconds": 588,
+   "tokens": {
+    "in": 144081,
+    "out": 87372
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "ef6b2a6f-8ab8-419b-ada1-4b9a66ad1c38",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/ef6b2a6f-8ab8-419b-ada1-4b9a66ad1c38/session.v4.jsonl.zstd",
+   "size": 861412,
+   "sha256": "eb9e15ed496d0e557e6645713976bc4667a73a6f4c4bfa972de783e749e67809",
+   "events": 387,
+   "prompts": 4,
+   "start": "2026-11-09T13:56:18.975000+00:00",
+   "end": "2026-11-09T14:00:07.809000+00:00",
+   "active_seconds": 228,
+   "tokens": {
+    "in": 96845,
+    "out": 29697
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "6863697a-9143-4ce5-8e60-185a982bf67c",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/6863697a-9143-4ce5-8e60-185a982bf67c/session.v4.jsonl.zstd",
+   "size": 846407,
+   "sha256": "08bd34ccb10a0cebd2e94b5ca73ac16750577adf2c4fddc2d093ee43a3f02380",
+   "events": 524,
+   "prompts": 6,
+   "start": "2026-11-09T14:04:06.445000+00:00",
+   "end": "2026-11-09T14:22:35.614000+00:00",
+   "active_seconds": 1109,
+   "tokens": {
+    "in": 91310,
+    "out": 199071
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "8606020f-51a6-4f76-8479-5cb328d783c0",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/8606020f-51a6-4f76-8479-5cb328d783c0/session.v4.jsonl.zstd",
+   "size": 6343392,
+   "sha256": "5de84a152424b40f66ab4315112f3c70264fade0b1342643677ffa24fafa03e4",
+   "events": 5204,
+   "prompts": 38,
+   "start": "2026-11-09T14:04:06.471000+00:00",
+   "end": "2026-11-09T15:18:12.016000+00:00",
+   "active_seconds": 4445,
+   "tokens": {
+    "in": 1133427,
+    "out": 632227
+   },
+   "models": {
+    "deepseek-flash": 5
+   }
+  },
+  {
+   "file": "cd3d90d5-86d2-4964-a304-bb7ca965c2e2",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/cd3d90d5-86d2-4964-a304-bb7ca965c2e2/session.v4.jsonl.zstd",
+   "size": 591734,
+   "sha256": "a3481e5b16846b71c8133acd4dbdda62f95a48809ab41421621609723dd1c4be",
+   "events": 575,
+   "prompts": 9,
+   "start": "2026-11-09T14:04:06.517000+00:00",
+   "end": "2026-11-09T14:14:37.393000+00:00",
+   "active_seconds": 630,
+   "tokens": {
+    "in": 113227,
+    "out": 104374
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "b358b2b2-1781-4548-a356-03115c4e2522",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/b358b2b2-1781-4548-a356-03115c4e2522/session.v4.jsonl.zstd",
+   "size": 517214,
+   "sha256": "005fd9cb3d954f1e38505641432e17f49c08fccf374bcc0248f600363fab3625",
+   "events": 342,
+   "prompts": 4,
+   "start": "2026-11-09T14:04:06.557000+00:00",
+   "end": "2026-11-09T14:12:04.537000+00:00",
+   "active_seconds": 477,
+   "tokens": {
+    "in": 120262,
+    "out": 71961
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "8aa9fe88-8ae4-48cd-ad47-f69ec80adb0f",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/8aa9fe88-8ae4-48cd-ad47-f69ec80adb0f/session.v4.jsonl.zstd",
+   "size": 2731259,
+   "sha256": "6caa06fe32b3603f53ed7eebd87c6e18bec903dd0105ff51d3dec774d93e8eb5",
+   "events": 750,
+   "prompts": 4,
+   "start": "2026-11-09T14:04:06.599000+00:00",
+   "end": "2026-11-09T14:09:01.211000+00:00",
+   "active_seconds": 294,
+   "tokens": {
+    "in": 38764,
+    "out": 45246
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "5906d863-4691-41c0-9cf2-ee01b8dc9f61",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/5906d863-4691-41c0-9cf2-ee01b8dc9f61/session.v4.jsonl.zstd",
+   "size": 787018,
+   "sha256": "20a6eb50f8e503d5ea106a52dcd57ab257486f9b85394f2a37d6f76958a3dfcf",
+   "events": 568,
+   "prompts": 4,
+   "start": "2026-11-09T14:09:00.835000+00:00",
+   "end": "2026-11-09T14:17:15.316000+00:00",
+   "active_seconds": 494,
+   "tokens": {
+    "in": 172933,
+    "out": 71208
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "6484c269-0a06-4862-b267-3deb8dee72bd",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/6484c269-0a06-4862-b267-3deb8dee72bd/session.v4.jsonl.zstd",
+   "size": 646706,
+   "sha256": "9fb52aa735fbb2bf592c3134984ba40f97077212e7696159d178e8880b63e4df",
+   "events": 477,
+   "prompts": 12,
+   "start": "2026-11-09T14:10:46.080000+00:00",
+   "end": "2026-11-09T14:24:13.198000+00:00",
+   "active_seconds": 807,
+   "tokens": {
+    "in": 67531,
+    "out": 126645
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "4fe8b5f4-58d6-4493-8906-54dd0f2b07b4",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/4fe8b5f4-58d6-4493-8906-54dd0f2b07b4/session.v4.jsonl.zstd",
+   "size": 1645689,
+   "sha256": "8b2c72d7c05293cdcb36b8a4c0e92b3e084ae6ac2411b424859939d1e8f84049",
+   "events": 449,
+   "prompts": 5,
+   "start": "2026-11-09T14:10:46.104000+00:00",
+   "end": "2026-11-09T14:25:04.806000+00:00",
+   "active_seconds": 858,
+   "tokens": {
+    "in": 115862,
+    "out": 138814
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "b327bdb5-3efe-4817-bba5-d5d09b1dd67c",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/b327bdb5-3efe-4817-bba5-d5d09b1dd67c/session.v4.jsonl.zstd",
+   "size": 1414167,
+   "sha256": "57c40ec039e6eff6c0cc3c6bcdb52edcb7b8965a57307a52308f5977b2e44e65",
+   "events": 586,
+   "prompts": 4,
+   "start": "2026-11-09T14:12:03.511000+00:00",
+   "end": "2026-11-09T14:18:31.382000+00:00",
+   "active_seconds": 387,
+   "tokens": {
+    "in": 86740,
+    "out": 62362
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "a5ddbf85-142b-4f06-9f74-8ea6bbaccd53",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/a5ddbf85-142b-4f06-9f74-8ea6bbaccd53/session.v4.jsonl.zstd",
+   "size": 801636,
+   "sha256": "026d5b0fbe0367edff8a2613218a47845e0dc123309b98c84f498a477247bfb9",
+   "events": 1020,
+   "prompts": 38,
+   "start": "2026-11-09T14:14:42.147000+00:00",
+   "end": "2026-11-09T14:28:01.669000+00:00",
+   "active_seconds": 799,
+   "tokens": {
+    "in": 168329,
+    "out": 104854
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "ccd9ff03-1d14-4f05-8eb3-b27375e78390",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/ccd9ff03-1d14-4f05-8eb3-b27375e78390/session.v4.jsonl.zstd",
+   "size": 756249,
+   "sha256": "48a16987217ff0d347f0a8dede8cf876b45f7e5559f7bb8fccc278e96d50ba95",
+   "events": 653,
+   "prompts": 5,
+   "start": "2026-11-09T14:17:16.180000+00:00",
+   "end": "2026-11-09T14:30:40.781000+00:00",
+   "active_seconds": 804,
+   "tokens": {
+    "in": 94220,
+    "out": 120534
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "40175897-8d35-43d3-aa8c-128b7cefc14e",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/40175897-8d35-43d3-aa8c-128b7cefc14e/session.v4.jsonl.zstd",
+   "size": 233741,
+   "sha256": "987bf0effdd00ac274c05521a29ca8cc5273f628b23cdde050b3f6887dbd7864",
+   "events": 244,
+   "prompts": 4,
+   "start": "2026-11-09T14:17:16.239000+00:00",
+   "end": "2026-11-09T14:19:36.925000+00:00",
+   "active_seconds": 140,
+   "tokens": {
+    "in": 39089,
+    "out": 19391
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "9d868731-a520-4621-9f7b-56b98305353f",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/9d868731-a520-4621-9f7b-56b98305353f/session.v4.jsonl.zstd",
+   "size": 378752,
+   "sha256": "490d3c697d3241262b9dda942c9f12472068695a06f49d09e860cc68ef67ed57",
+   "events": 214,
+   "prompts": 4,
+   "start": "2026-11-09T14:18:33.644000+00:00",
+   "end": "2026-11-09T14:24:37.254000+00:00",
+   "active_seconds": 363,
+   "tokens": {
+    "in": 60321,
+    "out": 59004
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "366f0ed3-e46d-48bb-b120-028eacef8c1f",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/366f0ed3-e46d-48bb-b120-028eacef8c1f/session.v4.jsonl.zstd",
+   "size": 722831,
+   "sha256": "d25b27e740cc6b477bb6ce7eb11909d66ce19698a87ceddf751f6b331447f181",
+   "events": 401,
+   "prompts": 7,
+   "start": "2026-11-09T14:22:42.633000+00:00",
+   "end": "2026-11-09T14:39:53.228000+00:00",
+   "active_seconds": 1030,
+   "tokens": {
+    "in": 108614,
+    "out": 162583
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "5aead578-8a25-47cc-a6d5-1ed029f3d5c4",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/5aead578-8a25-47cc-a6d5-1ed029f3d5c4/session.v4.jsonl.zstd",
+   "size": 387061,
+   "sha256": "0d1f21e8612b75b2631f422171ece21fad189f119efc064ae70f59a0c08831fd",
+   "events": 256,
+   "prompts": 4,
+   "start": "2026-11-09T14:24:36.551000+00:00",
+   "end": "2026-11-09T14:29:55.215000+00:00",
+   "active_seconds": 318,
+   "tokens": {
+    "in": 64532,
+    "out": 49485
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "3b7e6804-30a3-49fd-8943-fb46719ad856",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/3b7e6804-30a3-49fd-8943-fb46719ad856/session.v4.jsonl.zstd",
+   "size": 1150922,
+   "sha256": "959b05c402934e3d2785dcecffc3d90bbd11a45d6c2fad50470fbaa3283087b9",
+   "events": 1303,
+   "prompts": 17,
+   "start": "2026-11-09T14:28:01.696000+00:00",
+   "end": "2026-11-09T14:50:59.242000+00:00",
+   "active_seconds": 1377,
+   "tokens": {
+    "in": 147682,
+    "out": 148346
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "dd9d4b42-b623-498f-85f2-e1660e70ce3b",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/dd9d4b42-b623-498f-85f2-e1660e70ce3b/session.v4.jsonl.zstd",
+   "size": 983762,
+   "sha256": "e31ea96b5283ebcb54c079637e74e1e9d75aeeed70ec2de0833742b95081443f",
+   "events": 969,
+   "prompts": 9,
+   "start": "2026-11-09T14:30:04.262000+00:00",
+   "end": "2026-11-09T14:44:52.132000+00:00",
+   "active_seconds": 887,
+   "tokens": {
+    "in": 139783,
+    "out": 91382
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "a8566bda-8a95-46ca-8d5e-96974a0830e7",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/a8566bda-8a95-46ca-8d5e-96974a0830e7/session.v4.jsonl.zstd",
+   "size": 354781,
+   "sha256": "4cd13f25bb14996cbe9ec35cd3dfc7e3c1baa7737e1ee1195f9992e42f3742bc",
+   "events": 340,
+   "prompts": 4,
+   "start": "2026-11-09T14:30:36.961000+00:00",
+   "end": "2026-11-09T14:36:14.295000+00:00",
+   "active_seconds": 337,
+   "tokens": {
+    "in": 58490,
+    "out": 48087
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "d60b8b36-e9eb-4cad-b9c2-293992c3e4f4",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/d60b8b36-e9eb-4cad-b9c2-293992c3e4f4/session.v4.jsonl.zstd",
+   "size": 613978,
+   "sha256": "e3f0185d551e8fb8d98dd4908a8a5ad00cb0dc0a4cb526d52b80738cc50d6934",
+   "events": 453,
+   "prompts": 5,
+   "start": "2026-11-09T14:36:16.760000+00:00",
+   "end": "2026-11-09T14:47:24.301000+00:00",
+   "active_seconds": 667,
+   "tokens": {
+    "in": 67875,
+    "out": 99213
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "a5469db4-aa03-40f9-ba86-9fa816bb45a4",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/a5469db4-aa03-40f9-ba86-9fa816bb45a4/session.v4.jsonl.zstd",
+   "size": 957946,
+   "sha256": "ca2aff0b7759c39f33eda388afa8ff2b95ca095b48519b430d714466520beff6",
+   "events": 779,
+   "prompts": 5,
+   "start": "2026-11-09T14:44:54.595000+00:00",
+   "end": "2026-11-09T15:02:12.930000+00:00",
+   "active_seconds": 1038,
+   "tokens": {
+    "in": 126151,
+    "out": 155546
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "4c52d503-26aa-4e86-bf80-9ce36f80512d",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/4c52d503-26aa-4e86-bf80-9ce36f80512d/session.v4.jsonl.zstd",
+   "size": 359543,
+   "sha256": "f6d3a01e074ad05c02d9ddf9b13b7470cac2056613a27c27ee108982aa1de0ca",
+   "events": 284,
+   "prompts": 4,
+   "start": "2026-11-09T14:47:23.801000+00:00",
+   "end": "2026-11-09T14:53:21.683000+00:00",
+   "active_seconds": 357,
+   "tokens": {
+    "in": 55644,
+    "out": 53140
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "3357bfd4-f6f4-472d-8a51-36e1ddb84b84",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/3357bfd4-f6f4-472d-8a51-36e1ddb84b84/session.v4.jsonl.zstd",
+   "size": 717718,
+   "sha256": "aef0731b6dcc3cd1c4caac9385ccaaef9c31c1635b9777a41a07579541aa0261",
+   "events": 485,
+   "prompts": 5,
+   "start": "2026-11-09T14:50:58.734000+00:00",
+   "end": "2026-11-09T15:07:29.452000+00:00",
+   "active_seconds": 990,
+   "tokens": {
+    "in": 113118,
+    "out": 165292
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "e3b63636-d8d6-425e-9d26-a7637b437b50",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/e3b63636-d8d6-425e-9d26-a7637b437b50/session.v4.jsonl.zstd",
+   "size": 425954,
+   "sha256": "c90ff58c84642459ddf0ef17d95a9e4c1000cc27294a67597a81b3ca14e8062d",
+   "events": 391,
+   "prompts": 4,
+   "start": "2026-11-09T15:02:10.895000+00:00",
+   "end": "2026-11-09T15:09:10.725000+00:00",
+   "active_seconds": 419,
+   "tokens": {
+    "in": 64442,
+    "out": 57331
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "c6c4938c-052c-4b1d-94c5-f8608e08066f",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/c6c4938c-052c-4b1d-94c5-f8608e08066f/session.v4.jsonl.zstd",
+   "size": 578146,
+   "sha256": "4f801673ce7521f1c32d8a5db321c5abdcec2e53b237b487ca2b59450aebab8a",
+   "events": 619,
+   "prompts": 7,
+   "start": "2026-11-09T15:07:31.325000+00:00",
+   "end": "2026-11-09T15:17:05.357000+00:00",
+   "active_seconds": 574,
+   "tokens": {
+    "in": 73714,
+    "out": 80445
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "2e5ae6b9-8332-4086-8fbd-fe155909e858",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/2e5ae6b9-8332-4086-8fbd-fe155909e858/session.v4.jsonl.zstd",
+   "size": 894260,
+   "sha256": "02d63243f0e76478d3dc69e9fa44c38ee18f24d75058bbda467a1838a9f8c4ef",
+   "events": 841,
+   "prompts": 5,
+   "start": "2026-11-09T15:17:06.137000+00:00",
+   "end": "2026-11-09T15:31:28.588000+00:00",
+   "active_seconds": 862,
+   "tokens": {
+    "in": 103270,
+    "out": 130729
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "81b1aabe-eaa6-47d6-a3a5-1412a14724b7",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/81b1aabe-eaa6-47d6-a3a5-1412a14724b7/session.v4.jsonl.zstd",
+   "size": 838304,
+   "sha256": "c2266481bb0f2c7f50632fb9848a3ed9fecc3a732d02e7661650ca39340c958e",
+   "events": 1106,
+   "prompts": 22,
+   "start": "2026-11-09T15:31:26.857000+00:00",
+   "end": "2026-11-09T15:47:14.773000+00:00",
+   "active_seconds": 947,
+   "tokens": {
+    "in": 127253,
+    "out": 119983
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "538926e2-1c8f-435f-b018-1aae02879955",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/538926e2-1c8f-435f-b018-1aae02879955/session.v4.jsonl.zstd",
+   "size": 510630,
+   "sha256": "6860154249ac3a3dd8dbe7eb1dcd371f8d28e0582b1bfa9be368f2536e1ee00a",
+   "events": 561,
+   "prompts": 9,
+   "start": "2026-11-09T15:47:15.637000+00:00",
+   "end": "2026-11-09T15:54:24.236000+00:00",
+   "active_seconds": 428,
+   "tokens": {
+    "in": 83342,
+    "out": 64378
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "4c41274c-ee1d-4dff-8ab6-b533222ec3dc",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/4c41274c-ee1d-4dff-8ab6-b533222ec3dc/session.v4.jsonl.zstd",
+   "size": 419215,
+   "sha256": "811be37533f69897977dda60db523a2b6fcffad27abc30bc1376424c567b41e7",
+   "events": 353,
+   "prompts": 4,
+   "start": "2026-11-09T15:54:56.514000+00:00",
+   "end": "2026-11-09T15:59:11.576000+00:00",
+   "active_seconds": 255,
+   "tokens": {
+    "in": 85651,
+    "out": 38748
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "c41892ae-f6cb-481f-81e0-03c6ca00b48e",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/c41892ae-f6cb-481f-81e0-03c6ca00b48e/session.v4.jsonl.zstd",
+   "size": 215873,
+   "sha256": "7ffbcb5e1b07fdc3915afc067fe044f892f0ed1796f8203080e148c915caefd6",
+   "events": 186,
+   "prompts": 4,
+   "start": "2026-11-09T16:24:38.592000+00:00",
+   "end": "2026-11-09T16:27:49.861000+00:00",
+   "active_seconds": 191,
+   "tokens": {
+    "in": 29352,
+    "out": 28125
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "e50054c4-6feb-43d5-9d6a-c940e3fda51f",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/e50054c4-6feb-43d5-9d6a-c940e3fda51f/session.v4.jsonl.zstd",
+   "size": 343786,
+   "sha256": "dfcc117c17170855a6300b3269ef53c402ec5ac8be8e73a556632cb17bcc07f6",
+   "events": 138,
+   "prompts": 4,
+   "start": "2026-11-09T16:24:38.619000+00:00",
+   "end": "2026-11-09T16:27:49.866000+00:00",
+   "active_seconds": 191,
+   "tokens": {
+    "in": 62403,
+    "out": 28618
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "8fddd1f6-888b-4e09-a504-8629415d3010",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/8fddd1f6-888b-4e09-a504-8629415d3010/session.v4.jsonl.zstd",
+   "size": 283549,
+   "sha256": "4dcba658e2b51b9457083da717253b0814a9a352ff12981020ac1b094fec4cd8",
+   "events": 222,
+   "prompts": 4,
+   "start": "2026-11-09T16:24:38.655000+00:00",
+   "end": "2026-11-09T16:27:49.870000+00:00",
+   "active_seconds": 191,
+   "tokens": {
+    "in": 71143,
+    "out": 24693
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "583a2c3e-64d2-499b-9bc8-bcbba8257240",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/583a2c3e-64d2-499b-9bc8-bcbba8257240/session.v4.jsonl.zstd",
+   "size": 219934,
+   "sha256": "d6ba091be8c3d07a7164efc1b0baa3f7553d40ff90c65e12cad5c9890cc4c93c",
+   "events": 188,
+   "prompts": 4,
+   "start": "2026-11-09T16:24:38.700000+00:00",
+   "end": "2026-11-09T16:27:49.875000+00:00",
+   "active_seconds": 191,
+   "tokens": {
+    "in": 35976,
+    "out": 24971
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "cf6ff6fb-e68b-46dd-9e7f-6b4134a57cb4",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/cf6ff6fb-e68b-46dd-9e7f-6b4134a57cb4/session.v4.jsonl.zstd",
+   "size": 558594,
+   "sha256": "acf1eb1da86c9d14234041293a16cd789c005cf6dc65383a55bf3827a10ce260",
+   "events": 168,
+   "prompts": 4,
+   "start": "2026-11-09T16:24:38.767000+00:00",
+   "end": "2026-11-09T16:27:49.885000+00:00",
+   "active_seconds": 191,
+   "tokens": {
+    "in": 45920,
+    "out": 20283
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "daea64cb-2193-4e0b-82eb-82dfe204bab6",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/daea64cb-2193-4e0b-82eb-82dfe204bab6/session.v4.jsonl.zstd",
+   "size": 190591,
+   "sha256": "503997dc06e671a3b0342ddf5cb7922990ebe96affd49beae6ebde8a4f0ebf08",
+   "events": 104,
+   "prompts": 4,
+   "start": "2026-11-09T16:24:38.805000+00:00",
+   "end": "2026-11-09T16:27:49.895000+00:00",
+   "active_seconds": 191,
+   "tokens": {
+    "in": 36585,
+    "out": 24457
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "9d292bda-95d2-4958-8532-2be65d0a3781",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/9d292bda-95d2-4958-8532-2be65d0a3781/session.v4.jsonl.zstd",
+   "size": 210963,
+   "sha256": "8e5864e3742228a3b6b0dcddad6a590fa794cc54384cc0867accea7f25b6b558",
+   "events": 158,
+   "prompts": 4,
+   "start": "2026-11-09T16:24:38.838000+00:00",
+   "end": "2026-11-09T16:27:49.901000+00:00",
+   "active_seconds": 191,
+   "tokens": {
+    "in": 36302,
+    "out": 26019
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "c248cffd-fdc6-4f10-beca-37f476ead707",
+   "path": "--D-~4E13~5347~672C~82F1~8BED~9898~578B~7814~7A76--/c248cffd-fdc6-4f10-beca-37f476ead707/session.v4.jsonl.zstd",
+   "size": 196713,
+   "sha256": "8e99a9c07c89757fa1aec35df317d487a5e1961987d76c0938000b1b30632d87",
+   "events": 122,
+   "prompts": 4,
+   "start": "2026-11-09T16:24:38.866000+00:00",
+   "end": "2026-11-09T16:27:49.912000+00:00",
+   "active_seconds": 191,
+   "tokens": {
+    "in": 27099,
+    "out": 20165
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "session-f229db00-9f05-4f6e-9255-95e0eb678fb3",
+   "path": "--C-Users-why-Documents-ChatGPT-whitepaper-english--/session-f229db00-9f05-4f6e-9255-95e0eb678fb3/session.v4.jsonl.zstd",
+   "size": 169466,
+   "sha256": "a5de1ec226a35951d5c9a19fcb232264cb9f15164513e64b4f7d9e0efa7d1ce7",
+   "events": 240,
+   "prompts": 8,
+   "start": "2026-11-10T13:02:49.125000+00:00",
+   "end": "2026-11-10T13:14:31.805000+00:00",
+   "active_seconds": 702,
+   "tokens": {
+    "in": 11979,
+    "out": 18654
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  }
+ ],
+ "totals": {
+  "sessions": 179,
+  "prompts": 6793,
+  "active_seconds": 811647,
+  "tokens_in": 38789346,
+  "tokens_out": 24894631
+ }
+}
