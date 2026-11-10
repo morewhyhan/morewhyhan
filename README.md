@@ -7,13 +7,13 @@
 
 **🐱 My GitHub Data** 
 
-> 📦 1.7 GB Used in GitHub's Storage 
+> 📦 2.1 GB Used in GitHub's Storage 
  > 
-> 🏆 1,630 Contributions in the Year 2026
+> 🏆 1,654 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 18 Public Repositories 
+> 📜 21 Public Repositories 
  > 
 
 📊 **This Week I Spent My Time On** 
@@ -22,25 +22,25 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Markdown                 9 hrs 38 mins       ███████████░░░░░░░░░░░░░░   44.26 % 
-TypeScript               4 hrs 21 mins       █████░░░░░░░░░░░░░░░░░░░░   19.98 % 
-CSS                      3 hrs 42 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.00 % 
-Python                   1 hrs 15 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.79 % 
-JSON                     47 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.67 % 
+Markdown                 5 hrs 34 mins       █████████░░░░░░░░░░░░░░░░   36.20 % 
+CSS                      3 hrs 41 mins       ██████░░░░░░░░░░░░░░░░░░░   23.92 % 
+TypeScript               3 hrs 24 mins       ██████░░░░░░░░░░░░░░░░░░░   22.14 % 
+JSON                     46 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.06 % 
+Other                    30 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.32 % 
 
 🔥 Editors: 
-Codex Vscode             21 hrs 45 mins      █████████████████████████   99.86 % 
-Codex CLI                1 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.14 % 
+Codex Vscode             15 hrs 22 mins      █████████████████████████   99.80 % 
+Codex CLI                1 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 % 
 
 🐱‍💻 Projects: 
-whitepaper-english       12 hrs 54 mins      ███████████████░░░░░░░░░░   59.24 % 
-quant-research-history   4 hrs 11 mins       █████░░░░░░░░░░░░░░░░░░░░   19.24 % 
-mehrwis-skills           3 hrs 29 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.98 % 
-obsidian-journal         36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.79 % 
-igent                    20 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.58 % 
+whitepaper-english       12 hrs 54 mins      █████████████████████░░░░   83.78 % 
+quant-research-history   1 hrs 51 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.06 % 
+igent                    20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.23 % 
+mehrwis-skills           7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.82 % 
+new-chat                 5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.56 % 
 
 💻 Operating System: 
-Windows                  21 hrs 47 mins      █████████████████████████   100.00 % 
+Windows                  15 hrs 24 mins      █████████████████████████   100.00 % 
 ```
 
 🏆 **AI Coding All Time** 
@@ -76,16 +76,17 @@ gpt-5.6-terra            7 lines             ░░░░░░░░░░░�
 **I Mostly Code in TypeScript** 
 
 ```text
-TypeScript               9 repos             ██████████████░░░░░░░░░░░   56.25 % 
-Python                   5 repos             ████████░░░░░░░░░░░░░░░░░   31.25 % 
-JavaScript               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
-PowerShell               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
+TypeScript               9 repos             ████████████░░░░░░░░░░░░░   47.37 % 
+Python                   5 repos             ███████░░░░░░░░░░░░░░░░░░   26.32 % 
+JavaScript               2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.53 % 
+HTML                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
+PowerShell               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
 ```
 
 
 
 
- Last Updated on 09/11/2026 15:31:41 UTC
+ Last Updated on 10/11/2026 01:42:32 UTC
 <!--END_SECTION:waka-->
 
 <picture>
