@@ -8,6 +8,7 @@ const readline = require('readline');
 const LIVE = path.join(os.homedir(), '.codex', 'sessions');
 const ARCHIVE = path.join(os.homedir(), '.codex', 'archived_sessions');
 const OUTDIR = path.join(__dirname, '..', 'data', 'archive');
+const INDEX = path.join(OUTDIR, 'sessions.json');
 fs.mkdirSync(OUTDIR, { recursive: true });
 
 function walk(dir, acc) {
@@ -47,9 +48,7 @@ async function analyze(file) {
   const input = file.endsWith('.zst') ? raw.pipe(zlib.createZstdDecompress()) : raw;
   const rl = readline.createInterface({ input, crlfDelay: Infinity });
   let model = 'unknown';
-  let events = 0;
-  let first = 0, last = 0;
-  let added = 0, removed = 0, tin = 0, tout = 0;
+  let events = 0, first = 0, last = 0, added = 0, removed = 0, tin = 0, tout = 0;
   const models = {};
   const stamps = [];
   for await (const line of rl) {
@@ -92,11 +91,20 @@ async function analyze(file) {
     }
   }
   stamps.sort((a, b) => a - b);
-  let active = 0;
-  for (let i = 1; i < stamps.length; i += 1) {
-    const gap = stamps[i] - stamps[i - 1];
-    if (gap > 0) active += Math.min(gap, 900000) / 1000;
+  const intervals = [];
+  if (stamps.length) {
+    let segStart = stamps[0];
+    let prev = stamps[0];
+    for (let i = 1; i < stamps.length; i += 1) {
+      if (stamps[i] - prev > 900000) {
+        intervals.push([Math.floor(segStart / 1000), Math.floor(prev / 1000)]);
+        segStart = stamps[i];
+      }
+      prev = stamps[i];
+    }
+    intervals.push([Math.floor(segStart / 1000), Math.floor(prev / 1000)]);
   }
+  const active = intervals.reduce((acc, pair) => acc + (pair[1] - pair[0]), 0);
   return {
     file: path.basename(file),
     origin: file.includes('archived_sessions') ? 'archive' : 'live',
@@ -106,6 +114,7 @@ async function analyze(file) {
     start: first ? new Date(first).toISOString() : null,
     end: last ? new Date(last).toISOString() : null,
     active_seconds: Math.round(active),
+    intervals,
     added,
     removed,
     tokens: { in: tin, out: tout },
@@ -114,48 +123,39 @@ async function analyze(file) {
 }
 
 (async () => {
-  const files = walk(ARCHIVE, []).concat(walk(LIVE, []));
-  console.log('files:', files.length);
-  const sessions = [];
-  const daily = {};
-  let i = 0;
-  for (const f of files) {
-    try {
-      const r = await analyze(f);
-      sessions.push(r);
-      const day = (r.start || '').slice(0, 10);
-      if (day) {
-        if (!daily[day]) daily[day] = { sessions: 0, active_seconds: 0, added: 0, tokens_in: 0, tokens_out: 0 };
-        daily[day].sessions += 1;
-        daily[day].active_seconds += r.active_seconds;
-        daily[day].added += r.added;
-        daily[day].tokens_in += r.tokens.in;
-        daily[day].tokens_out += r.tokens.out;
-      }
-    } catch (e) {
-      console.log('skip', path.basename(f), e.message);
-    }
-    i += 1;
-    if (i % 100 === 0) console.log('done', i);
+  let index = { generated_at: null, sessions: [] };
+  if (!process.argv.includes('--rebuild')) {
+    try { index = JSON.parse(fs.readFileSync(INDEX, 'utf8')); } catch {}
   }
-  sessions.sort((a, b) => String(a.start).localeCompare(String(b.start)));
-  const totals = sessions.reduce((acc, s) => {
-    acc.sessions += 1;
-    acc.active_seconds += s.active_seconds;
-    acc.added += s.added;
-    acc.removed += s.removed;
-    acc.tokens_in += s.tokens.in;
-    acc.tokens_out += s.tokens.out;
-    return acc;
-  }, { sessions: 0, active_seconds: 0, added: 0, removed: 0, tokens_in: 0, tokens_out: 0 });
-  const index = {
-    generated_at: new Date().toISOString(),
-    source: 'Codex session logs (live + archived)',
-    note: 'Session-level manifest. Times are naive sums of capped inter-event gaps; they are not de-duplicated across concurrent sessions.',
-    totals,
-    sessions,
-  };
-  fs.writeFileSync(path.join(OUTDIR, 'sessions.json'), JSON.stringify(index, null, 1) + '\n');
+  const known = new Set((index.sessions || []).map((s) => s.file));
+  const files = walk(ARCHIVE, []).concat(walk(LIVE, []));
+  const fresh = files.filter((f) => !known.has(path.basename(f)));
+  console.log('files:', files.length, 'new:', fresh.length);
+  for (const f of fresh) {
+    try { index.sessions.push(await analyze(f)); } catch (e) { console.log('skip', path.basename(f), e.message); }
+  }
+  index.sessions.sort((a, b) => String(a.start).localeCompare(String(b.start)));
+  const daily = {};
+  const totals = { sessions: 0, active_seconds: 0, added: 0, removed: 0, tokens_in: 0, tokens_out: 0 };
+  for (const s of index.sessions) {
+    totals.sessions += 1;
+    totals.active_seconds += s.active_seconds;
+    totals.added += s.added;
+    totals.removed += s.removed;
+    totals.tokens_in += s.tokens.in;
+    totals.tokens_out += s.tokens.out;
+    const day = (s.start || '').slice(0, 10);
+    if (!day) continue;
+    if (!daily[day]) daily[day] = { sessions: 0, active_seconds: 0, added: 0, tokens_in: 0, tokens_out: 0 };
+    daily[day].sessions += 1;
+    daily[day].active_seconds += s.active_seconds;
+    daily[day].added += s.added;
+    daily[day].tokens_in += s.tokens.in;
+    daily[day].tokens_out += s.tokens.out;
+  }
+  index.generated_at = new Date().toISOString();
+  index.totals = totals;
+  fs.writeFileSync(INDEX, JSON.stringify(index, null, 1) + '\n');
   fs.writeFileSync(path.join(OUTDIR, 'daily.json'), JSON.stringify(daily, null, 1) + '\n');
-  console.log('DONE', JSON.stringify(totals));
+  console.log('DONE total sessions', totals.sessions, 'new', fresh.length);
 })();

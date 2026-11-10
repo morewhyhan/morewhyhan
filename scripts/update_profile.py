@@ -632,8 +632,10 @@ def render_ai_total(waka_data):
     active = int(usage.get("active_seconds") or 0) + int(dsh.get("active_seconds") or 0)
     tin += int((dsh.get("tokens") or {}).get("in") or 0)
     tout += int((dsh.get("tokens") or {}).get("out") or 0)
-    sessions_total = int(total.get("sessions") or 0) + int(dsh.get("sessions") or 0)
-    prompts_total = int(total.get("prompts") or 0) + int(dsh.get("prompts") or 0)
+    codex_sessions = int(usage.get("sessions") or 0) or int(total.get("sessions") or 0)
+    codex_prompts = int(usage.get("prompts") or 0) or int(total.get("prompts") or 0)
+    sessions_total = codex_sessions + int(dsh.get("sessions") or 0)
+    prompts_total = codex_prompts + int(dsh.get("prompts") or 0)
 
     out = ["\U0001F3C6 **AI Coding All Time** ", "", FENCE + "text"]
     out.append("\u23f1 %s" % human_time(active or ai.get("year_seconds") or 0))
