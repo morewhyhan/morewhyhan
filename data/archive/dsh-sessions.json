@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T13:53:18.595538+00:00",
+ "generated_at": "2026-11-10T15:30:03.038486+00:00",
  "sessions": [
   {
    "file": "session-54e846f3-9b3c-40cd-a7bf-6714a631c3d4",
@@ -4834,13 +4834,37 @@
    "models": {
     "deepseek-flash": 1
    }
+  },
+  {
+   "file": "session-d1c1143b-81b6-4397-b885-8177d7898d4a",
+   "path": "--D-langghost--/session-d1c1143b-81b6-4397-b885-8177d7898d4a/session.v4.jsonl.zstd",
+   "size": 658641,
+   "sha256": "6aeaa0754c2db5453b41650da2856df0faa7e540b272d29dd51559fad2c4994d",
+   "events": 882,
+   "prompts": 12,
+   "start": "2026-11-10T14:05:02.246000+00:00",
+   "end": "2026-11-10T14:32:29.263000+00:00",
+   "active_seconds": 1647,
+   "intervals": [
+    [
+     1794319502,
+     1794321149
+    ]
+   ],
+   "tokens": {
+    "in": 84242,
+    "out": 54082
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
   }
  ],
  "totals": {
-  "sessions": 179,
-  "prompts": 6798,
-  "active_seconds": 689627,
-  "tokens_in": 38794011,
-  "tokens_out": 24909226
+  "sessions": 180,
+  "prompts": 6810,
+  "active_seconds": 691274,
+  "tokens_in": 38878253,
+  "tokens_out": 24963308
  }
 }

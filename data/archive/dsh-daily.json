@@ -72,9 +72,9 @@
   "tokens_out": 7729250
  },
  "2026-11-10": {
-  "sessions": 1,
-  "active_seconds": 702,
-  "tokens_in": 11979,
-  "tokens_out": 18654
+  "sessions": 2,
+  "active_seconds": 2349,
+  "tokens_in": 96221,
+  "tokens_out": 72736
  }
 }
