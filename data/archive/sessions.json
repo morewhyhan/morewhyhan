@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T13:27:48.117Z",
+ "generated_at": "2026-11-10T13:31:08.689Z",
  "source": "Codex session logs (live + archived)",
  "note": "Session-level manifest. Times are naive sums of capped inter-event gaps; they are not de-duplicated across concurrent sessions.",
  "totals": {
