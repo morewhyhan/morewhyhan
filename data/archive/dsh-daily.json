@@ -1,7 +1,7 @@
 {
  "2026-08-16": {
   "sessions": 21,
-  "active_seconds": 50666,
+  "active_seconds": 42582,
   "tokens_in": 4230503,
   "tokens_out": 1763315
  },
@@ -13,13 +13,13 @@
  },
  "2026-10-19": {
   "sessions": 4,
-  "active_seconds": 39455,
+  "active_seconds": 34056,
   "tokens_in": 4672033,
   "tokens_out": 3028363
  },
  "2026-10-22": {
   "sessions": 1,
-  "active_seconds": 173591,
+  "active_seconds": 137591,
   "tokens_in": 4400721,
   "tokens_out": 1856868
  },
@@ -31,43 +31,43 @@
  },
  "2026-10-27": {
   "sessions": 3,
-  "active_seconds": 28519,
+  "active_seconds": 20420,
   "tokens_in": 1304590,
   "tokens_out": 514356
  },
  "2026-10-28": {
   "sessions": 2,
-  "active_seconds": 24530,
-  "tokens_in": 245531,
-  "tokens_out": 495169
+  "active_seconds": 18806,
+  "tokens_in": 249676,
+  "tokens_out": 508763
  },
  "2026-10-30": {
   "sessions": 1,
-  "active_seconds": 88985,
+  "active_seconds": 78186,
   "tokens_in": 4287386,
   "tokens_out": 1451814
  },
  "2026-11-05": {
   "sessions": 4,
-  "active_seconds": 192790,
+  "active_seconds": 165786,
   "tokens_in": 6441632,
   "tokens_out": 3238350
  },
  "2026-11-07": {
   "sessions": 7,
-  "active_seconds": 114177,
-  "tokens_in": 4048167,
-  "tokens_out": 2007231
+  "active_seconds": 95892,
+  "tokens_in": 4048687,
+  "tokens_out": 2008232
  },
  "2026-11-08": {
   "sessions": 67,
-  "active_seconds": 18256,
+  "active_seconds": 18299,
   "tokens_in": 926285,
   "tokens_out": 2791261
  },
  "2026-11-09": {
   "sessions": 66,
-  "active_seconds": 79946,
+  "active_seconds": 77277,
   "tokens_in": 8220519,
   "tokens_out": 7729250
  },

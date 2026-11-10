@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:34:57.156506+00:00",
+  "generated_at": "2026-11-10T13:45:02.146430+00:00",
   "all": {
     "sessions": 1052,
     "prompts": 0,
@@ -28,7 +28,7 @@
       "in": 17621969092,
       "out": 66804577
     },
-    "active_seconds": 3596379
+    "active_seconds": 3894243
   },
   "week": {
     "sessions": 0,
@@ -41,6 +41,6 @@
       "in": 0,
       "out": 0
     },
-    "active_seconds": 125383
+    "active_seconds": 101842
   }
 }
