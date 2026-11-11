@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T15:30:17.100Z",
+ "generated_at": "2026-11-11T15:30:15.855Z",
  "sessions": [
   {
    "file": "rollout-2026-06-09T18-15-41-019eabe1-6812-7b70-ba59-7716a79ed3fd.jsonl.zst",
@@ -27939,6 +27939,39 @@
    }
   },
   {
+   "file": "rollout-2026-10-29T18-57-10-01a1874e-7c68-7ab3-bd7c-9c264faf2fdd.jsonl.zst",
+   "origin": "live",
+   "size": 536912,
+   "sha256": "da69e6965568f530a0a7aedd3e78eb5dac924273a699c0916ff590221670eb67",
+   "events": 817,
+   "start": "2026-10-29T10:57:25.651Z",
+   "end": "2026-11-02T16:30:31.340Z",
+   "active_seconds": 3394,
+   "intervals": [
+    [
+     1793271445,
+     1793272164
+    ],
+    [
+     1793280273,
+     1793280694
+    ],
+    [
+     1793634777,
+     1793637031
+    ]
+   ],
+   "added": 636,
+   "removed": 1,
+   "tokens": {
+    "in": 16668899,
+    "out": 65637
+   },
+   "models": {
+    "gpt-6.1-terra": 636
+   }
+  },
+  {
    "file": "rollout-2026-10-30T07-29-56-01a13fae-1e21-7d91-a268-5ab0ee85d236_01a189ff-acc8-78e1-8815-0fc25cdaa451.jsonl.zst",
    "origin": "live",
    "size": 563794,
@@ -28057,6 +28090,93 @@
    }
   },
   {
+   "file": "rollout-2026-10-30T13-09-36-01a13fae-1e21-7d91-a268-5ab0ee85d236_01a18b36-a4e6-77e3-83f1-bf6220959ff3.jsonl.zst",
+   "origin": "live",
+   "size": 24567315,
+   "sha256": "97a5c2b9d14a055a28e4832c9b1e0546dd27c28a420322585c4b00a390128205",
+   "events": 12973,
+   "start": "2026-10-30T05:09:36.766Z",
+   "end": "2026-11-02T22:26:05.987Z",
+   "active_seconds": 33672,
+   "intervals": [
+    [
+     1793336976,
+     1793337950
+    ],
+    [
+     1793405571,
+     1793406102
+    ],
+    [
+     1793407305,
+     1793409032
+    ],
+    [
+     1793410449,
+     1793411410
+    ],
+    [
+     1793413336,
+     1793413609
+    ],
+    [
+     1793415148,
+     1793415303
+    ],
+    [
+     1793416620,
+     1793419248
+    ],
+    [
+     1793487331,
+     1793490077
+    ],
+    [
+     1793527484,
+     1793527732
+    ],
+    [
+     1793565356,
+     1793567405
+    ],
+    [
+     1793605429,
+     1793607306
+    ],
+    [
+     1793608209,
+     1793608321
+    ],
+    [
+     1793614357,
+     1793614437
+    ],
+    [
+     1793620075,
+     1793628378
+    ],
+    [
+     1793634756,
+     1793639901
+    ],
+    [
+     1793652502,
+     1793658365
+    ]
+   ],
+   "added": 3653,
+   "removed": 372,
+   "tokens": {
+    "in": 326345604,
+    "out": 692457
+   },
+   "models": {
+    "gpt-6.1-sol": 1789,
+    "gpt-6-astra": 997,
+    "gpt-5.6-luna": 867
+   }
+  },
+  {
    "file": "rollout-2026-10-30T15-57-11-01a18bcf-ff9d-7410-99aa-a3e306f59ec8.jsonl.zst",
    "origin": "live",
    "size": 62219,
@@ -28086,6 +28206,39 @@
    "origin": "live",
    "size": 6082261,
    "sha256": "3f076556d3b5bd364a6c0c48f0c0f5f633cbb71e07f327060d634b901aabb4a3",
+   "events": 1120,
+   "start": "2026-10-31T22:53:09.404Z",
+   "end": "2026-11-02T22:37:13.392Z",
+   "active_seconds": 7271,
+   "intervals": [
+    [
+     1793487189,
+     1793489201
+    ],
+    [
+     1793527027,
+     1793531977
+    ],
+    [
+     1793658724,
+     1793659033
+    ]
+   ],
+   "added": 56,
+   "removed": 1,
+   "tokens": {
+    "in": 21564703,
+    "out": 102300
+   },
+   "models": {
+    "gpt-6.1-sol": 56
+   }
+  },
+  {
+   "file": "rollout-2026-11-01T06-52-57-01a1942a-88d7-7af1-932c-d34f9161752d.jsonl.zst",
+   "origin": "live",
+   "size": 1225885,
+   "sha256": "15f51167b3585464ff5e2d89f1974b8a2bf258f2aa076b12d0be5515807124cb",
    "events": 1120,
    "start": "2026-10-31T22:53:09.404Z",
    "end": "2026-11-02T22:37:13.392Z",
@@ -28436,10 +28589,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-02T19-48-59-01a19c17-5e7b-7760-a5ba-9ec81a8827e7.jsonl.zst",
+   "origin": "live",
+   "size": 189551,
+   "sha256": "42b0c5b7ad3d9b9bbd1262a6389631b3ac4466deb94f76275bcfb3bb01d2e2ee",
+   "events": 90,
+   "start": "2026-11-02T11:48:59.952Z",
+   "end": "2026-11-02T11:55:58.647Z",
+   "active_seconds": 419,
+   "intervals": [
+    [
+     1793620139,
+     1793620558
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 632822,
+    "out": 737
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-02T20-07-30-01a19c28-51a7-7102-824c-7e810fa21897.jsonl",
    "origin": "live",
    "size": 1093819,
    "sha256": "eb8553c20ebb867b4401f2099765454289c8fa2a357864746eb15499ceb6be4c",
+   "events": 208,
+   "start": "2026-11-02T12:07:30.948Z",
+   "end": "2026-11-02T12:33:16.712Z",
+   "active_seconds": 1546,
+   "intervals": [
+    [
+     1793621250,
+     1793622796
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 1738518,
+    "out": 1449
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-02T20-07-30-01a19c28-51a7-7102-824c-7e810fa21897.jsonl.zst",
+   "origin": "live",
+   "size": 261764,
+   "sha256": "66280d004b99447cf392d381d9783abd8ddddaa95301fc326bac29ccc3a2599e",
    "events": 208,
    "start": "2026-11-02T12:07:30.948Z",
    "end": "2026-11-02T12:33:16.712Z",
@@ -28482,10 +28681,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-02T20-44-20-01a19c4a-0b5e-76c2-9922-b68bf30731b3.jsonl.zst",
+   "origin": "live",
+   "size": 166115,
+   "sha256": "467bc6a0ae61270f2c74b3f9d2bf18a294b88e48aab68092cb70218bc0180cb6",
+   "events": 20,
+   "start": "2026-11-02T12:44:21.027Z",
+   "end": "2026-11-02T12:44:26.413Z",
+   "active_seconds": 5,
+   "intervals": [
+    [
+     1793623461,
+     1793623466
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 81041,
+    "out": 167
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-02T21-43-51-01a19c80-85bf-7fd1-9ae4-f020a59b1d33.jsonl",
    "origin": "live",
    "size": 539571,
    "sha256": "95d12615eec668a777ff12f0d3f81bc07d2a9edc7c4b8b31312ad7b61015595d",
+   "events": 33,
+   "start": "2026-11-02T13:43:51.305Z",
+   "end": "2026-11-02T13:44:52.508Z",
+   "active_seconds": 61,
+   "intervals": [
+    [
+     1793627031,
+     1793627092
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 171582,
+    "out": 238
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-02T21-43-51-01a19c80-85bf-7fd1-9ae4-f020a59b1d33.jsonl.zst",
+   "origin": "live",
+   "size": 214050,
+   "sha256": "0b3fcabdfd989befc72c81331cfcdf1a2d6c3b7bddbac731105be934b04fb909",
    "events": 33,
    "start": "2026-11-02T13:43:51.305Z",
    "end": "2026-11-02T13:44:52.508Z",
@@ -28528,6 +28773,29 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-02T22-04-17-01a19c93-3af2-7df1-9680-2716a2f36c99.jsonl.zst",
+   "origin": "live",
+   "size": 189785,
+   "sha256": "95e568fe36cc4e9d80002923859e3ea20ee8fb1baeefcdb6f2c93146b842666e",
+   "events": 20,
+   "start": "2026-11-02T14:04:17.311Z",
+   "end": "2026-11-02T14:04:34.105Z",
+   "active_seconds": 17,
+   "intervals": [
+    [
+     1793628257,
+     1793628274
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 83255,
+    "out": 130
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-02T23-58-41-01a19cfb-fa82-7bb0-9a92-be21604a8072.jsonl",
    "origin": "live",
    "size": 974676,
@@ -28551,10 +28819,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-02T23-58-41-01a19cfb-fa82-7bb0-9a92-be21604a8072.jsonl.zst",
+   "origin": "live",
+   "size": 162379,
+   "sha256": "554b12100aec67c2a4a45d60c80d1475b41a6f4e45c624aca8b59c70b4006448",
+   "events": 395,
+   "start": "2026-11-02T15:58:41.812Z",
+   "end": "2026-11-02T16:26:46.843Z",
+   "active_seconds": 1685,
+   "intervals": [
+    [
+     1793635121,
+     1793636806
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 1402437,
+    "out": 3000
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-03T00-01-10-01a19cfe-3fc4-7c22-b178-458bf9d4f6fb.jsonl",
    "origin": "live",
    "size": 460921,
    "sha256": "2c534bab09f04ead4a0c5a61290ad65affa9d5f0ae205de979ac3e08fc87c45b",
+   "events": 20,
+   "start": "2026-11-02T16:01:11.002Z",
+   "end": "2026-11-02T16:01:16.500Z",
+   "active_seconds": 5,
+   "intervals": [
+    [
+     1793635271,
+     1793635276
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 81431,
+    "out": 124
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-03T00-01-10-01a19cfe-3fc4-7c22-b178-458bf9d4f6fb.jsonl.zst",
+   "origin": "live",
+   "size": 175296,
+   "sha256": "b02280ef2fec33d78634d4353b9fd0a305d45dd46d6f7f608fdbf200a745ceb4",
    "events": 20,
    "start": "2026-11-02T16:01:11.002Z",
    "end": "2026-11-02T16:01:16.500Z",
@@ -28635,10 +28949,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-03T00-11-44-01a19d07-eafc-7660-8421-bc76a04c2d70.jsonl.zst",
+   "origin": "live",
+   "size": 41657,
+   "sha256": "7432bdc2a9c6e3d1f55f89ef2e67a6f7aa00ce81ec4c63135baf2b10cd23a72f",
+   "events": 30,
+   "start": "2026-11-02T16:11:44.266Z",
+   "end": "2026-11-02T16:13:24.798Z",
+   "active_seconds": 100,
+   "intervals": [
+    [
+     1793635904,
+     1793636004
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 37252,
+    "out": 262
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-03T00-35-33-01a19d1d-b900-7fc3-8e58-0b2f66fb0d2c.jsonl",
    "origin": "live",
    "size": 570842,
    "sha256": "827ae3a73d5c0638fa2e905d9a8045c0206d2fef58fb1c46f53944a09983eaaa",
+   "events": 144,
+   "start": "2026-11-02T16:35:33.255Z",
+   "end": "2026-11-02T16:52:44.680Z",
+   "active_seconds": 1031,
+   "intervals": [
+    [
+     1793637333,
+     1793638364
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 603024,
+    "out": 1465
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-03T00-35-33-01a19d1d-b900-7fc3-8e58-0b2f66fb0d2c.jsonl.zst",
+   "origin": "live",
+   "size": 111367,
+   "sha256": "007f1531c08bad9957dc3be8f2bb74ba206bb4c3403dfe64b4bfccd07a48a4c1",
    "events": 144,
    "start": "2026-11-02T16:35:33.255Z",
    "end": "2026-11-02T16:52:44.680Z",
@@ -28681,10 +29041,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-03T00-39-04-01a19d20-f2f9-7d10-932d-928685697bf6.jsonl.zst",
+   "origin": "live",
+   "size": 180603,
+   "sha256": "a53ba3619c3a442501065ca4b1464196aea6ff4c02d8170a1578040b780f139d",
+   "events": 33,
+   "start": "2026-11-02T16:39:05.169Z",
+   "end": "2026-11-02T16:40:15.625Z",
+   "active_seconds": 70,
+   "intervals": [
+    [
+     1793637545,
+     1793637615
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 167375,
+    "out": 266
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-03T00-52-45-01a19d2d-7938-71d1-856f-c2cb5d1c9e5c.jsonl",
    "origin": "live",
    "size": 1131111,
    "sha256": "e480867ce1d76635605a4a1674fac80d6c289f6c99eb71f6eb2f15ae5cbf9be0",
+   "events": 230,
+   "start": "2026-11-02T16:52:45.505Z",
+   "end": "2026-11-02T17:12:38.606Z",
+   "active_seconds": 1193,
+   "intervals": [
+    [
+     1793638365,
+     1793639558
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 1766991,
+    "out": 1735
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-03T00-52-45-01a19d2d-7938-71d1-856f-c2cb5d1c9e5c.jsonl.zst",
+   "origin": "live",
+   "size": 193823,
+   "sha256": "7fb7522aaf2e6a4d5af412b2bd6db5c278b239b3f5cc5bc69d26e669b0a2b059",
    "events": 230,
    "start": "2026-11-02T16:52:45.505Z",
    "end": "2026-11-02T17:12:38.606Z",
@@ -28727,10 +29133,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-03T01-12-38-01a19d3f-ade1-74f1-b0bf-b44ab3876abb.jsonl.zst",
+   "origin": "live",
+   "size": 204682,
+   "sha256": "af14a81d1b92fc7d0b8fef3ad81d79bb2832c82e05777cd5487ada521c9d63b3",
+   "events": 66,
+   "start": "2026-11-02T17:12:38.629Z",
+   "end": "2026-11-02T17:22:58.847Z",
+   "active_seconds": 620,
+   "intervals": [
+    [
+     1793639558,
+     1793640178
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 840070,
+    "out": 634
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-03T01-45-18-01a19d5d-9486-7291-a46f-e56b2fa7917c.jsonl",
    "origin": "live",
    "size": 411721,
    "sha256": "85607ad5cdce074a520134db8fbf74b7e9a641e68fd86fe9cd57414670841e44",
+   "events": 90,
+   "start": "2026-11-02T17:45:18.219Z",
+   "end": "2026-11-02T18:03:18.492Z",
+   "active_seconds": 1080,
+   "intervals": [
+    [
+     1793641518,
+     1793642598
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 235580,
+    "out": 1049
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-03T01-45-18-01a19d5d-9486-7291-a46f-e56b2fa7917c.jsonl.zst",
+   "origin": "live",
+   "size": 128418,
+   "sha256": "da5c3062ac4aad9b20a63540b008d78a3c6daecc1d8c1dc8f818f8bc99e96d81",
    "events": 90,
    "start": "2026-11-02T17:45:18.219Z",
    "end": "2026-11-02T18:03:18.492Z",
@@ -28773,10 +29225,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-03T02-03-31-01a19d6e-450b-7330-b69e-bd4e89544adc.jsonl.zst",
+   "origin": "live",
+   "size": 223263,
+   "sha256": "11e9bbed1ac1e0744c52c0b8f22abdea6f235aed3d543cc0767c902b68a3f372",
+   "events": 204,
+   "start": "2026-11-02T18:03:31.983Z",
+   "end": "2026-11-02T18:25:34.908Z",
+   "active_seconds": 1323,
+   "intervals": [
+    [
+     1793642611,
+     1793643934
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 1314619,
+    "out": 1726
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-03T02-26-23-01a19d83-32e2-7572-ba86-7fd92df3a442.jsonl",
    "origin": "live",
    "size": 1251897,
    "sha256": "3fe5829e78b466e8df95ec38111bb6f57a1a7a5a8f186e547d6bb131deae76d9",
+   "events": 29,
+   "start": "2026-11-02T18:26:23.606Z",
+   "end": "2026-11-02T18:27:14.119Z",
+   "active_seconds": 51,
+   "intervals": [
+    [
+     1793643983,
+     1793644034
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 325603,
+    "out": 499
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-03T02-26-23-01a19d83-32e2-7572-ba86-7fd92df3a442.jsonl.zst",
+   "origin": "live",
+   "size": 221689,
+   "sha256": "2e409cba1350d34060edc3bddfa5acc577167b8d95d792d348092d773dfab9c7",
    "events": 29,
    "start": "2026-11-02T18:26:23.606Z",
    "end": "2026-11-02T18:27:14.119Z",
@@ -28819,6 +29317,29 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-03T04-54-27-01a19e0a-c081-7512-aebd-9dc80f9aed96.jsonl.zst",
+   "origin": "live",
+   "size": 56300,
+   "sha256": "c579e5f6cb4cbd9994b0464c4ac094861284902df65716cae1e250f991e60d97",
+   "events": 3,
+   "start": "2026-11-02T20:54:27.859Z",
+   "end": "2026-11-02T20:54:27.872Z",
+   "active_seconds": 0,
+   "intervals": [
+    [
+     1793652867,
+     1793652867
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-03T05-05-13-01a19e14-9bae-7560-9681-77d512eacff1.jsonl",
    "origin": "live",
    "size": 463812,
@@ -28842,10 +29363,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-03T05-05-13-01a19e14-9bae-7560-9681-77d512eacff1.jsonl.zst",
+   "origin": "live",
+   "size": 179004,
+   "sha256": "b31ced575c8f5059b2973c8b7123d7d6fe98fd061a04c9030d91bc65ef90a2e8",
+   "events": 20,
+   "start": "2026-11-02T21:05:13.487Z",
+   "end": "2026-11-02T21:05:17.424Z",
+   "active_seconds": 4,
+   "intervals": [
+    [
+     1793653513,
+     1793653517
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 82365,
+    "out": 146
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-03T06-09-46-01a19e4f-b72e-7cc0-95ab-1a416d420f19.jsonl",
    "origin": "live",
    "size": 751084,
    "sha256": "ae37d21f755cdcf2ba28b7cd2bcd2f578f1f1c8168560c96c4b2627660a1a634",
+   "events": 97,
+   "start": "2026-11-02T22:09:47.223Z",
+   "end": "2026-11-02T22:16:33.360Z",
+   "active_seconds": 406,
+   "intervals": [
+    [
+     1793657387,
+     1793657793
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 748745,
+    "out": 691
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-03T06-09-46-01a19e4f-b72e-7cc0-95ab-1a416d420f19.jsonl.zst",
+   "origin": "live",
+   "size": 201943,
+   "sha256": "9dd1782bb57621fcdc2393da9725780d35e41debc3cb62c3889c53091434cb64",
    "events": 97,
    "start": "2026-11-02T22:09:47.223Z",
    "end": "2026-11-02T22:16:33.360Z",
@@ -28917,10 +29484,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-03T06-26-38-01a19e5f-2653-7b30-b963-63d880802224.jsonl.zst",
+   "origin": "live",
+   "size": 47871,
+   "sha256": "5c5c8b7c6eba3aa7ee6ea93e40b3be9effb5e947c5cca0315e2b4c5b91e0a9a0",
+   "events": 3,
+   "start": "2026-11-02T22:26:39.228Z",
+   "end": "2026-11-02T22:26:39.251Z",
+   "active_seconds": 0,
+   "intervals": [
+    [
+     1793658399,
+     1793658399
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-03T06-29-06-01a19e61-684c-7dd0-aae3-321d0261ed51.jsonl",
    "origin": "live",
    "size": 76034,
    "sha256": "1ff4c27b6a429f7fa2e8ffe77426fa6b0ac54dac8fb5a4fc76f5919390ba4e71",
+   "events": 3,
+   "start": "2026-11-02T22:29:07.238Z",
+   "end": "2026-11-02T22:29:07.268Z",
+   "active_seconds": 0,
+   "intervals": [
+    [
+     1793658547,
+     1793658547
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-03T06-29-06-01a19e61-684c-7dd0-aae3-321d0261ed51.jsonl.zst",
+   "origin": "live",
+   "size": 49245,
+   "sha256": "634ba47de8b82af659d4fdb92f297bcd461e36924dbe34227fe6eb6a7e8522e9",
    "events": 3,
    "start": "2026-11-02T22:29:07.238Z",
    "end": "2026-11-02T22:29:07.268Z",
@@ -28963,10 +29576,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-03T06-31-45-01a19e63-d492-7262-a353-c6441d87d9dd.jsonl.zst",
+   "origin": "live",
+   "size": 23103,
+   "sha256": "b243a2933bfbbd79f1963cc2d040a5fb56e4367dec1589218e744c061e91d2e5",
+   "events": 3,
+   "start": "2026-11-02T22:31:45.048Z",
+   "end": "2026-11-02T22:31:45.071Z",
+   "active_seconds": 0,
+   "intervals": [
+    [
+     1793658705,
+     1793658705
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-03T06-44-04-01a19e6f-1d94-7413-9a07-4210bb27a062.jsonl",
    "origin": "live",
    "size": 645306,
    "sha256": "ae563b427b555c68a4fb1bf49af3be908aecb48b8233ad13087bc34af75b13d4",
+   "events": 102,
+   "start": "2026-11-02T22:44:05.233Z",
+   "end": "2026-11-02T22:47:31.143Z",
+   "active_seconds": 206,
+   "intervals": [
+    [
+     1793659445,
+     1793659651
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 746107,
+    "out": 941
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-03T06-44-04-01a19e6f-1d94-7413-9a07-4210bb27a062.jsonl.zst",
+   "origin": "live",
+   "size": 181509,
+   "sha256": "6bfd922e0ae2720bda4d0788d6c24cad4895110022378e2cce0aa8887f27eebe",
    "events": 102,
    "start": "2026-11-02T22:44:05.233Z",
    "end": "2026-11-02T22:47:31.143Z",
@@ -29048,10 +29707,60 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-03T07-30-23-01a19e99-84e0-7cb1-91c2-eb9025f0476c.jsonl.zst",
+   "origin": "live",
+   "size": 33959,
+   "sha256": "38dc0ef35ab5821d1f8d40a1698551294d366e52e2f5267187d176a5ad56a7a4",
+   "events": 17,
+   "start": "2026-11-02T23:30:24.180Z",
+   "end": "2026-11-02T23:30:27.091Z",
+   "active_seconds": 3,
+   "intervals": [
+    [
+     1793662224,
+     1793662227
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 22521,
+    "out": 109
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-03T07-50-44-01a19eac-2523-73d2-8680-b84f70f32291.jsonl",
    "origin": "live",
    "size": 365104,
    "sha256": "aa5709a62afa4ddf7ce4727ebdfdb8911327ce59c264931e608ef76525e81414",
+   "events": 67,
+   "start": "2026-11-02T23:50:44.816Z",
+   "end": "2026-11-03T00:18:09.534Z",
+   "active_seconds": 687,
+   "intervals": [
+    [
+     1793663444,
+     1793663447
+    ],
+    [
+     1793664405,
+     1793665089
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 207802,
+    "out": 587
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-03T07-50-44-01a19eac-2523-73d2-8680-b84f70f32291.jsonl.zst",
+   "origin": "live",
+   "size": 103191,
+   "sha256": "3f7c9a34d2c267a4a3ec298a79d46048d959ef5fb0d037b226563f519097189e",
    "events": 67,
    "start": "2026-11-02T23:50:44.816Z",
    "end": "2026-11-03T00:18:09.534Z",
@@ -29098,10 +29807,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-03T17-30-28-01a1a0be-ea38-72d3-ad41-9586c2288638.jsonl.zst",
+   "origin": "live",
+   "size": 55019,
+   "sha256": "206d1fdb998f8cb9f2faea9a36160557646ed50d5fc6701d1c71523e798d01ef",
+   "events": 3,
+   "start": "2026-11-03T09:30:28.795Z",
+   "end": "2026-11-03T09:30:28.813Z",
+   "active_seconds": 0,
+   "intervals": [
+    [
+     1793698228,
+     1793698228
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-04T03-17-50-01a1a2d8-aa9a-7d32-8e79-77dbb1f80989.jsonl",
    "origin": "live",
    "size": 83531,
    "sha256": "21d92f056a6d2e8dd21761de0f7f3fc9c62c6c1be5dab92ceb476ee4de2f8580",
+   "events": 3,
+   "start": "2026-11-03T19:17:50.885Z",
+   "end": "2026-11-03T19:17:50.919Z",
+   "active_seconds": 0,
+   "intervals": [
+    [
+     1793733470,
+     1793733470
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-04T03-17-50-01a1a2d8-aa9a-7d32-8e79-77dbb1f80989.jsonl.zst",
+   "origin": "live",
+   "size": 55021,
+   "sha256": "1904e4cf9972a53c8cc7f5bc60992782f0a9f679a85e2d4a99fc864400ab30fc",
    "events": 3,
    "start": "2026-11-03T19:17:50.885Z",
    "end": "2026-11-03T19:17:50.919Z",
@@ -29233,10 +29988,58 @@
    }
   },
   {
+   "file": "rollout-2026-11-04T09-44-32-01a1a43a-b28d-7852-a798-067762c161a1.jsonl.zst",
+   "origin": "live",
+   "size": 227466,
+   "sha256": "2748f11dd5cce70bbef32d30e609346d0a15bb3e8988197b505d598eacc8c97a",
+   "events": 236,
+   "start": "2026-11-04T01:44:33.647Z",
+   "end": "2026-11-04T02:03:45.509Z",
+   "active_seconds": 1152,
+   "intervals": [
+    [
+     1793756673,
+     1793757825
+    ]
+   ],
+   "added": 862,
+   "removed": 166,
+   "tokens": {
+    "in": 2689457,
+    "out": 25273
+   },
+   "models": {
+    "gpt-6.1-sol": 862
+   }
+  },
+  {
    "file": "rollout-2026-11-04T09-49-36-01a1a43f-52fe-7111-9a26-6769b2d2f707.jsonl",
    "origin": "live",
    "size": 1111168,
    "sha256": "524866b0e88c73805ca76fe135a2b3bc826996faaff2e5092b76fe2cdc47c4ba",
+   "events": 145,
+   "start": "2026-11-04T01:49:36.531Z",
+   "end": "2026-11-04T02:03:38.071Z",
+   "active_seconds": 842,
+   "intervals": [
+    [
+     1793756976,
+     1793757818
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 1647082,
+    "out": 3385
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-04T09-49-36-01a1a43f-52fe-7111-9a26-6769b2d2f707.jsonl.zst",
+   "origin": "live",
+   "size": 198081,
+   "sha256": "4eaa6150e86730ddb14aeaf4c32dc874855fb80b9c6700a1bbe17adbcb17e9b0",
    "events": 145,
    "start": "2026-11-04T01:49:36.531Z",
    "end": "2026-11-04T02:03:38.071Z",
@@ -29279,6 +30082,29 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-04T09-58-28-01a1a447-73e4-7860-a787-cfe74e51932d.jsonl.zst",
+   "origin": "live",
+   "size": 71991,
+   "sha256": "d05b841f3254bc38df0dfa2abc3f5f9b525fadf62380afc15abfdab7c711f86b",
+   "events": 41,
+   "start": "2026-11-04T01:58:29.288Z",
+   "end": "2026-11-04T02:03:50.678Z",
+   "active_seconds": 321,
+   "intervals": [
+    [
+     1793757509,
+     1793757830
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 103367,
+    "out": 329
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-04T10-11-22-01a1a453-4129-7600-89d6-3895e728b6db.jsonl",
    "origin": "live",
    "size": 187360,
@@ -29302,10 +30128,56 @@
    "models": {}
   },
   {
+   "file": "rollout-2026-11-04T10-11-22-01a1a453-4129-7600-89d6-3895e728b6db.jsonl.zst",
+   "origin": "live",
+   "size": 52576,
+   "sha256": "400f775eb3ca38e8e64c20dd3739fd9b7697d06874ec809d246991db6f20e4aa",
+   "events": 22,
+   "start": "2026-11-04T02:11:22.636Z",
+   "end": "2026-11-04T02:14:31.608Z",
+   "active_seconds": 189,
+   "intervals": [
+    [
+     1793758282,
+     1793758471
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 25013,
+    "out": 44
+   },
+   "models": {}
+  },
+  {
    "file": "rollout-2026-11-04T12-09-55-01a1a4bf-cc8f-7f83-a547-a2ee75e20ec1.jsonl",
    "origin": "live",
    "size": 6140064,
    "sha256": "b4703679e2713a9e3e6cb6b81aefd61fb52ab303c1ab2f606d87b5a3cc65fb37",
+   "events": 16,
+   "start": "2026-11-04T04:09:58.455Z",
+   "end": "2026-11-04T04:11:05.910Z",
+   "active_seconds": 67,
+   "intervals": [
+    [
+     1793765398,
+     1793765465
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
+   "file": "rollout-2026-11-04T12-09-55-01a1a4bf-cc8f-7f83-a547-a2ee75e20ec1.jsonl.zst",
+   "origin": "live",
+   "size": 4534681,
+   "sha256": "307f6476827be004584ea72fc6d934d60b86554032c402cd6e6cba19d4a0c780",
    "events": 16,
    "start": "2026-11-04T04:09:58.455Z",
    "end": "2026-11-04T04:11:05.910Z",
@@ -29621,14 +30493,37 @@
     "out": 0
    },
    "models": {}
+  },
+  {
+   "file": "rollout-2026-11-11T19-03-38-01a1ca47-14d9-7f30-8d40-2094362d8a96.jsonl",
+   "origin": "live",
+   "size": 857627,
+   "sha256": "f64ba6b53439e96499bdeb739dc2ebcac3d6f60f09edc9c120839f7d4062c09f",
+   "events": 296,
+   "start": "2026-11-11T11:03:39.974Z",
+   "end": "2026-11-11T12:31:30.676Z",
+   "active_seconds": 5271,
+   "intervals": [
+    [
+     1794395019,
+     1794400290
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 1721209,
+    "out": 15574
+   },
+   "models": {}
   }
  ],
  "totals": {
-  "sessions": 1053,
-  "active_seconds": 5396301,
-  "added": 722235,
-  "removed": 70074,
-  "tokens_in": 17760014782,
-  "tokens_out": 67013051
+  "sessions": 1088,
+  "active_seconds": 5458992,
+  "added": 727442,
+  "removed": 70614,
+  "tokens_in": 18142069256,
+  "tokens_out": 67934005
  }
 }
