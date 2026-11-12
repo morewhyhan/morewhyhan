@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-11T15:30:14.529239+00:00",
-  "sessions": 180,
-  "prompts": 6810,
+  "generated_at": "2026-11-12T15:30:22.982929+00:00",
+  "sessions": 202,
+  "prompts": 6942,
   "tokens": {
-    "in": 38878253,
-    "out": 24963308
+    "in": 40374568,
+    "out": 27215504
   },
-  "active_seconds": 509183,
-  "week_active_seconds": 261452,
+  "active_seconds": 511459,
+  "week_active_seconds": 241164,
   "models": {}
 }

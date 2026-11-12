@@ -76,5 +76,11 @@
   "active_seconds": 2349,
   "tokens_in": 96221,
   "tokens_out": 72736
+ },
+ "2026-11-12": {
+  "sessions": 22,
+  "active_seconds": 13439,
+  "tokens_in": 1496315,
+  "tokens_out": 2252196
  }
 }

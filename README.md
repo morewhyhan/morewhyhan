@@ -1,19 +1,19 @@
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1223%20hrs%2010%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-336%20hrs%2033%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-1223%20hrs%2010%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-336%20hrs%2033%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
-> 📦 2.1 GB Used in GitHub's Storage 
+> 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 1,698 Contributions in the Year 2026
+> 🏆 770 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 21 Public Repositories 
+> 📜 18 Public Repositories 
  > 
 
 📊 **This Week I Spent My Time On** 
@@ -22,69 +22,66 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Markdown                 54 mins             █████████████░░░░░░░░░░░░   52.11 % 
-Other                    46 mins             ███████████░░░░░░░░░░░░░░   44.37 % 
-Git Config               3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.52 % 
+Markdown                 10 hrs 18 mins      ██████████░░░░░░░░░░░░░░░   38.93 % 
+TypeScript               4 hrs 7 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.55 % 
+CSS                      4 hrs 2 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.29 % 
+JavaScript               3 hrs 8 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.85 % 
+Python                   1 hrs 30 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.72 % 
 
 🔥 Editors: 
-Codex Vscode             1 hrs 1 mins        ███████████████░░░░░░░░░░   59.35 % 
-Deepseek                 37 mins             █████████░░░░░░░░░░░░░░░░   36.36 % 
-Unknown Editor           4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.29 % 
+Codex Vscode             26 hrs 19 mins      █████████████████████████   99.45 % 
+Codex CLI                8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.55 % 
 
 🐱‍💻 Projects: 
-deepseek-harness         42 mins             ██████████░░░░░░░░░░░░░░░   40.65 % 
-mehrwis-skills           38 mins             █████████░░░░░░░░░░░░░░░░   36.55 % 
-专升本英语题型研究       12 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.02 % 
-whitepaper-english       3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.72 % 
-poker-range-trainer      3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.70 % 
+whitepaper-english       12 hrs 54 mins      ████████████░░░░░░░░░░░░░   48.77 % 
+quant-research-history   4 hrs 18 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.28 % 
+poker-range-trainer      3 hrs 54 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.75 % 
+mehrwis-skills           3 hrs 29 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.16 % 
+chatgpt-conversation-6ae…1 hrs 14 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   04.67 % 
 
 💻 Operating System: 
-Windows                  1 hrs 39 mins       ████████████████████████░   95.71 % 
-Unknown OS               4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.29 % 
+Windows                  26 hrs 28 mins      █████████████████████████   100.00 % 
 ```
 
 🏆 **AI Coding All Time** 
 
 ```text
-⏱ 1223 hrs 10 mins
+⏱ 336 hrs 33 mins
 
-✍️ 722,235 lines written by AI, 0 lines written by hand (100.00% AI-written)
+✍️ 140,562 lines written by AI, 0 lines written by hand (100.00% AI-written)
 
-🔤 17,798,893,035 Input Tokens, 91,976,359 Output Tokens
+🔤 3,474,768,585 Input Tokens, 22,565,816 Output Tokens
 
 💵 ¥3,700 Estimated AI Cost
 
-🧠 1233 AI Sessions, 7244 AI Prompts
+🧠 89 AI Sessions, 3541 AI Prompts
 
-🧩 Assistants:
-OpenAI Codex             1081 hrs 44 mins    ██████████████████████░░░   88.44 % 
-DeepSeek DSH             141 hrs 26 mins     ███░░░░░░░░░░░░░░░░░░░░░░   11.56 % 
-
-gpt-5.6-luna             215,473 lines       ██████████░░░░░░░░░░░░░░░   38.90 % 
-gpt-5.6-sol              203,105 lines       █████████░░░░░░░░░░░░░░░░   36.67 % 
-gpt-6.1-sol              110,969 lines       █████░░░░░░░░░░░░░░░░░░░░   20.04 % 
-gpt-6-astra              24,302 lines        █░░░░░░░░░░░░░░░░░░░░░░░░   04.39 % 
+gpt-5.6-luna             71,957 lines        █████████████░░░░░░░░░░░░   51.22 % 
+gpt-6.1-sol              49,084 lines        █████████░░░░░░░░░░░░░░░░   34.94 % 
+gpt-6-astra              14,397 lines        ███░░░░░░░░░░░░░░░░░░░░░░   10.25 % 
+gpt-6.1-terra            3,485 lines         █░░░░░░░░░░░░░░░░░░░░░░░░   02.48 % 
+gpt-5.6-sol              1,562 lines         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.11 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.00% of written lines came from AI
-🔁 Iterative Prompter — average 5.9 prompts per session
+📚 Verbose Prompter — average 1,864 characters per prompt
+🔁 Iterative Prompter — average 39.8 prompts per session
 🚀 High AI Trust — 0.00% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
 
 ```text
-TypeScript               9 repos             ████████████░░░░░░░░░░░░░   47.37 % 
-Python                   5 repos             ███████░░░░░░░░░░░░░░░░░░   26.32 % 
-JavaScript               2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.53 % 
-HTML                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
-PowerShell               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
+TypeScript               9 repos             ██████████████░░░░░░░░░░░   56.25 % 
+Python                   5 repos             ████████░░░░░░░░░░░░░░░░░   31.25 % 
+JavaScript               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
+PowerShell               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
 ```
 
 
 
 
- Last Updated on 12/11/2026 00:54:38 UTC
+ Last Updated on 06/11/2026 17:36:41 UTC
 <!--END_SECTION:waka-->
 
 <picture>
@@ -96,10 +93,10 @@ PowerShell               1 repo              █░░░░░░░░░░�
 ---
 
 <!-- BLOG-POST-LIST:START -->
+- [给大学生](https://morewhyhan.github.io/series/college-students/) - 2026-10-05
 - [姜学勤心理史学](https://morewhyhan.github.io/book/psychohistory/) - 2026-08-29
 - [决策算法100讲](https://morewhyhan.github.io/book/decision-algorithm/) - 2026-08-28
 - [奥德赛意识流](https://morewhyhan.github.io/2026/08/23/life-notes-odyssey/) - 2026-08-23
 - [再挤挤](https://morewhyhan.github.io/2026/08/10/life-notes-make-room/) - 2026-08-10
-- [武藏之死在天下无双](https://morewhyhan.github.io/2026/08/10/life-notes-musashi/) - 2026-08-10
 <!-- BLOG-POST-LIST:END -->
 
