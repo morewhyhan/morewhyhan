@@ -9,7 +9,7 @@
 
 > 📦 2.1 GB Used in GitHub's Storage 
  > 
-> 🏆 1,692 Contributions in the Year 2026
+> 🏆 1,698 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -22,27 +22,25 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-CSS                      3 hrs 38 mins       █████████░░░░░░░░░░░░░░░░   35.15 % 
-Markdown                 2 hrs 51 mins       ███████░░░░░░░░░░░░░░░░░░   27.68 % 
-TypeScript               1 hrs 58 mins       █████░░░░░░░░░░░░░░░░░░░░   19.17 % 
-Other                    1 hrs 6 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.77 % 
-JSON                     41 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.64 % 
+Markdown                 54 mins             █████████████░░░░░░░░░░░░   52.11 % 
+Other                    46 mins             ███████████░░░░░░░░░░░░░░   44.37 % 
+Git Config               3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.52 % 
 
 🔥 Editors: 
-Codex Vscode             9 hrs 37 mins       ███████████████████████░░   93.18 % 
-Deepseek                 37 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.10 % 
-Unknown Editor           4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.72 % 
+Codex Vscode             1 hrs 1 mins        ███████████████░░░░░░░░░░   59.35 % 
+Deepseek                 37 mins             █████████░░░░░░░░░░░░░░░░   36.36 % 
+Unknown Editor           4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.29 % 
 
 🐱‍💻 Projects: 
-whitepaper-english       8 hrs 18 mins       ████████████████████░░░░░   80.33 % 
-deepseek-harness         42 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.82 % 
-mehrwis-skills           38 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.13 % 
-igent                    20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.32 % 
-专升本英语题型研究       12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.02 % 
+deepseek-harness         42 mins             ██████████░░░░░░░░░░░░░░░   40.65 % 
+mehrwis-skills           38 mins             █████████░░░░░░░░░░░░░░░░   36.55 % 
+专升本英语题型研究       12 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.02 % 
+whitepaper-english       3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.72 % 
+poker-range-trainer      3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.70 % 
 
 💻 Operating System: 
-Windows                  10 hrs 15 mins      █████████████████████████   99.28 % 
-Unknown OS               4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.72 % 
+Windows                  1 hrs 39 mins       ████████████████████████░   95.71 % 
+Unknown OS               4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.29 % 
 ```
 
 🏆 **AI Coding All Time** 
@@ -86,7 +84,7 @@ PowerShell               1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 11/11/2026 15:31:25 UTC
+ Last Updated on 12/11/2026 00:54:38 UTC
 <!--END_SECTION:waka-->
 
 <picture>
