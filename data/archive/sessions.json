@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T15:30:23.623Z",
+ "generated_at": "2026-11-13T15:30:36.017Z",
  "sessions": [
   {
    "file": "rollout-2026-06-09T18-15-41-019eabe1-6812-7b70-ba59-7716a79ed3fd.jsonl.zst",
@@ -32057,14 +32057,41 @@
     "out": 2580
    },
    "models": {}
+  },
+  {
+   "file": "rollout-2026-11-13T16-06-45-01a1d3f1-c832-7070-be45-c11c640a4a23.jsonl",
+   "origin": "live",
+   "size": 226010,
+   "sha256": "c1a2eaea839f53c0f0ad9d5b3348fcf0fcf47e5c2b63d663d8c954f64ed428ce",
+   "events": 53,
+   "start": "2026-11-13T08:06:46.138Z",
+   "end": "2026-11-13T09:22:36.681Z",
+   "active_seconds": 72,
+   "intervals": [
+    [
+     1794557206,
+     1794557229
+    ],
+    [
+     1794561707,
+     1794561756
+    ]
+   ],
+   "added": 0,
+   "removed": 0,
+   "tokens": {
+    "in": 157132,
+    "out": 1350
+   },
+   "models": {}
   }
  ],
  "totals": {
-  "sessions": 1155,
-  "active_seconds": 5473251,
+  "sessions": 1156,
+  "active_seconds": 5473323,
   "added": 727442,
   "removed": 70614,
-  "tokens_in": 18144892982,
-  "tokens_out": 68159307
+  "tokens_in": 18145050114,
+  "tokens_out": 68160657
  }
 }

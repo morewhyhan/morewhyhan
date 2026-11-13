@@ -824,5 +824,12 @@
   "added": 0,
   "tokens_in": 2823726,
   "tokens_out": 225302
+ },
+ "2026-11-13": {
+  "sessions": 1,
+  "active_seconds": 72,
+  "added": 0,
+  "tokens_in": 157132,
+  "tokens_out": 1350
  }
 }

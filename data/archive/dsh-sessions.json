@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T15:30:05.100207+00:00",
+ "generated_at": "2026-11-13T15:30:08.724364+00:00",
  "sessions": [
   {
    "file": "session-54e846f3-9b3c-40cd-a7bf-6714a631c3d4",
@@ -5386,13 +5386,107 @@
    "models": {
     "deepseek-flash": 1
    }
+  },
+  {
+   "file": "session-70b4532f-f324-4600-a1d8-4f9ac9361507",
+   "path": "--C-Users-why-Desktop-ft_userdata--/session-70b4532f-f324-4600-a1d8-4f9ac9361507/session.v4.jsonl.zstd",
+   "size": 330,
+   "sha256": "f3ce24bc557a7d34fc48738cc1b6852db012f2b17b59b68cb1ed382de02c0512",
+   "events": 3,
+   "prompts": 0,
+   "start": "2026-11-13T09:18:45.303000+00:00",
+   "end": "2026-11-13T09:18:45.305000+00:00",
+   "active_seconds": 0,
+   "intervals": [
+    [
+     1794561525,
+     1794561525
+    ]
+   ],
+   "tokens": {
+    "in": 0,
+    "out": 0
+   },
+   "models": {}
+  },
+  {
+   "file": "session-08667878-0592-4556-a4e9-1e6a50804bfe",
+   "path": "--C-Users-why-Desktop-ft_userdata--/session-08667878-0592-4556-a4e9-1e6a50804bfe/session.v4.jsonl.zstd",
+   "size": 2312586,
+   "sha256": "683683bff094ef8c153d9f266ad5da8f6c6544dcf124493965ea043c0cf69f5e",
+   "events": 2934,
+   "prompts": 66,
+   "start": "2026-11-13T09:20:14.194000+00:00",
+   "end": "2026-11-13T15:22:32.518000+00:00",
+   "active_seconds": 12536,
+   "intervals": [
+    [
+     1794561614,
+     1794572904
+    ],
+    [
+     1794575046,
+     1794575134
+    ],
+    [
+     1794576249,
+     1794576442
+    ],
+    [
+     1794577523,
+     1794578326
+    ],
+    [
+     1794579876,
+     1794579932
+    ],
+    [
+     1794582113,
+     1794582174
+    ],
+    [
+     1794583307,
+     1794583352
+    ]
+   ],
+   "tokens": {
+    "in": 172821,
+    "out": 328742
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
+  },
+  {
+   "file": "session-4b9e7af0-f255-4998-bf57-e89487cec6e6",
+   "path": "--C-Users-why-Desktop-white-paper-grammar--/session-4b9e7af0-f255-4998-bf57-e89487cec6e6/session.v4.jsonl.zstd",
+   "size": 1626396,
+   "sha256": "b63228bb9b6e92c85dc2bbb74761d25f3398a7ae4fcb31f3dc6d495ab1f8373a",
+   "events": 1361,
+   "prompts": 41,
+   "start": "2026-11-13T11:00:34.454000+00:00",
+   "end": "2026-11-13T11:32:34.261000+00:00",
+   "active_seconds": 1920,
+   "intervals": [
+    [
+     1794567634,
+     1794569554
+    ]
+   ],
+   "tokens": {
+    "in": 102489,
+    "out": 177803
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
   }
  ],
  "totals": {
-  "sessions": 202,
-  "prompts": 6942,
-  "active_seconds": 704713,
-  "tokens_in": 40374568,
-  "tokens_out": 27215504
+  "sessions": 205,
+  "prompts": 7049,
+  "active_seconds": 719169,
+  "tokens_in": 40649878,
+  "tokens_out": 27722049
  }
 }
