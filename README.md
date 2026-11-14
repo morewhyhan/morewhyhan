@@ -1,19 +1,19 @@
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1229%20hrs%2048%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-336%20hrs%2033%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-1229%20hrs%2048%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-336%20hrs%2033%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
-> 📦 2.1 GB Used in GitHub's Storage 
+> 📦 1.7 GB Used in GitHub's Storage 
  > 
-> 🏆 1,770 Contributions in the Year 2026
+> 🏆 770 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 21 Public Repositories 
+> 📜 18 Public Repositories 
  > 
 
 📊 **This Week I Spent My Time On** 
@@ -22,69 +22,66 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    4 hrs 11 mins       █████████████████████░░░░   84.31 % 
-Markdown                 43 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.46 % 
-Git Config               3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.23 % 
+Markdown                 10 hrs 18 mins      ██████████░░░░░░░░░░░░░░░   38.93 % 
+TypeScript               4 hrs 7 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.55 % 
+CSS                      4 hrs 2 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.29 % 
+JavaScript               3 hrs 8 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.85 % 
+Python                   1 hrs 30 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.72 % 
 
 🔥 Editors: 
-Deepseek                 4 hrs 7 mins        █████████████████████░░░░   82.81 % 
-Codex Vscode             46 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.69 % 
-Unknown Editor           4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.50 % 
+Codex Vscode             26 hrs 19 mins      █████████████████████████   99.45 % 
+Codex CLI                8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.55 % 
 
 🐱‍💻 Projects: 
-deepseek-harness         4 hrs 11 mins       █████████████████████░░░░   84.31 % 
-mehrwis-skills           30 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.21 % 
-专升本英语题型研究       12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.19 % 
-poker-range-trainer      3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.29 % 
-whitepaper-english       0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+whitepaper-english       12 hrs 54 mins      ████████████░░░░░░░░░░░░░   48.77 % 
+quant-research-history   4 hrs 18 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.28 % 
+poker-range-trainer      3 hrs 54 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.75 % 
+mehrwis-skills           3 hrs 29 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.16 % 
+chatgpt-conversation-6ae…1 hrs 14 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   04.67 % 
 
 💻 Operating System: 
-Windows                  4 hrs 53 mins       █████████████████████████   98.50 % 
-Unknown OS               4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.50 % 
+Windows                  26 hrs 28 mins      █████████████████████████   100.00 % 
 ```
 
 🏆 **AI Coding All Time** 
 
 ```text
-⏱ 1229 hrs 48 mins
+⏱ 336 hrs 33 mins
 
-✍️ 727,442 lines written by AI, 0 lines written by hand (100.00% AI-written)
+✍️ 140,562 lines written by AI, 0 lines written by hand (100.00% AI-written)
 
-🔤 18,185,699,992 Input Tokens, 95,882,706 Output Tokens
+🔤 3,474,768,585 Input Tokens, 22,565,816 Output Tokens
 
 💵 ¥3,700 Estimated AI Cost
 
-🧠 1361 AI Sessions, 7472 AI Prompts
+🧠 89 AI Sessions, 3541 AI Prompts
 
-🧩 Assistants:
-OpenAI Codex             1084 hrs 15 mins    ██████████████████████░░░   88.16 % 
-DeepSeek DSH             145 hrs 33 mins     ███░░░░░░░░░░░░░░░░░░░░░░   11.84 % 
-
-gpt-5.6-luna             216,340 lines       ██████████░░░░░░░░░░░░░░░   38.74 % 
-gpt-5.6-sol              203,105 lines       █████████░░░░░░░░░░░░░░░░   36.37 % 
-gpt-6.1-sol              113,676 lines       █████░░░░░░░░░░░░░░░░░░░░   20.36 % 
-gpt-6-astra              25,299 lines        █░░░░░░░░░░░░░░░░░░░░░░░░   04.53 % 
+gpt-5.6-luna             71,957 lines        █████████████░░░░░░░░░░░░   51.22 % 
+gpt-6.1-sol              49,084 lines        █████████░░░░░░░░░░░░░░░░   34.94 % 
+gpt-6-astra              14,397 lines        ███░░░░░░░░░░░░░░░░░░░░░░   10.25 % 
+gpt-6.1-terra            3,485 lines         █░░░░░░░░░░░░░░░░░░░░░░░░   02.48 % 
+gpt-5.6-sol              1,562 lines         ░░░░░░░░░░░░░░░░░░░░░░░░░   01.11 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.00% of written lines came from AI
-🔁 Iterative Prompter — average 5.5 prompts per session
+📚 Verbose Prompter — average 1,864 characters per prompt
+🔁 Iterative Prompter — average 39.8 prompts per session
 🚀 High AI Trust — 0.00% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
 
 ```text
-TypeScript               9 repos             ████████████░░░░░░░░░░░░░   47.37 % 
-Python                   5 repos             ███████░░░░░░░░░░░░░░░░░░   26.32 % 
-JavaScript               2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.53 % 
-HTML                     1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
-PowerShell               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
+TypeScript               9 repos             ██████████████░░░░░░░░░░░   56.25 % 
+Python                   5 repos             ████████░░░░░░░░░░░░░░░░░   31.25 % 
+JavaScript               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
+PowerShell               1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
 ```
 
 
 
 
- Last Updated on 14/11/2026 15:31:22 UTC
+ Last Updated on 06/11/2026 17:36:41 UTC
 <!--END_SECTION:waka-->
 
 <picture>

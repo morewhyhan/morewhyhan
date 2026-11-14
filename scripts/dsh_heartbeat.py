@@ -35,11 +35,34 @@ def post(beats, key):
         return resp.status, resp.read().decode()[:160]
 
 
+def load_aliases():
+    try:
+        with open(os.path.join(BASE, "data", "project-aliases.json"), encoding="utf-8") as fh:
+            return json.load(fh)
+    except Exception:
+        return {}
+
+
+def project_of(cwd, aliases):
+    if not cwd:
+        return "deepseek-harness"
+    name = os.path.basename(str(cwd).rstrip("\\/")) or "deepseek-harness"
+    return aliases.get(name, name)
+
+
 def activity_times(path):
     with open(path, "rb") as fh:
         data = dctx.stream_reader(fh, read_across_frames=True).read()
     out = []
+    cwd = None
     for line in data.decode("utf-8", "replace").splitlines():
+        if cwd is None and '"cwd"' in line:
+            try:
+                head = json.loads(line)
+                if head.get("cwd"):
+                    cwd = head["cwd"]
+            except Exception:
+                pass
         if '"user/message"' not in line and '"workspace/changes"' not in line and '"assistant/message"' not in line and '"tool/call"' not in line:
             continue
         try:
@@ -58,7 +81,7 @@ def activity_times(path):
         if t - last >= MIN_GAP:
             kept.append(t)
             last = t
-    return kept
+    return kept, cwd
 
 
 def main():
@@ -74,6 +97,7 @@ def main():
         state["last_sent"] = int(time.time()) - 600
     since = int(state.get("last_sent") or 0)
     now = int(time.time())
+    aliases = load_aliases()
 
     beats = []
     files = glob.glob(os.path.join(ROOT, "**", "*.jsonl.zstd"), recursive=True)
@@ -81,14 +105,16 @@ def main():
         try:
             if os.path.getmtime(path) < since - 86400:
                 continue
-            for t in activity_times(path):
+            times, cwd = activity_times(path)
+            project = project_of(cwd, aliases)
+            for t in times:
                 if since < t <= now:
                     beats.append({
                         "entity": "DeepSeek Harness",
                         "type": "app",
                         "time": t,
                         "category": "ai coding",
-                        "project": "deepseek-harness",
+                        "project": project,
                         "is_write": False,
                         "user_agent": UA,
                     })
