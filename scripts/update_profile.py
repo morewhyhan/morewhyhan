@@ -301,6 +301,9 @@ def load_project_aliases():
         return {}
 
 
+HIDDEN_PROJECTS = {"deepseek-harness"}
+
+
 def aggregate(days, key, limit=5, aliases=None):
     totals = {}
     for day in days:
@@ -308,6 +311,8 @@ def aggregate(days, key, limit=5, aliases=None):
             name = str(item.get("name") or "Other")
             if aliases:
                 name = aliases.get(name, name)
+            if key == "projects" and name in HIDDEN_PROJECTS:
+                continue
             totals[name] = totals.get(name, 0.0) + float(item.get("total_seconds") or 0)
     ranked = sorted(totals.items(), key=lambda kv: -kv[1])[:limit]
     return ranked
