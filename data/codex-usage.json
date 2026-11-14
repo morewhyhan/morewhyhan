@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T15:30:35.442693+00:00",
+  "generated_at": "2026-11-14T15:30:22.572713+00:00",
   "all": {
-    "sessions": 1155,
+    "sessions": 1156,
     "prompts": 0,
     "avg_prompt_chars": 0,
     "added": 727442,
@@ -25,10 +25,10 @@
       }
     ],
     "tokens": {
-      "in": 18144892982,
-      "out": 68159307
+      "in": 18145050114,
+      "out": 68160657
     },
-    "active_seconds": 3903229
+    "active_seconds": 3903301
   },
   "week": {
     "sessions": 0,
@@ -41,6 +41,6 @@
       "in": 0,
       "out": 0
     },
-    "active_seconds": 33300
+    "active_seconds": 21046
   }
 }
