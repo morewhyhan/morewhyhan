@@ -84,9 +84,21 @@
   "tokens_out": 2252196
  },
  "2026-11-13": {
+  "sessions": 4,
+  "active_seconds": 27587,
+  "tokens_in": 1848534,
+  "tokens_out": 1182037
+ },
+ "2026-11-14": {
+  "sessions": 2,
+  "active_seconds": 6122,
+  "tokens_in": 227593,
+  "tokens_out": 217603
+ },
+ "2026-11-15": {
   "sessions": 3,
-  "active_seconds": 14456,
-  "tokens_in": 275310,
-  "tokens_out": 506545
+  "active_seconds": 2194,
+  "tokens_in": 372120,
+  "tokens_out": 174132
  }
 }
