@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T15:30:03.617356+00:00",
+ "generated_at": "2026-11-16T15:30:46.719525+00:00",
  "sessions": [
   {
    "file": "session-54e846f3-9b3c-40cd-a7bf-6714a631c3d4",
@@ -5652,13 +5652,61 @@
    "models": {
     "deepseek-flash": 1
    }
+  },
+  {
+   "file": "4ecc6ff3-1953-4709-a44f-8ff103bf0a6e",
+   "path": "--C-Users-why-Desktop-white-paper-grammar--/4ecc6ff3-1953-4709-a44f-8ff103bf0a6e/session.v4.jsonl.zstd",
+   "size": 714576,
+   "sha256": "8079bf3cf58e1021ddf4fb7b3979bb16a8293795e4e7342e0620d904ca2fd360",
+   "events": 335,
+   "prompts": 14,
+   "start": "2026-11-15T18:10:01.480000+00:00",
+   "end": "2026-11-15T18:23:49.073000+00:00",
+   "active_seconds": 828,
+   "intervals": [
+    [
+     1794766201,
+     1794767029
+    ]
+   ],
+   "tokens": {
+    "in": 216376,
+    "out": 83349
+   },
+   "models": {
+    "deepseek-flash": 3
+   }
+  },
+  {
+   "file": "c8c74ae1-be61-4c14-889e-f0e18558365b",
+   "path": "--C-Users-why-Desktop-white-paper-grammar--/c8c74ae1-be61-4c14-889e-f0e18558365b/session.v4.jsonl.zstd",
+   "size": 3057592,
+   "sha256": "665254a5218bef60fa023098246b0d3cd4f5bf5cd739fc8b0ce98da74d417500",
+   "events": 4054,
+   "prompts": 44,
+   "start": "2026-11-15T18:23:31.891000+00:00",
+   "end": "2026-11-15T19:25:18.847000+00:00",
+   "active_seconds": 3707,
+   "intervals": [
+    [
+     1794767011,
+     1794770718
+    ]
+   ],
+   "tokens": {
+    "in": 740665,
+    "out": 346593
+   },
+   "models": {
+    "deepseek-flash": 1
+   }
   }
  ],
  "totals": {
-  "sessions": 211,
-  "prompts": 7303,
-  "active_seconds": 740616,
-  "tokens_in": 42822815,
-  "tokens_out": 28789276
+  "sessions": 213,
+  "prompts": 7361,
+  "active_seconds": 745151,
+  "tokens_in": 43779856,
+  "tokens_out": 29219218
  }
 }

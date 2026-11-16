@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T15:30:19.508702+00:00",
+  "generated_at": "2026-11-16T15:32:19.567066+00:00",
   "all": {
     "sessions": 1156,
     "prompts": 0,
@@ -41,6 +41,6 @@
       "in": 0,
       "out": 0
     },
-    "active_seconds": 21046
+    "active_seconds": 16713
   }
 }
