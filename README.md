@@ -9,7 +9,7 @@
 
 > 📦 2.1 GB Used in GitHub's Storage 
  > 
-> 🏆 1,829 Contributions in the Year 2026
+> 🏆 1,830 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -22,25 +22,20 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    16 hrs 42 mins      ████████████████████████░   96.92 % 
-Markdown                 43 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
-Git Config               3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.35 % 
+Other                    16 hrs 0 mins       █████████████████████████   101.59 % 
 
 🔥 Editors: 
-Deepseek                 16 hrs 37 mins      ████████████████████████░   96.49 % 
-Codex Vscode             46 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.53 % 
-Unknown Editor           4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.43 % 
+Deepseek                 16 hrs 0 mins       █████████████████████████   101.59 % 
 
 🐱‍💻 Projects: 
-whitepaper-english       6 hrs 19 mins       █████████░░░░░░░░░░░░░░░░   36.74 % 
-white-paper-grammar      3 hrs 13 mins       █████░░░░░░░░░░░░░░░░░░░░   18.71 % 
-ft_userdata              2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.31 % 
-mehrwis-skills           30 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.94 % 
-english-exam-patterns    12 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.21 % 
+whitepaper-english       6 hrs 19 mins       ██████████░░░░░░░░░░░░░░░   40.20 % 
+white-paper-grammar      3 hrs 13 mins       █████░░░░░░░░░░░░░░░░░░░░   20.47 % 
+ft_userdata              2 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.66 % 
+日记                     8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.89 % 
+github-profile           6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.64 % 
 
 💻 Operating System: 
-Windows                  17 hrs 24 mins      █████████████████████████   101.02 % 
-Unknown OS               4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.43 % 
+Windows                  16 hrs 0 mins       █████████████████████████   101.59 % 
 ```
 
 🏆 **AI Coding All Time** 
@@ -84,7 +79,7 @@ PowerShell               1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 16/11/2026 15:33:39 UTC
+ Last Updated on 17/11/2026 01:56:31 UTC
 <!--END_SECTION:waka-->
 
 <picture>
