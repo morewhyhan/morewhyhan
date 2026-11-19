@@ -9,7 +9,7 @@
 
 > 📦 2.1 GB Used in GitHub's Storage 
  > 
-> 🏆 1,833 Contributions in the Year 2026
+> 🏆 1,850 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -22,20 +22,20 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    17 hrs 25 mins      █████████████████████████   101.46 % 
+Other                    14 hrs 25 mins      █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Deepseek                 17 hrs 25 mins      █████████████████████████   101.46 % 
+Deepseek                 14 hrs 25 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-whitepaper-english       9 hrs 27 mins       ██████████████░░░░░░░░░░░   55.01 % 
-white-paper-grammar      3 hrs 14 mins       █████░░░░░░░░░░░░░░░░░░░░   18.84 % 
-ft_userdata              2 hrs 32 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.82 % 
-日记                     8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.82 % 
-github-profile           6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.59 % 
+whitepaper-english       8 hrs 24 mins       ███████████████░░░░░░░░░░   58.26 % 
+white-paper-grammar      3 hrs 14 mins       ██████░░░░░░░░░░░░░░░░░░░   22.43 % 
+ft_userdata              2 hrs 32 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
+日记                     8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.97 % 
+github-profile           6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.70 % 
 
 💻 Operating System: 
-Windows                  17 hrs 25 mins      █████████████████████████   101.46 % 
+Windows                  14 hrs 25 mins      █████████████████████████   100.00 % 
 ```
 
 🏆 **AI Coding All Time** 
@@ -79,7 +79,7 @@ PowerShell               1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 18/11/2026 15:31:20 UTC
+ Last Updated on 19/11/2026 00:38:02 UTC
 <!--END_SECTION:waka-->
 
 <picture>
