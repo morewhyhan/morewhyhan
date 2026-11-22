@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T15:30:31.145136+00:00",
+  "generated_at": "2026-11-22T15:30:16.640545+00:00",
   "sessions": 215,
   "prompts": 7378,
   "tokens": {
@@ -7,6 +7,6 @@
     "out": 29259002
   },
   "active_seconds": 546154,
-  "week_active_seconds": 11392,
+  "week_active_seconds": 805,
   "models": {}
 }
