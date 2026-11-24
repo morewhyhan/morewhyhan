@@ -22,18 +22,18 @@
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Other                    9 hrs 1 mins        █████████████████████████   100.00 % 
+Other                    6 hrs 19 mins       █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Deepseek                 9 hrs 1 mins        █████████████████████████   100.00 % 
+Deepseek                 6 hrs 19 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-whitepaper-english       5 hrs 0 mins        ██████████████░░░░░░░░░░░   55.37 % 
-white-paper-grammar      3 hrs 46 mins       ██████████░░░░░░░░░░░░░░░   41.83 % 
-ft_userdata              15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.80 % 
+white-paper-grammar      3 hrs 46 mins       ███████████████░░░░░░░░░░   59.70 % 
+whitepaper-english       2 hrs 17 mins       █████████░░░░░░░░░░░░░░░░   36.31 % 
+ft_userdata              15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.99 % 
 
 💻 Operating System: 
-Windows                  9 hrs 1 mins        █████████████████████████   100.00 % 
+Windows                  6 hrs 19 mins       █████████████████████████   100.00 % 
 ```
 
 🏆 **AI Coding All Time** 
@@ -77,7 +77,7 @@ PowerShell               1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 23/11/2026 15:31:21 UTC
+ Last Updated on 24/11/2026 04:01:13 UTC
 <!--END_SECTION:waka-->
 
 <picture>
