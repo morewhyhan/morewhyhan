@@ -106,5 +106,11 @@
   "active_seconds": 805,
   "tokens_in": 33568,
   "tokens_out": 39784
+ },
+ "2026-11-25": {
+  "sessions": 1,
+  "active_seconds": 33,
+  "tokens_in": 0,
+  "tokens_out": 0
  }
 }
